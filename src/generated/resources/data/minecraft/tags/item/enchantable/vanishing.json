@@ -1,0 +1,24 @@
+{
+  "values": [
+    "onlyhammersandexcavators:wooden_hammer",
+    "onlyhammersandexcavators:stone_hammer",
+    "onlyhammersandexcavators:iron_hammer",
+    "onlyhammersandexcavators:gold_hammer",
+    "onlyhammersandexcavators:redstone_hammer",
+    "onlyhammersandexcavators:lapis_hammer",
+    "onlyhammersandexcavators:diamond_hammer",
+    "onlyhammersandexcavators:emerald_hammer",
+    "onlyhammersandexcavators:obsidian_hammer",
+    "onlyhammersandexcavators:netherite_hammer",
+    "onlyhammersandexcavators:wooden_excavator",
+    "onlyhammersandexcavators:stone_excavator",
+    "onlyhammersandexcavators:iron_excavator",
+    "onlyhammersandexcavators:gold_excavator",
+    "onlyhammersandexcavators:redstone_excavator",
+    "onlyhammersandexcavators:lapis_excavator",
+    "onlyhammersandexcavators:diamond_excavator",
+    "onlyhammersandexcavators:emerald_excavator",
+    "onlyhammersandexcavators:obsidian_excavator",
+    "onlyhammersandexcavators:netherite_excavator"
+  ]
+}
