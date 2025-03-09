@@ -1,0 +1,41 @@
+[22:27:04] [modloading-worker-0/INFO] ========================================
+[22:27:04] [modloading-worker-0/INFO] Minecraft: 1.21
+[22:27:04] [modloading-worker-0/INFO] Side: client
+[22:27:04] [modloading-worker-0/INFO] Development: true
+[22:27:04] [modloading-worker-0/INFO] Version: 16.0.744
+[22:27:04] [modloading-worker-0/INFO] Loader:
+[22:27:04] [modloading-worker-0/INFO] - Forge: null
+[22:27:04] [modloading-worker-0/INFO] Dependencies:
+[22:27:04] [modloading-worker-0/INFO] - Cloth Config: 15.0.127
+[22:27:04] [modloading-worker-0/INFO] - Architectury: 13.0.5
+[22:27:04] [modloading-worker-0/INFO] Mixin: 0.8.6
+[22:27:04] [modloading-worker-0/INFO] OS: Windows 11 10.0 (amd64)
+[22:27:04] [modloading-worker-0/INFO] Java: 21.0.4 (Amazon.com Inc.)
+[22:27:04] [modloading-worker-0/INFO] ========================================
+[22:27:04] [modloading-worker-0/INFO] Mods:
+[22:27:04] [modloading-worker-0/INFO] - architectury: 13.0.5
+[22:27:04] [modloading-worker-0/INFO] - cloth_config: 15.0.127
+[22:27:04] [modloading-worker-0/INFO] - jei: 19.8.2.99
+[22:27:04] [modloading-worker-0/INFO] - minecraft: 1.21
+[22:27:04] [modloading-worker-0/INFO] - neoforge: 21.0.139-beta
+[22:27:04] [modloading-worker-0/INFO] - onlyhammersandexcavators: 1.21-0.3
+[22:27:04] [modloading-worker-0/INFO] - roughlyenoughitems: 16.0.744
+[22:27:04] [modloading-worker-0/INFO] ========================================
+[22:27:04] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:search]: INSTANCE
+[22:27:04] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:manual]: INSTANCE
+[22:27:04] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:basic]: INSTANCE
+[22:27:04] [modloading-worker-0/INFO] [REI] Config loaded
+[22:27:04] [modloading-worker-0/DEBUG] [REI] Config saved
+[22:27:04] [modloading-worker-0/DEBUG] [REI] Config saved
+[22:27:04] [modloading-worker-0/DEBUG] [REI] Config saved
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIClientPlugin
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIPlugin
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[22:27:05] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:hidden_from_recipe_viewers]: INSTANCE
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[22:27:05] [modloading-worker-0/INFO] [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin

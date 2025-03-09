@@ -1,0 +1,2 @@
+/enchant Dev minecraft:silk_touch
+/gamemode survival
