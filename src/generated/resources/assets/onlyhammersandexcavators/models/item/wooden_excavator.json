@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "onlyhammersandexcavators:item/wooden_excavator"
+  }
+}
