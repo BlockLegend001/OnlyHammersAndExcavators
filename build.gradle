@@ -13,18 +13,6 @@ repositories {
     }
 }
 
-loom {
-    splitEnvironmentSourceSets()
-
-    mods {
-        "onlyhammersandexcavators" {
-            sourceSet sourceSets.main
-            sourceSet sourceSets.client
-        }
-    }
-
-}
-
 fabricApi {
     configureDataGeneration()
 }
@@ -113,4 +101,10 @@ publishMods {
         minecraftVersions.add(minecraft_version)
         requires("fabric-api")
     }
+}
+
+tasks.publishMods.group = "other"
+tasks.register("publishAll") {
+    group = "publishing"
+    dependsOn(tasks.publishMods)
 }
