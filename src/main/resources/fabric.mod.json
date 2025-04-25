@@ -13,7 +13,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.blocklegend001.onlyhammersandexcavators.client.OnlyHammersAndExcavatorsClient"
+      "com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavatorsClient"
     ],
     "main": [
       "com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators"
