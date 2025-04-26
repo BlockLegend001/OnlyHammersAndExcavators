@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyhammersandexcavators.item.custom;
 
+import com.blocklegend001.onlyhammersandexcavators.item.ModToolMaterials;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerPlayer;
@@ -16,16 +17,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Excavator extends Item {
-    private static TagKey<Block> shovelMineable;
 
-    public Excavator(ToolMaterial material, float attackDamage, float attackSpeed, Item.Properties settings) {
-        super(computeSettings(material, BlockTags.MINEABLE_WITH_SHOVEL, settings, attackDamage, attackSpeed));
-    }
-
-    private static Item.Properties computeSettings(ToolMaterial material, TagKey<Block> shovelMineable, Item.Properties settings, float attackDamage, float attackSpeed) {
-        Excavator.shovelMineable = shovelMineable;
-        settings.shovel(wrapMaterial(material, material.durability()), attackDamage, attackSpeed);
-        return settings;
+    public Excavator(ModToolMaterials material, float attackDamage, float attackSpeed, Item.Properties settings) {
+        super(material.applyToolProperties(settings, BlockTags.MINEABLE_WITH_SHOVEL, attackDamage, attackSpeed));
     }
 
     public static List<BlockPos> getBlocksToBeDestroyed(int range, BlockPos initalBlockPos, ServerPlayer player) {
@@ -62,17 +56,6 @@ public class Excavator extends Item {
             }
         }
         return positions;
-    }
-
-    private static ToolMaterial wrapMaterial(ToolMaterial toolMaterial, int durability) {
-        return new ToolMaterial(
-                toolMaterial.incorrectBlocksForDrops(),
-                durability,
-                toolMaterial.speed(),
-                toolMaterial.attackDamageBonus(),
-                toolMaterial.enchantmentValue(),
-                toolMaterial.repairItems()
-        );
     }
 }
 
