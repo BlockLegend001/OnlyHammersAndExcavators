@@ -50,6 +50,5 @@ public class OnlyHammersAndExcavators {
         NeoForge.EVENT_BUS.register(ModEventsHammer.class);
         CREATIVE_MODE_TABS.register(modEventBus);
         ModItems.register(modEventBus);
-        NeoForge.EVENT_BUS.register(OverlayRenderer.class);
     }
 }
