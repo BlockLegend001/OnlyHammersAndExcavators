@@ -1,6 +1,7 @@
 package com.blocklegend001.onlyhammersandexcavators;
 
 import com.blocklegend001.onlyhammersandexcavators.item.ModItems;
+import com.blocklegend001.onlyhammersandexcavators.utils.OverlayRenderer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -49,5 +50,6 @@ public class OnlyHammersAndExcavators {
         NeoForge.EVENT_BUS.register(ModEventsHammer.class);
         CREATIVE_MODE_TABS.register(modEventBus);
         ModItems.register(modEventBus);
+        NeoForge.EVENT_BUS.register(OverlayRenderer.class);
     }
 }
