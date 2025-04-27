@@ -1,54 +1,61 @@
 package com.blocklegend001.onlyhammersandexcavators.datagen;
 
-import com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators;
 import com.blocklegend001.onlyhammersandexcavators.item.ModItems;
+import net.minecraft.client.data.models.BlockModelGenerators;
+import net.minecraft.client.data.models.ItemModelGenerators;
+import net.minecraft.client.data.models.ModelProvider;
+import net.minecraft.client.data.models.model.ModelTemplate;
+import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.client.data.models.model.TextureMapping;
+import net.minecraft.client.data.models.model.TextureSlot;
+import net.minecraft.client.renderer.item.BlockModelWrapper;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
-import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import net.neoforged.neoforge.registries.DeferredItem;
 
-public class ModItemModelProvider extends ItemModelProvider {
-    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, OnlyHammersAndExcavators.MODID, existingFileHelper);
+import java.util.Collections;
+
+public class ModItemModelProvider extends ModelProvider {
+    public ModItemModelProvider(PackOutput output, String modId) {
+        super(output, modId);
     }
 
     @Override
-    protected void registerModels() {
-        handheldItem(ModItems.WOODEN_HAMMER);
-        handheldItem(ModItems.STONE_HAMMER);
-        handheldItem(ModItems.IRON_HAMMER);
-        handheldItem(ModItems.GOLD_HAMMER);
-        handheldItem(ModItems.REDSTONE_HAMMER);
-        handheldItem(ModItems.LAPIS_HAMMER);
-        handheldItem(ModItems.DIAMOND_HAMMER);
-        handheldItem(ModItems.EMERALD_HAMMER);
-        handheldItem(ModItems.OBSIDIAN_HAMMER);
-        handheldItem(ModItems.NETHERITE_HAMMER);
+    protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
+        itemModel(itemModels, ModItems.WOODEN_HAMMER.get());
+        itemModel(itemModels, ModItems.STONE_HAMMER.get());
+        itemModel(itemModels, ModItems.IRON_HAMMER.get());
+        itemModel(itemModels, ModItems.GOLD_HAMMER.get());
+        itemModel(itemModels, ModItems.REDSTONE_HAMMER.get());
+        itemModel(itemModels, ModItems.LAPIS_HAMMER.get());
+        itemModel(itemModels, ModItems.DIAMOND_HAMMER.get());
+        itemModel(itemModels, ModItems.EMERALD_HAMMER.get());
+        itemModel(itemModels, ModItems.OBSIDIAN_HAMMER.get());
+        itemModel(itemModels, ModItems.NETHERITE_HAMMER.get());
 
-        handheldItem(ModItems.WOODEN_EXCAVATOR);
-        handheldItem(ModItems.STONE_EXCAVATOR);
-        handheldItem(ModItems.IRON_EXCAVATOR);
-        handheldItem(ModItems.GOLD_EXCAVATOR);
-        handheldItem(ModItems.REDSTONE_EXCAVATOR);
-        handheldItem(ModItems.LAPIS_EXCAVATOR);
-        handheldItem(ModItems.DIAMOND_EXCAVATOR);
-        handheldItem(ModItems.EMERALD_EXCAVATOR);
-        handheldItem(ModItems.OBSIDIAN_EXCAVATOR);
-        handheldItem(ModItems.NETHERITE_EXCAVATOR);
+        itemModel(itemModels, ModItems.WOODEN_EXCAVATOR.get());
+        itemModel(itemModels, ModItems.STONE_EXCAVATOR.get());
+        itemModel(itemModels, ModItems.IRON_EXCAVATOR.get());
+        itemModel(itemModels, ModItems.GOLD_EXCAVATOR.get());
+        itemModel(itemModels, ModItems.REDSTONE_EXCAVATOR.get());
+        itemModel(itemModels, ModItems.LAPIS_EXCAVATOR.get());
+        itemModel(itemModels, ModItems.DIAMOND_EXCAVATOR.get());
+        itemModel(itemModels, ModItems.EMERALD_EXCAVATOR.get());
+        itemModel(itemModels, ModItems.OBSIDIAN_EXCAVATOR.get());
+        itemModel(itemModels, ModItems.NETHERITE_EXCAVATOR.get());
     }
 
-    private ItemModelBuilder simpleItem(DeferredItem<Item> item) {
-        return withExistingParent(item.getId().getPath(),
-                ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MODID,"item/" + item.getId().getPath()));
+    public void itemModel(ItemModelGenerators itemModels, Item item)
+    {
+        this.itemModel(itemModels, item, ModelTemplates.FLAT_ITEM);
     }
-
-    private ItemModelBuilder handheldItem(DeferredItem<Item> item) {
-        return withExistingParent(item.getId().getPath(),
-                ResourceLocation.withDefaultNamespace("item/handheld")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MODID,"item/" + item.getId().getPath()));
+    
+    public void itemModel(ItemModelGenerators itemModels, Item item, ModelTemplate template)
+    {
+        ResourceLocation itemId = BuiltInRegistries.ITEM.getKey(item);
+        ResourceLocation textureLoc = ResourceLocation.fromNamespaceAndPath(itemId.getNamespace(), "item/" + itemId.getPath());
+        TextureMapping textureMapping = new TextureMapping().put(TextureSlot.LAYER0, textureLoc);
+        itemModels.itemModelOutput.accept(item, new BlockModelWrapper.Unbaked(template.create(item, textureMapping, itemModels.modelOutput), Collections.emptyList()));
     }
 }
