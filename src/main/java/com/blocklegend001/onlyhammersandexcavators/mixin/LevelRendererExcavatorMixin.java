@@ -47,7 +47,7 @@ public class LevelRendererExcavatorMixin {
         Direction side = blockHit.getDirection();
         int range = 1;
 
-        if (!Minecraft.getInstance().level.getBlockState(origin).is(BlockTags.MINEABLE_WITH_PICKAXE)) {
+        if (!Minecraft.getInstance().level.getBlockState(origin).is(BlockTags.MINEABLE_WITH_SHOVEL)) {
             return;
         }
 
