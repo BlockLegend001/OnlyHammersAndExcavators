@@ -207,7 +207,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
                         ),
                         1.0F,
                         1,
-                        false
+                        true
                 ))
                 .attributes(createToolAttributes(damage, speed));
     }
