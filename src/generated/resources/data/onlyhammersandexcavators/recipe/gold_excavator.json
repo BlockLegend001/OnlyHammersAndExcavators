@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    " B ",
+    "bSb",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "onlyhammersandexcavators:gold_excavator"
+  }
+}
