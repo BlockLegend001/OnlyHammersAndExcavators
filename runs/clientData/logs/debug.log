@@ -48,8 +48,8 @@
 [11apr2025 19:23:29.434] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.5.22-beta, for MC 1.21.5
 [11apr2025 19:23:29.447] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for onlyhammersandexcavators
 [11apr2025 19:23:29.448] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.blocklegend001.onlyhammersandexcavators.datagen.DataGenerators to MOD
-[11apr2025 19:23:29.450] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.blocklegend001.onlyhammersandexcavators.ModEventsExcavator to GAME
-[11apr2025 19:23:29.450] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.blocklegend001.onlyhammersandexcavators.ModEventsHammer to GAME
+[11apr2025 19:23:29.450] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.blocklegend001.onlyhammersandexcavators.event.ModEventsExcavator to GAME
+[11apr2025 19:23:29.450] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.blocklegend001.onlyhammersandexcavators.event.ModEventsHammer to GAME
 [11apr2025 19:23:29.457] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
 [11apr2025 19:23:29.458] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
 [11apr2025 19:23:29.513] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking

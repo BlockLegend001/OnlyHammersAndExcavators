@@ -1,7 +1,8 @@
 package com.blocklegend001.onlyhammersandexcavators;
 
+import com.blocklegend001.onlyhammersandexcavators.event.ModEventsExcavator;
+import com.blocklegend001.onlyhammersandexcavators.event.ModEventsHammer;
 import com.blocklegend001.onlyhammersandexcavators.item.ModItems;
-import com.blocklegend001.onlyhammersandexcavators.utils.OverlayRenderer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
