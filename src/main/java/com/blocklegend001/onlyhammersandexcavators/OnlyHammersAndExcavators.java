@@ -2,7 +2,6 @@ package com.blocklegend001.onlyhammersandexcavators;
 
 import com.blocklegend001.onlyhammersandexcavators.item.ModCreativeModeTabs;
 import com.blocklegend001.onlyhammersandexcavators.item.ModItems;
-import com.blocklegend001.onlyhammersandexcavators.utils.OverlayRender;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -25,7 +24,6 @@ public class OnlyHammersAndExcavators {
         ModConfigs.loadConfig(ModConfigs.SPEC, FMLPaths.CONFIGDIR.get().resolve("onlyhammersandexcavators.toml"));
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
-        MinecraftForge.EVENT_BUS.register(OverlayRender.class);
         modEventBus.addListener(this::addCreative);
         modEventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
