@@ -1,27 +1,27 @@
 package com.blocklegend001.onlyhammersandexcavators.mixin;
 
 import com.blocklegend001.onlyhammersandexcavators.item.custom.Hammer;
-import com.blocklegend001.onlyhammersandexcavators.utils.OverlayRender;
+import com.blocklegend001.onlyhammersandexcavators.utils.OverlayRenderer;
+import com.mojang.blaze3d.resource.GraphicsResourceAllocator;
+import net.minecraft.client.renderer.LevelRenderer;
+import org.spongepowered.asm.mixin.Mixin;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.Camera;
+import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.*;
-import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
-import net.minecraft.core.Direction;
 import net.minecraft.world.phys.Vec3;
 import org.joml.Matrix4f;
-import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import com.mojang.blaze3d.resource.GraphicsResourceAllocator;
-import net.minecraft.client.DeltaTracker;
 
 @Mixin(LevelRenderer.class)
 public class LevelRendererHammerMixin {
@@ -43,7 +43,13 @@ public class LevelRendererHammerMixin {
 
         BlockPos origin = blockHit.getBlockPos();
         Direction side = blockHit.getDirection();
-        int range = 1;
+        int range;
+        if (Minecraft.getInstance().player.isShiftKeyDown()) {
+            range = 0;
+        } else {
+            range = 1;
+        }
+
 
         if (!Minecraft.getInstance().level.getBlockState(origin).is(BlockTags.MINEABLE_WITH_PICKAXE)) {
             return;
@@ -58,7 +64,7 @@ public class LevelRendererHammerMixin {
         MultiBufferSource.BufferSource buffer = Minecraft.getInstance().renderBuffers().bufferSource();
         VertexConsumer builder = buffer.getBuffer(RenderType.lines());
 
-        OverlayRender.drawBox(matrix, builder, box, 1f, 1f, 1f, 1f);
+        OverlayRenderer.drawBox(matrix, builder, box, 1f, 1f, 1f, 1f);
 
         buffer.endBatch();
     }
