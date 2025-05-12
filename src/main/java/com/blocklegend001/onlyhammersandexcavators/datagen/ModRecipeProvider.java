@@ -137,7 +137,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .define('B', Blocks.STONE)
                 .define('C', Blocks.COBBLESTONE)
-                .unlockedBy(getHasName(Items.STONE), has(ItemTags.STONE_CRAFTING_MATERIALS))
+                .unlockedBy(getHasName(Items.STONE), has(Items.COBBLESTONE))
                 .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.IRON_HAMMER.get())
