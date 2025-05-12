@@ -41,12 +41,11 @@ public class ModRecipeProvider extends FabricRecipeProvider  {
                         .offerTo(exporter);
 
                 createShaped(RecipeCategory.TOOLS, ModItems.STONE_EXCAVATOR)
-                        .pattern("BCB")
-                        .pattern(" S ")
+                        .pattern(" B ")
+                        .pattern("BSB")
                         .pattern(" S ")
                         .input('S', Items.STICK)
-                        .input('B', Blocks.STONE)
-                        .input('C', Blocks.COBBLESTONE)
+                        .input('B', ItemTags.STONE_CRAFTING_MATERIALS)
                         .criterion(hasItem(Items.STONE), conditionsFromItem(Items.COBBLESTONE))
                         .offerTo(exporter);
 
@@ -141,11 +140,12 @@ public class ModRecipeProvider extends FabricRecipeProvider  {
                         .offerTo(exporter);
 
                 createShaped(RecipeCategory.TOOLS, ModItems.STONE_HAMMER)
-                        .pattern("BBB")
+                        .pattern("BCB")
                         .pattern(" S ")
                         .pattern(" S ")
                         .input('S', Items.STICK)
-                        .input('B', ItemTags.STONE_CRAFTING_MATERIALS)
+                        .input('B', Blocks.STONE)
+                        .input('C', Blocks.COBBLESTONE)
                         .criterion(hasItem(Items.STONE), conditionsFromItem(Items.COBBLESTONE))
                         .offerTo(exporter);
 
