@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "#minecraft:stone_crafting_materials",
+    "B": "minecraft:stone",
+    "C": "minecraft:cobblestone",
     "S": "minecraft:stick"
   },
   "pattern": [
-    " B ",
-    "BSB",
+    "BCB",
+    " S ",
     " S "
   ],
   "result": {

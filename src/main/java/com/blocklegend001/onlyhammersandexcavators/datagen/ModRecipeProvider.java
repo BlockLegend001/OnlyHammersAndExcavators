@@ -41,11 +41,12 @@ public class ModRecipeProvider extends FabricRecipeProvider  {
                         .offerTo(exporter);
 
                 createShaped(RecipeCategory.TOOLS, ModItems.STONE_EXCAVATOR)
-                        .pattern(" B ")
-                        .pattern("BSB")
+                        .pattern("BCB")
+                        .pattern(" S ")
                         .pattern(" S ")
                         .input('S', Items.STICK)
-                        .input('B', ItemTags.STONE_CRAFTING_MATERIALS)
+                        .input('B', Blocks.STONE)
+                        .input('C', Blocks.COBBLESTONE)
                         .criterion(hasItem(Items.STONE), conditionsFromItem(Items.COBBLESTONE))
                         .offerTo(exporter);
 
