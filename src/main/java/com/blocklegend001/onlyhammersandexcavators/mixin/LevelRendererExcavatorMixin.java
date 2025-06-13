@@ -2,6 +2,7 @@ package com.blocklegend001.onlyhammersandexcavators.mixin;
 
 import com.blocklegend001.onlyhammersandexcavators.item.custom.Excavator;
 import com.blocklegend001.onlyhammersandexcavators.utils.OverlayRenderer;
+import com.blocklegend001.onlyhammersandexcavators.utils.RadiusMap;
 import com.mojang.blaze3d.resource.GraphicsResourceAllocator;
 import net.minecraft.client.renderer.LevelRenderer;
 import org.spongepowered.asm.mixin.Mixin;
@@ -47,7 +48,7 @@ public class LevelRendererExcavatorMixin {
         if (Minecraft.getInstance().player.isShiftKeyDown()) {
             range = 0;
         } else {
-            range = 1;
+            range = RadiusMap.getExcavatorRadius().get(heldItem.getItem());;
         }
 
 
