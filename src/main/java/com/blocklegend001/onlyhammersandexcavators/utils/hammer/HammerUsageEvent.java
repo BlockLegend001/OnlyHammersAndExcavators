@@ -1,6 +1,7 @@
-package com.blocklegend001.onlyhammersandexcavators.utils;
+package com.blocklegend001.onlyhammersandexcavators.utils.hammer;
 
-import com.blocklegend001.onlyhammersandexcavators.item.custom.Excavator;
+import com.blocklegend001.onlyhammersandexcavators.item.custom.Hammer;
+import com.blocklegend001.onlyhammersandexcavators.utils.RadiusMap;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
@@ -14,9 +15,9 @@ import org.jetbrains.annotations.Nullable;
 import java.util.HashSet;
 import java.util.Set;
 
-import static com.blocklegend001.onlyhammersandexcavators.item.custom.Excavator.getBlocksToBeDestroyed;
+import static com.blocklegend001.onlyhammersandexcavators.item.custom.Hammer.getBlocksToBeDestroyed;
 
-public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
+public class HammerUsageEvent implements PlayerBlockBreakEvents.Before{
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
     public static boolean isSneaking = false;
 
@@ -26,14 +27,14 @@ public class ExcavatorUsageEvent implements PlayerBlockBreakEvents.Before {
         if (!(player instanceof ServerPlayerEntity serverPlayer)) return true;
 
         ItemStack mainHandItem = player.getMainHandStack();
-        if (!(mainHandItem.getItem() instanceof Excavator excavator)) return true;
+        if (!(mainHandItem.getItem() instanceof Hammer excavator)) return true;
 
         if (HARVESTED_BLOCKS.contains(pos)) return true;
 
         HARVESTED_BLOCKS.add(pos);
 
         try {
-            int radius = isSneaking ? 0 : 1;
+            int radius = isSneaking ? 0 : RadiusMap.HAMMER_RADIUS_MAP.get(mainHandItem.getItem());
             for (BlockPos targetPos : getBlocksToBeDestroyed(radius, pos, serverPlayer)) {
                 if (targetPos.equals(pos)) continue;
 
