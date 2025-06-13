@@ -1,31 +1,27 @@
-package com.blocklegend001.onlyhammersandexcavators.utils;
+package com.blocklegend001.onlyhammersandexcavators.utils.hammer;
 
-import com.blocklegend001.onlyhammersandexcavators.item.custom.Excavator;
+import com.blocklegend001.onlyhammersandexcavators.item.custom.Hammer;
+import com.blocklegend001.onlyhammersandexcavators.utils.RadiusMap;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.VertexConsumer;
-import net.minecraft.client.render.VertexConsumerProvider;
+import net.minecraft.client.render.*;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.item.ItemStack;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.HitResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Box;
+import net.minecraft.util.math.*;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.Direction;
-import net.minecraft.util.math.Vec3d;
 import org.joml.Matrix4f;
 
-public class ExcavatorOverlayRenderer {
-
+public class HammerOverlayRenderer {
     public static void init() {
         WorldRenderEvents.AFTER_ENTITIES.register(context -> {
             MinecraftClient client = MinecraftClient.getInstance();
             if (client.world == null || client.player == null) return;
 
             ItemStack heldItem = client.player.getMainHandStack();
-            if (!(heldItem.getItem() instanceof Excavator)) return;
+            if (!(heldItem.getItem() instanceof Hammer)) return;
 
             if (!(client.crosshairTarget instanceof BlockHitResult blockHit) || blockHit.getType() != HitResult.Type.BLOCK) return;
 
@@ -35,10 +31,10 @@ public class ExcavatorOverlayRenderer {
             if (client.player.isSneaking()) {
                 range = 0;
             } else {
-                range = 1;
+                range = RadiusMap.HAMMER_RADIUS_MAP.get(heldItem.getItem());
             }
 
-            if (!client.world.getBlockState(origin).isIn(BlockTags.SHOVEL_MINEABLE)) return;
+            if (!client.world.getBlockState(origin).isIn(BlockTags.PICKAXE_MINEABLE)) return;
 
             Vec3d cameraPos = context.camera().getPos();
             VertexConsumerProvider.Immediate buffers = client.getBufferBuilders().getEntityVertexConsumers();
