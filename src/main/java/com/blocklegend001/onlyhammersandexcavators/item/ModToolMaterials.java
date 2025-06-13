@@ -25,7 +25,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials WOODEN_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_WOODEN_TOOL,
-            ModConfigs.durabilityWoodenExcavator,
+            ModConfigs.durabilityWoodenExcavator.get(),
             2,
             0.0F,
             15
@@ -33,7 +33,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials STONE_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_STONE_TOOL,
-            ModConfigs.durabilityStoneExcavator,
+            ModConfigs.durabilityStoneExcavator.get(),
             4,
             1.0F,
             5
@@ -41,7 +41,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials IRON_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_IRON_TOOL,
-            ModConfigs.durabilityIronExcavator,
+            ModConfigs.durabilityIronExcavator.get(),
             6,
             2.0F,
             14
@@ -49,7 +49,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials GOLD_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_GOLD_TOOL,
-            ModConfigs.durabilityGoldExcavator,
+            ModConfigs.durabilityGoldExcavator.get(),
             12,
             0.0F,
             22
@@ -57,7 +57,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials LAPIS_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_IRON_TOOL,
-            ModConfigs.durabilityLapisExcavator,
+            ModConfigs.durabilityLapisExcavator.get(),
             6,
             2.0F,
             14
@@ -65,7 +65,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials REDSTONE_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_IRON_TOOL,
-            ModConfigs.durabilityRedstoneExcavator,
+            ModConfigs.durabilityRedstoneExcavator.get(),
             6,
             2.0F,
             14
@@ -73,7 +73,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials DIAMOND_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
-            ModConfigs.durabilityDiamondExcavator,
+            ModConfigs.durabilityDiamondExcavator.get(),
             8,
             3.0F,
             10
@@ -81,7 +81,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials EMERALD_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
-            ModConfigs.durabilityEmeraldExcavator,
+            ModConfigs.durabilityEmeraldExcavator.get(),
             9,
             4.0F,
             15
@@ -89,7 +89,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials OBSIDIAN_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
-            ModConfigs.durabilityObsidianExcavator,
+            ModConfigs.durabilityObsidianExcavator.get(),
             9,
             4.0F,
             10
@@ -97,7 +97,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials NETHERITE_EXCAVATOR = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
-            ModConfigs.durabilityNetheriteExcavator,
+            ModConfigs.durabilityNetheriteExcavator.get(),
             9,
             4.0F,
             15
@@ -105,7 +105,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials WOODEN_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_WOODEN_TOOL,
-            ModConfigs.durabilityWoodenHammer,
+            ModConfigs.durabilityWoodenHammer.get(),
             2,
             0.0F,
             15
@@ -113,7 +113,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials STONE_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_STONE_TOOL,
-            ModConfigs.durabilityStoneHammer,
+            ModConfigs.durabilityStoneHammer.get(),
             4,
             1.0F,
             5
@@ -121,7 +121,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials IRON_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_IRON_TOOL,
-            ModConfigs.durabilityIronHammer,
+            ModConfigs.durabilityIronHammer.get(),
             6,
             2.0F,
             14
@@ -129,7 +129,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials GOLD_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_GOLD_TOOL,
-            ModConfigs.durabilityGoldHammer,
+            ModConfigs.durabilityGoldHammer.get(),
             12,
             0.0F,
             22
@@ -137,7 +137,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials LAPIS_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_IRON_TOOL,
-            ModConfigs.durabilityLapisHammer,
+            ModConfigs.durabilityLapisHammer.get(),
             6,
             2.0F,
             14
@@ -145,7 +145,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials REDSTONE_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_IRON_TOOL,
-            ModConfigs.durabilityRedstoneHammer,
+            ModConfigs.durabilityRedstoneHammer.get(),
             6,
             2.0F,
             14
@@ -153,7 +153,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials DIAMOND_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
-            ModConfigs.durabilityDiamondHammer,
+            ModConfigs.durabilityDiamondHammer.get(),
             8,
             3.0F,
             10
@@ -161,7 +161,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials EMERALD_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
-            ModConfigs.durabilityEmeraldHammer,
+            ModConfigs.durabilityEmeraldHammer.get(),
             9,
             4.0F,
             15
@@ -169,7 +169,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials OBSIDIAN_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
-            ModConfigs.durabilityObsidianHammer,
+            ModConfigs.durabilityObsidianHammer.get(),
             9,
             4.0F,
             10
@@ -177,7 +177,7 @@ public record ModToolMaterials(TagKey<Block> incorrectBlocksForDrops, int durabi
 
     public static final ModToolMaterials NETHERITE_HAMMER = new ModToolMaterials(
             BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
-            ModConfigs.durabilityNetheriteHammer,
+            ModConfigs.durabilityNetheriteHammer.get(),
             9,
             4.0F,
             15

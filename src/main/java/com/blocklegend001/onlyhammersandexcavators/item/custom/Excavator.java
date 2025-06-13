@@ -1,13 +1,19 @@
 package com.blocklegend001.onlyhammersandexcavators.item.custom;
 
 import com.blocklegend001.onlyhammersandexcavators.item.ModToolMaterials;
+import com.blocklegend001.onlyhammersandexcavators.utils.RadiusMap;
+import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.phys.BlockHitResult;
@@ -15,6 +21,7 @@ import net.minecraft.world.phys.HitResult;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class Excavator extends Item {
 
@@ -56,6 +63,27 @@ public class Excavator extends Item {
             }
         }
         return positions;
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, TooltipContext context, TooltipDisplay tooltip, Consumer<Component> consumer, TooltipFlag type) {
+        int radius = getRadiusForExcavator(stack);
+
+        Component text = Component.empty()
+                .append(Component.literal("Dig Radius: ").withStyle(ChatFormatting.GRAY))
+                .append(Component.literal(String.valueOf(radius)).withStyle(ChatFormatting.YELLOW))
+                .append(Component.literal(" Blocks").withStyle(ChatFormatting.GRAY));
+
+        consumer.accept(text);
+
+        super.appendHoverText(stack, context, tooltip, consumer, type);
+    }
+
+    private int getRadiusForExcavator(ItemStack stack) {
+        if (RadiusMap.getExcavatorRadius().containsKey(stack.getItem())) {
+            return RadiusMap.getExcavatorRadius().get(stack.getItem());
+        }
+        return 0;
     }
 }
 
