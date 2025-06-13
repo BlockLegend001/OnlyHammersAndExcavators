@@ -1,9 +1,9 @@
 package com.blocklegend001.onlyhammersandexcavators;
 
-import com.blocklegend001.onlyhammersandexcavators.utils.ExcavatorOverlayRenderer;
-import com.blocklegend001.onlyhammersandexcavators.utils.ExcavatorUsageEvent;
-import com.blocklegend001.onlyhammersandexcavators.utils.HammerOverlayRenderer;
-import com.blocklegend001.onlyhammersandexcavators.utils.HammerUsageEvent;
+import com.blocklegend001.onlyhammersandexcavators.utils.excavator.ExcavatorOverlayRenderer;
+import com.blocklegend001.onlyhammersandexcavators.utils.excavator.ExcavatorUsageEvent;
+import com.blocklegend001.onlyhammersandexcavators.utils.hammer.HammerOverlayRenderer;
+import com.blocklegend001.onlyhammersandexcavators.utils.hammer.HammerUsageEvent;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackBlockCallback;
 import net.minecraft.util.ActionResult;
