@@ -2,6 +2,7 @@ package com.blocklegend001.onlyhammersandexcavators.mixin;
 
 import com.blocklegend001.onlyhammersandexcavators.item.custom.Hammer;
 import com.blocklegend001.onlyhammersandexcavators.utils.OverlayRenderer;
+import com.blocklegend001.onlyhammersandexcavators.utils.RadiusMap;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.Camera;
 import net.minecraft.client.DeltaTracker;
@@ -46,7 +47,7 @@ public class LevelRendererHammerMixin {
         if (Minecraft.getInstance().player.isShiftKeyDown()) {
             range = 0;
         } else {
-            range = 1;
+            range = RadiusMap.getHammerRadius().get(heldItem.getItem());
         }
 
         if (!Minecraft.getInstance().level.getBlockState(origin).is(BlockTags.MINEABLE_WITH_PICKAXE)) {
