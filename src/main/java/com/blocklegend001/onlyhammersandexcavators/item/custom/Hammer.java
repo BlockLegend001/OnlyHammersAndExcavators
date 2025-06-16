@@ -61,21 +61,21 @@ public class Hammer extends DiggerItem {
 
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag type) {
-        int radius = getRadiusForExcavator(stack);
+        int radius = getRadiusForHammer(stack);
+        int widht = radius * 2 + 1;
 
-        Component text = Component.empty()
-                .append(Component.literal("Dig Radius: ").withStyle(ChatFormatting.GRAY))
-                .append(Component.literal(String.valueOf(radius)).withStyle(ChatFormatting.YELLOW))
-                .append(Component.literal(" Blocks").withStyle(ChatFormatting.GRAY));
+        Component text = Component.literal("Dig area: ")
+                .withStyle(ChatFormatting.GRAY)
+                .append(Component.literal(widht + "x1").withStyle(ChatFormatting.YELLOW));
 
         tooltip.add(text);
 
         super.appendHoverText(stack, context, tooltip, type);
     }
 
-    private int getRadiusForExcavator(ItemStack stack) {
+    private int getRadiusForHammer(ItemStack stack) {
         if (RadiusMap.getHammerRadius().containsKey(stack.getItem())) {
-            return RadiusMap.getExcavatorRadius().get(stack.getItem());
+            return RadiusMap.getHammerRadius().get(stack.getItem());
         }
         return 0;
     }
