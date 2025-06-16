@@ -62,19 +62,19 @@ public class Hammer extends MiningToolItem {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        int radius = getRadiusForExcavator(stack);
+        int radius = getRadiusForHammer(stack);
+        int widht = radius * 2 + 1;
 
-        Text text = Text.empty()
-                .append(Text.literal("Break Radius: ").formatted(Formatting.GRAY))
-                .append(Text.literal(String.valueOf(radius)).formatted(Formatting.YELLOW))
-                .append(Text.literal(" Blocks").formatted(Formatting.GRAY));
+        Text text = Text.literal("Dig area: ")
+                .formatted(Formatting.GRAY)
+                .append(Text.literal(widht + "x1").formatted(Formatting.YELLOW));
 
         tooltip.add(text);
 
         super.appendTooltip(stack, context, tooltip, type);
     }
 
-    private int getRadiusForExcavator(ItemStack stack) {
+    private int getRadiusForHammer(ItemStack stack) {
         if (HAMMER_RADIUS_MAP.containsKey(stack.getItem())) {
             return HAMMER_RADIUS_MAP.get(stack.getItem());
         }
