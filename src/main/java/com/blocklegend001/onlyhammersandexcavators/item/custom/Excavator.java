@@ -73,12 +73,11 @@ public class Excavator extends Item {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
         int radius = getRadiusForExcavator(stack);
+        int widht = radius * 2 + 1;
 
-        Text text = Text.empty()
-                .append(Text.literal("Dig Radius: ").formatted(Formatting.GRAY))
-                .append(Text.literal(String.valueOf(radius)).formatted(Formatting.YELLOW))
-                .append(Text.literal(" Blocks").formatted(Formatting.GRAY));
-        textConsumer.accept(text);
+        Text text = Text.literal("Dig area: ")
+                .formatted(Formatting.GRAY)
+                .append(Text.literal(widht + "x1").formatted(Formatting.YELLOW));
 
         super.appendTooltip(stack, context, displayComponent, textConsumer, type);
     }
