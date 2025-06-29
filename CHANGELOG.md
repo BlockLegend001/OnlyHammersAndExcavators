@@ -1,1 +1,1 @@
-- Improve tooltip by showing hammering & excavation area dimensions instead of radius
+- Now the tooltips on the excavator are showed

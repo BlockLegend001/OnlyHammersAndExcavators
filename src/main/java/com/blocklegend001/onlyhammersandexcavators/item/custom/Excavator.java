@@ -79,6 +79,8 @@ public class Excavator extends Item {
                 .formatted(Formatting.GRAY)
                 .append(Text.literal(widht + "x1").formatted(Formatting.YELLOW));
 
+        textConsumer.accept(text);
+
         super.appendTooltip(stack, context, displayComponent, textConsumer, type);
     }
 
