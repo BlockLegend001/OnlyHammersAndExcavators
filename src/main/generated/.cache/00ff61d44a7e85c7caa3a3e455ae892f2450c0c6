@@ -1,10 +1,10 @@
-// 1.21.1	2025-05-08T14:23:39.5222192	OnlyHammersAndExcavators/Tags for minecraft:item
+// 1.21.1	2025-05-12T12:47:54.6700824	OnlyHammersAndExcavators/Tags for minecraft:item
 eb4cf7f3a432fd19a28a3462932612918aa4d912 data\onlyhammersandexcavators\tags\item\gold_excavator.json
 588534e77a75685009abcf17ccfbea5b7a4d9fb5 data\minecraft\tags\item\enchantable\mining.json
 588534e77a75685009abcf17ccfbea5b7a4d9fb5 data\minecraft\tags\item\enchantable\mining_loot.json
 c17aef8df077d6ba75d98806f154cb9604077e8c data\onlyhammersandexcavators\tags\item\wooden_excavator.json
-588534e77a75685009abcf17ccfbea5b7a4d9fb5 data\minecraft\tags\item\enchantable\vanishing.json
 d902c3d1b40401a6ce7bc3f6290813d928127e89 data\onlyhammersandexcavators\tags\item\stone_hammer.json
+588534e77a75685009abcf17ccfbea5b7a4d9fb5 data\minecraft\tags\item\enchantable\vanishing.json
 847b8476741b331e4b7a1ce833c6fdf2b2c43a3f data\onlyhammersandexcavators\tags\item\gold_hammer.json
 588534e77a75685009abcf17ccfbea5b7a4d9fb5 data\minecraft\tags\item\enchantable\durability.json
 2abd1a210a289a9b0853b451222b5f78b56cf05b data\onlyhammersandexcavators\tags\item\obsidian_hammer.json
