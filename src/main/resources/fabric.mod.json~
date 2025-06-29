@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "onlyhammersandexcavators",
+  "version": "${version}",
+  "name": "OnlyHammersAndExcavators",
+  "description": "A simple mod that adds various type of hammers & excavators, that mine 3x3 area",
+  "authors": [
+    "Block_Legend001"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/onlyhammersandexcavators/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.blocklegend001.onlyhammersandexcavators.client.OnlyHammersAndExcavatorsClient"
+    ],
+    "main": [
+      "com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators"
+    ],
+    "fabric-datagen": [
+      "com.blocklegend001.onlyhammersandexcavators.datagen.ModDataGeneration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
