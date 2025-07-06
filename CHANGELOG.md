@@ -1,1 +1,1 @@
-- Improve tooltip by showing hammering & excavation area dimensions instead of radius
+- Fixed a bug that caused the server to crash

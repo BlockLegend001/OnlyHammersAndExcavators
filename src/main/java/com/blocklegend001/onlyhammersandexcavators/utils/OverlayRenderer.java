@@ -1,12 +1,9 @@
 package com.blocklegend001.onlyhammersandexcavators.utils;
 
-import com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators;
-import net.minecraftforge.fml.common.Mod;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.world.phys.AABB;
 import org.joml.Matrix4f;
 
-@Mod.EventBusSubscriber(modid = OnlyHammersAndExcavators.MOD_ID)
 public class OverlayRenderer {
 
     public static void drawBox(Matrix4f matrix, VertexConsumer buffer, AABB box, float r, float g, float b, float a) {
