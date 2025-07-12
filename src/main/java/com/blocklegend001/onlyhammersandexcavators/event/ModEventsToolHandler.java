@@ -28,7 +28,6 @@ public class ModEventsToolHandler {
         ItemStack mainHandItem = player.getMainHandItem();
         BlockPos origin = event.getPos();
 
-        // Se lo abbiamo già gestito, saltiamo
         if (HARVESTED_BLOCKS.contains(origin)) return;
 
         HARVESTED_BLOCKS.add(origin);
