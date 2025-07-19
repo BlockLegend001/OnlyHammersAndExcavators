@@ -17,8 +17,8 @@ import java.util.Set;
 
 @Mod.EventBusSubscriber(modid = OnlyHammersAndExcavators.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class ModEventsToolHandler {
+
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
-    public static boolean isSneaking = false;
 
     @SubscribeEvent
     public static void onToolUsage(BlockEvent.BreakEvent event) {
@@ -28,14 +28,13 @@ public class ModEventsToolHandler {
         ItemStack mainHandItem = player.getMainHandItem();
         BlockPos origin = event.getPos();
 
-        // Se lo abbiamo già gestito, saltiamo
         if (HARVESTED_BLOCKS.contains(origin)) return;
-
         HARVESTED_BLOCKS.add(origin);
 
         try {
-            int radius = 0;
-            Set<BlockPos> blocksToBreak = null;
+            boolean isSneaking = player.isCrouching() || player.isShiftKeyDown();
+            int radius;
+            Set<BlockPos> blocksToBreak;
 
             if (mainHandItem.getItem() instanceof Hammer hammer) {
                 radius = isSneaking ? 0 : RadiusMap.getHammerRadius().getOrDefault(mainHandItem.getItem(), 0);
