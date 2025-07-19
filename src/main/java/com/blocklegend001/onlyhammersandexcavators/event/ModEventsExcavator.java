@@ -28,7 +28,7 @@ public class ModEventsExcavator {
         if (!(mainHandItem.getItem() instanceof Excavator excavator)) return;
         if (HARVESTED_BLOCKS.contains(event.getPos())) return;
 
-        boolean isSneaking = player.isCrouching();
+        boolean isSneaking = player.isCrouching() || player.isShiftKeyDown();
 
         HARVESTED_BLOCKS.add(event.getPos());
 
