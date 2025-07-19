@@ -16,27 +16,27 @@ import java.util.Set;
 
 @EventBusSubscriber(modid = OnlyHammersAndExcavators.MODID)
 public class ModEventsHammer {
+
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
-    public static boolean isSneaking = false;
 
     @SubscribeEvent
-    public static boolean onExcavatorUsage(BlockEvent.BreakEvent event) {
+    public static void onHammerUsage(BlockEvent.BreakEvent event) {
         Player player = event.getPlayer();
         ItemStack mainHandItem = player.getMainHandItem();
 
-        if (!(player instanceof ServerPlayer serverPlayer)) return true;
+        if (!(player instanceof ServerPlayer serverPlayer)) return;
+        if (!(mainHandItem.getItem() instanceof Hammer hammer)) return;
+        if (HARVESTED_BLOCKS.contains(event.getPos())) return;
 
-        if (!(mainHandItem.getItem() instanceof Hammer hammer)) return true;
-
-        if (HARVESTED_BLOCKS.contains(event.getPos())) return true;
+        boolean isSneaking = player.isCrouching();
 
         HARVESTED_BLOCKS.add(event.getPos());
 
         try {
             int radius = isSneaking ? 0 : RadiusMap.getHammerRadius().get(mainHandItem.getItem());
+
             for (BlockPos targetPos : Hammer.getBlocksToBeDestroyed(radius, event.getPos(), serverPlayer)) {
                 if (targetPos.equals(event.getPos())) continue;
-
                 if (HARVESTED_BLOCKS.contains(targetPos)) continue;
                 if (!hammer.isCorrectToolForDrops(mainHandItem, event.getLevel().getBlockState(targetPos))) continue;
 
@@ -44,10 +44,9 @@ public class ModEventsHammer {
                 serverPlayer.gameMode.destroyBlock(targetPos);
                 HARVESTED_BLOCKS.remove(targetPos);
             }
+
         } finally {
             HARVESTED_BLOCKS.remove(event.getPos());
         }
-
-        return true;
     }
 }
