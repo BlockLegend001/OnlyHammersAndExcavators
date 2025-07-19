@@ -1,0 +1,17 @@
+[11:59:48] [REI-ReloadPlugins/ERROR] [REI] Failed to run end-reload task for reloadable [ServerDisplayRegistryImpl] in stage [END]
+java.lang.NullPointerException: Cannot invoke "net.minecraft.server.MinecraftServer.getRecipeManager()" because the return value of "dev.architectury.utils.GameInstance.getServer()" is null
+	at TRANSFORMER/roughlyenoughitems@17.0.803/me.shedaniel.rei.impl.common.registry.displays.ServerDisplayRegistryImpl.getAllSortedRecipes(ServerDisplayRegistryImpl.java:230)
+	at TRANSFORMER/roughlyenoughitems@17.0.803/me.shedaniel.rei.impl.common.registry.displays.ServerDisplayRegistryImpl.fillRecipes(ServerDisplayRegistryImpl.java:216)
+	at TRANSFORMER/roughlyenoughitems@17.0.803/me.shedaniel.rei.impl.common.registry.displays.ServerDisplayRegistryImpl.endReload(ServerDisplayRegistryImpl.java:209)
+	at TRANSFORMER/roughlyenoughitems@17.0.803/me.shedaniel.rei.api.common.registry.Reloadable.endReload(Reloadable.java:47)
+	at TRANSFORMER/roughlyenoughitems@17.0.803/me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.reload(PluginManagerImpl.java:464)
+	at TRANSFORMER/roughlyenoughitems@17.0.803/me.shedaniel.rei.impl.common.plugins.ReloadManagerImpl.reloadPlugins0(ReloadManagerImpl.java:155)
+	at TRANSFORMER/roughlyenoughitems@17.0.803/me.shedaniel.rei.impl.common.plugins.ReloadManagerImpl.reloadPlugins0(ReloadManagerImpl.java:144)
+	at TRANSFORMER/roughlyenoughitems@17.0.803/me.shedaniel.rei.impl.common.plugins.ReloadManagerImpl.lambda$reloadPlugins$7(ReloadManagerImpl.java:122)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
