@@ -1,0 +1,109 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 2025-07-19 12:09:21
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at TRANSFORMER/onlyhammersandexcavators@1.21.5-0.8/com.blocklegend001.onlyhammersandexcavators.ModConfigs.loadConfig(ModConfigs.java:79) ~[%23223!/:?] {re:classloading}
+-- Mod loading issue for: onlyhammersandexcavators --
+Details:
+	Mod file: /D:/Programmazione/Mod/Only Hammers & Excavators/NEOFORGE/1.21.5/build/resources/main/
+	Failure message: OnlyHammersAndExcavators (onlyhammersandexcavators) has failed to load correctly
+		java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsInt()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+	Mod version: 1.21.5-0.8
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsInt()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+Stacktrace:
+	at TRANSFORMER/onlyhammersandexcavators@1.21.5-0.8/com.blocklegend001.onlyhammersandexcavators.ModConfigs.loadConfig(ModConfigs.java:79) ~[%23223!/:?] {re:classloading}
+	at TRANSFORMER/onlyhammersandexcavators@1.21.5-0.8/com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators.<init>(OnlyHammersAndExcavators.java:49) ~[%23223!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@7.0.10/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115) ~[loader-7.0.10.jar%23177!/:7.0] {}
+	at MC-BOOTSTRAP/fml_loader@7.0.10/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:151) ~[loader-7.0.10.jar%23177!/:7.0] {}
+	at MC-BOOTSTRAP/fml_loader@7.0.10/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:229) ~[loader-7.0.10.jar%23177!/:7.0] {}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.5
+	Minecraft Version ID: 1.21.5
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.6, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Amazon.com Inc.
+	Memory: 482801304 bytes (460 MiB) / 985661440 bytes (940 MiB) up to 4219469824 bytes (4024 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i7-13620H
+	Identifier: Intel64 Family 6 Model 186 Stepping 2
+	Microarchitecture: Raptor Lake
+	Frequency (GHz): 2.92
+	Number of physical packages: 1
+	Number of physical CPUs: 10
+	Number of logical CPUs: 16
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 2048.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.101.5592
+	Graphics card #1 name: NVIDIA GeForce RTX 4050 Laptop GPU
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 6141.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.7652
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 5.60
+	Memory slot #0 type: DDR5
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 5.60
+	Memory slot #1 type: DDR5
+	Virtual memory max (MiB): 33496.55
+	Virtual memory used (MiB): 20634.15
+	Swap memory total (MiB): 17408.00
+	Swap memory used (MiB): 1041.53
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 632377.81, total: 953297.00
+	Space in storage for workdir (MiB): available: 963361.38, total: 1907727.00
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: neoforgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-7.0.10.jar slf4jfixer PLUGINSERVICE 
+		loader-7.0.10.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-11.0.2.jar accesstransformer PLUGINSERVICE 
+		loader-7.0.10.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@7.0
+		minecraft@7.0
+	Mod List: 
+		architectury-neoforge-16.1.4.jar                  |Architectury                  |architectury                  |16.1.4              |Manifest: NOSIGNATURE
+		cloth-config-neoforge-18.0.145-neoforge.jar       |Cloth Config v17 API          |cloth_config                  |18.0.145            |Manifest: NOSIGNATURE
+		neoforge-21.5.62-beta.jar                         |Minecraft                     |minecraft                     |1.21.5              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		neoforge-21.5.62-beta.jar                         |NeoForge                      |neoforge                      |21.5.62-beta        |Manifest: NOSIGNATURE
+		main                                              |OnlyHammersAndExcavators      |onlyhammersandexcavators      |1.21.5-0.8          |Manifest: NOSIGNATURE
+		RoughlyEnoughItems-neoforge-19.0.806.jar          |Roughly Enough Items (REI)    |roughlyenoughitems            |19.0.806            |Manifest: NOSIGNATURE
+	Crash Report UUID: a4171757-fec4-490c-99da-2fbfb786deb8
+	FML: 7.0.10
+	NeoForge: 21.5.62-beta
