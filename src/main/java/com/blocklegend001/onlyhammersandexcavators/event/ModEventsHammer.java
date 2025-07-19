@@ -28,7 +28,7 @@ public class ModEventsHammer {
         if (!(mainHandItem.getItem() instanceof Hammer hammer)) return;
         if (HARVESTED_BLOCKS.contains(event.getPos())) return;
 
-        boolean isSneaking = player.isCrouching();
+        boolean isSneaking = player.isCrouching() || player.isShiftKeyDown();
 
         HARVESTED_BLOCKS.add(event.getPos());
 
