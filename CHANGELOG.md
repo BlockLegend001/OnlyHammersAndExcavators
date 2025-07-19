@@ -1,1 +1,1 @@
-- Now the tooltips on the excavator are showed
+- Fixed a bug that not let the player break one block when shifting in multiplayer
