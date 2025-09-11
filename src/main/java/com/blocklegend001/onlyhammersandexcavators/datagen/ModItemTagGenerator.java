@@ -230,4 +230,3 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.NETHERITE_EXCAVATOR.get());
     }
 }
-
