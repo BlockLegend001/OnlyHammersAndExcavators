@@ -8,6 +8,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.common.Tags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -108,6 +109,105 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.NETHERITE_EXCAVATOR.get());
 
         tag(ItemTags.MINING_ENCHANTABLE).add(ModItems.WOODEN_HAMMER.get())
+                .add(ModItems.STONE_HAMMER.get())
+                .add(ModItems.IRON_HAMMER.get())
+                .add(ModItems.GOLD_HAMMER.get())
+                .add(ModItems.REDSTONE_HAMMER.get())
+                .add(ModItems.LAPIS_HAMMER.get())
+                .add(ModItems.DIAMOND_HAMMER.get())
+                .add(ModItems.EMERALD_HAMMER.get())
+                .add(ModItems.OBSIDIAN_HAMMER.get())
+                .add(ModItems.NETHERITE_HAMMER.get())
+
+                .add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(ItemTags.PICKAXES).add(ModItems.WOODEN_HAMMER.get())
+                .add(ModItems.STONE_HAMMER.get())
+                .add(ModItems.IRON_HAMMER.get())
+                .add(ModItems.GOLD_HAMMER.get())
+                .add(ModItems.REDSTONE_HAMMER.get())
+                .add(ModItems.LAPIS_HAMMER.get())
+                .add(ModItems.DIAMOND_HAMMER.get())
+                .add(ModItems.EMERALD_HAMMER.get())
+                .add(ModItems.OBSIDIAN_HAMMER.get())
+                .add(ModItems.NETHERITE_HAMMER.get());
+
+        tag(ItemTags.SHOVELS).add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(ItemTags.CLUSTER_MAX_HARVESTABLES).add(ModItems.WOODEN_HAMMER.get())
+                .add(ModItems.STONE_HAMMER.get())
+                .add(ModItems.IRON_HAMMER.get())
+                .add(ModItems.GOLD_HAMMER.get())
+                .add(ModItems.REDSTONE_HAMMER.get())
+                .add(ModItems.LAPIS_HAMMER.get())
+                .add(ModItems.DIAMOND_HAMMER.get())
+                .add(ModItems.EMERALD_HAMMER.get())
+                .add(ModItems.OBSIDIAN_HAMMER.get())
+                .add(ModItems.NETHERITE_HAMMER.get());
+
+        tag(ItemTags.BREAKS_DECORATED_POTS).add(ModItems.WOODEN_HAMMER.get())
+                .add(ModItems.STONE_HAMMER.get())
+                .add(ModItems.IRON_HAMMER.get())
+                .add(ModItems.GOLD_HAMMER.get())
+                .add(ModItems.REDSTONE_HAMMER.get())
+                .add(ModItems.LAPIS_HAMMER.get())
+                .add(ModItems.DIAMOND_HAMMER.get())
+                .add(ModItems.EMERALD_HAMMER.get())
+                .add(ModItems.OBSIDIAN_HAMMER.get())
+                .add(ModItems.NETHERITE_HAMMER.get())
+
+                .add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(Tags.Items.TOOLS).add(ModItems.WOODEN_HAMMER.get())
+                .add(ModItems.STONE_HAMMER.get())
+                .add(ModItems.IRON_HAMMER.get())
+                .add(ModItems.GOLD_HAMMER.get())
+                .add(ModItems.REDSTONE_HAMMER.get())
+                .add(ModItems.LAPIS_HAMMER.get())
+                .add(ModItems.DIAMOND_HAMMER.get())
+                .add(ModItems.EMERALD_HAMMER.get())
+                .add(ModItems.OBSIDIAN_HAMMER.get())
+                .add(ModItems.NETHERITE_HAMMER.get())
+
+                .add(ModItems.WOODEN_EXCAVATOR.get())
+                .add(ModItems.STONE_EXCAVATOR.get())
+                .add(ModItems.IRON_EXCAVATOR.get())
+                .add(ModItems.GOLD_EXCAVATOR.get())
+                .add(ModItems.REDSTONE_EXCAVATOR.get())
+                .add(ModItems.LAPIS_EXCAVATOR.get())
+                .add(ModItems.DIAMOND_EXCAVATOR.get())
+                .add(ModItems.EMERALD_EXCAVATOR.get())
+                .add(ModItems.OBSIDIAN_EXCAVATOR.get())
+                .add(ModItems.NETHERITE_EXCAVATOR.get());
+
+        tag(Tags.Items.MINING_TOOL_TOOLS).add(ModItems.WOODEN_HAMMER.get())
                 .add(ModItems.STONE_HAMMER.get())
                 .add(ModItems.IRON_HAMMER.get())
                 .add(ModItems.GOLD_HAMMER.get())
