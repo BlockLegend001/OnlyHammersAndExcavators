@@ -1,27 +1,92 @@
-[12mag2025 13:00:32.339] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21\src\main\resources, --mixin.config, onlyhammersandexcavators.mixins.json]
-[12mag2025 13:00:32.341] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.6+7-LTS
-[12mag2025 13:00:32.342] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
-[12mag2025 13:00:32.429] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[12mag2025 13:00:32.508] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[12mag2025 13:00:33.086] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[12mag2025 13:00:33.642] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21\src\main\resources]
-[12mag2025 13:00:33.660] [main/WARN] [mixin/]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
-[12mag2025 13:00:33.715] [main/WARN] [mixin/]: Mixin environment was unable to detect the current side, sided mixins will not be applied
-[12mag2025 13:00:37.438] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[12mag2025 13:00:37.438] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[12mag2025 13:00:37.472] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[12mag2025 13:00:37.628] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[12mag2025 13:00:37.633] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.132 ms
-[12mag2025 13:00:37.924] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlyhammersandexcavators]
-[12mag2025 13:00:37.966] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_official_1.21/forge-1.21-51.0.33_mapped_official_1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[12mag2025 13:00:37.967] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_official_1.21/forge-1.21-51.0.33_mapped_official_1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[12mag2025 13:00:38.081] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: onlyhammersandexcavators
-[12mag2025 13:00:38.108] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: onlyhammersandexcavators finished after 26 ms
-[12mag2025 13:00:38.108] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlyhammersandexcavators
-[12mag2025 13:00:38.193] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlyhammersandexcavators finished after 84 ms
-[12mag2025 13:00:38.193] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id onlyhammersandexcavators
-[12mag2025 13:00:38.205] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id onlyhammersandexcavators finished after 11 ms
-[12mag2025 13:00:38.205] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[12mag2025 13:00:38.239] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 34 ms
-[12mag2025 13:00:38.239] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 158 ms
-[12mag2025 13:00:38.245] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 84, old count: 84, new count: 85, removed stale: 0, written: 1
+[11set2025 11:45:19.619] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21\src\main\resources, --mixin.config, onlyhammersandexcavators.mixins.json]
+[11set2025 11:45:19.624] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[11set2025 11:45:19.625] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[11set2025 11:45:19.722] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[11set2025 11:45:19.814] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[11set2025 11:45:20.563] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[11set2025 11:45:21.335] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21\src\main\resources]
+[11set2025 11:45:21.374] [main/WARN] [mixin/]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
+[11set2025 11:45:21.453] [main/WARN] [mixin/]: Mixin environment was unable to detect the current side, sided mixins will not be applied
+[11set2025 11:45:25.844] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[11set2025 11:45:25.844] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[11set2025 11:45:25.854] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21\run-data\config\onlyhammersandexcavators.toml is not correct. Correcting
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Wooden was corrected from null to its default, 302. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Stone was corrected from null to its default, 650. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Iron was corrected from null to its default, 1300. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Gold was corrected from null to its default, 750. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Lapis was corrected from null to its default, 1100. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Redstone was corrected from null to its default, 1100. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Obsidian was corrected from null to its default, 11200. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Diamond was corrected from null to its default, 8025. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Emerald was corrected from null to its default, 9768. 
+[11set2025 11:45:25.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Netherite was corrected from null to its default, 13675. 
+[11set2025 11:45:25.859] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[11set2025 11:45:25.859] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Wooden was corrected from null to its default, 1. 
+[11set2025 11:45:25.859] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Stone was corrected from null to its default, 1. 
+[11set2025 11:45:25.859] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Iron was corrected from null to its default, 1. 
+[11set2025 11:45:25.859] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Gold was corrected from null to its default, 1. 
+[11set2025 11:45:25.859] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Lapis was corrected from null to its default, 1. 
+[11set2025 11:45:25.859] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Redstone was corrected from null to its default, 1. 
+[11set2025 11:45:25.859] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Obsidian was corrected from null to its default, 1. 
+[11set2025 11:45:25.860] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Diamond was corrected from null to its default, 1. 
+[11set2025 11:45:25.860] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Emerald was corrected from null to its default, 1. 
+[11set2025 11:45:25.860] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Netherite was corrected from null to its default, 1. 
+[11set2025 11:45:25.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[11set2025 11:45:25.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Wooden was corrected from null to its default, 302. 
+[11set2025 11:45:25.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Stone was corrected from null to its default, 650. 
+[11set2025 11:45:25.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Iron was corrected from null to its default, 1300. 
+[11set2025 11:45:25.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Gold was corrected from null to its default, 750. 
+[11set2025 11:45:25.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Lapis was corrected from null to its default, 1100. 
+[11set2025 11:45:25.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Redstone was corrected from null to its default, 1100. 
+[11set2025 11:45:25.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Obsidian was corrected from null to its default, 11200. 
+[11set2025 11:45:25.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Diamond was corrected from null to its default, 8025. 
+[11set2025 11:45:25.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Emerald was corrected from null to its default, 9768. 
+[11set2025 11:45:25.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Netherite was corrected from null to its default, 13675. 
+[11set2025 11:45:25.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[11set2025 11:45:25.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Wooden was corrected from null to its default, 1. 
+[11set2025 11:45:25.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Stone was corrected from null to its default, 1. 
+[11set2025 11:45:25.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Iron was corrected from null to its default, 1. 
+[11set2025 11:45:25.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Gold was corrected from null to its default, 1. 
+[11set2025 11:45:25.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Lapis was corrected from null to its default, 1. 
+[11set2025 11:45:25.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Redstone was corrected from null to its default, 1. 
+[11set2025 11:45:25.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Obsidian was corrected from null to its default, 1. 
+[11set2025 11:45:25.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Diamond was corrected from null to its default, 1. 
+[11set2025 11:45:25.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Emerald was corrected from null to its default, 1. 
+[11set2025 11:45:25.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Netherite was corrected from null to its default, 1. 
+[11set2025 11:45:25.867] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityRedstoneHammer was corrected from 1100 to its default, null. 
+[11set2025 11:45:25.868] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityGoldHammer was corrected from 750 to its default, null. 
+[11set2025 11:45:25.869] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityObsidianHammer was corrected from 11200 to its default, null. 
+[11set2025 11:45:25.870] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityStoneExcavator was corrected from 650 to its default, null. 
+[11set2025 11:45:25.871] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityWoodenHammer was corrected from 302 to its default, null. 
+[11set2025 11:45:25.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityWoodenExcavator was corrected from 302 to its default, null. 
+[11set2025 11:45:25.873] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityStoneHammer was corrected from 650 to its default, null. 
+[11set2025 11:45:25.873] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityEmeraldHammer was corrected from 9768 to its default, null. 
+[11set2025 11:45:25.874] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityEmeraldExcavator was corrected from 9768 to its default, null. 
+[11set2025 11:45:25.875] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityLapisHammer was corrected from 1100 to its default, null. 
+[11set2025 11:45:25.876] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityLapisExcavator was corrected from 1100 to its default, null. 
+[11set2025 11:45:25.878] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityDiamondHammer was corrected from 8025 to its default, null. 
+[11set2025 11:45:25.879] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityObsidianExcavator was corrected from 11200 to its default, null. 
+[11set2025 11:45:25.880] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityNetheriteHammer was corrected from 13675 to its default, null. 
+[11set2025 11:45:25.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityNetheriteExcavator was corrected from 13675 to its default, null. 
+[11set2025 11:45:25.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityIronExcavator was corrected from 1300 to its default, null. 
+[11set2025 11:45:25.882] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityGoldExcavator was corrected from 750 to its default, null. 
+[11set2025 11:45:25.882] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityRedstoneExcavator was corrected from 1100 to its default, null. 
+[11set2025 11:45:25.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityIronHammer was corrected from 1300 to its default, null. 
+[11set2025 11:45:25.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityDiamondExcavator was corrected from 8025 to its default, null. 
+[11set2025 11:45:25.896] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[11set2025 11:45:26.202] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[11set2025 11:45:26.213] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 8.284 ms
+[11set2025 11:45:26.505] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlyhammersandexcavators]
+[11set2025 11:45:26.571] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_official_1.21/forge-1.21-51.0.33_mapped_official_1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[11set2025 11:45:26.571] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_official_1.21/forge-1.21-51.0.33_mapped_official_1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[11set2025 11:45:26.716] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: onlyhammersandexcavators
+[11set2025 11:45:26.748] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: onlyhammersandexcavators finished after 31 ms
+[11set2025 11:45:26.749] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlyhammersandexcavators
+[11set2025 11:45:26.853] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlyhammersandexcavators finished after 104 ms
+[11set2025 11:45:26.854] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id onlyhammersandexcavators
+[11set2025 11:45:26.867] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id onlyhammersandexcavators finished after 13 ms
+[11set2025 11:45:26.867] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[11set2025 11:45:26.906] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 38 ms
+[11set2025 11:45:26.906] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 190 ms
+[11set2025 11:45:26.915] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 89, old count: 84, new count: 90, removed stale: 0, written: 5
