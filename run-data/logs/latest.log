@@ -1,106 +1,171 @@
-[12mag2025 13:01:37.909] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 18, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21.3\src\main\resources, --mixin.config, onlyhammersandexcavators.mixins.json]
-[12mag2025 13:01:37.915] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.6+7-LTS
-[12mag2025 13:01:37.915] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.6 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
-[12mag2025 13:01:38.016] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[12mag2025 13:01:38.108] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[12mag2025 13:01:38.783] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[12mag2025 13:01:39.393] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 18, --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21.3\src\main\resources]
-[12mag2025 13:01:39.424] [main/WARN] [mixin/]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
-[12mag2025 13:01:39.474] [main/WARN] [mixin/]: Mixin environment was unable to detect the current side, sided mixins will not be applied
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:root
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:sound_event
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:fluid
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:attribute
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:particle_type
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:mob_effect
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:block
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_effect_component_type
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:data_component_type
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:entity_type
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:item
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:game_event
-[12mag2025 13:01:43.077] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:potion
-[12mag2025 13:01:43.078] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:block_entity_type
-[12mag2025 13:01:43.078] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:stat_type
-[12mag2025 13:01:43.078] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:custom_stat
-[12mag2025 13:01:43.078] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:chunk_status
-[12mag2025 13:01:43.078] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:rule_test
-[12mag2025 13:01:43.078] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:rule_block_entity_modifier
-[12mag2025 13:01:43.078] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:pos_rule_test
-[12mag2025 13:01:43.078] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:menu
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:recipe_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:recipe_serializer
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:position_source_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:command_argument_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:villager_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:villager_profession
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:point_of_interest_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:memory_module_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:sensor_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:activity
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:schedule
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_score_provider_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_number_provider_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:map_decoration_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_nbt_provider_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_function_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_pool_entry_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_condition_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:float_provider_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:int_provider_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:height_provider_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:block_predicate_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/carver
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_processor
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/feature
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_placement
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_piece
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/placement_modifier_type
-[12mag2025 13:01:43.079] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/block_state_provider_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/foliage_placer_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/trunk_placer_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/root_placer_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/tree_decorator_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/feature_size_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/biome_source
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/chunk_generator
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/material_condition
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/material_rule
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/density_function_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:block_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_pool_element
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/pool_alias_binding
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:cat_variant
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:frog_variant
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:decorated_pot_pattern
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:creative_mode_tab
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:trigger_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:number_format_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:entity_sub_predicate_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:item_sub_predicate_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_level_based_value_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_entity_effect_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_location_based_effect_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_value_effect_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_provider_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:consume_effect_type
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:recipe_display
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:slot_display
-[12mag2025 13:01:43.080] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:recipe_book_category
-[12mag2025 13:01:43.134] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.1.0, for MC 1.21.3 with MCP 20241025.112443
-[12mag2025 13:01:43.134] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.1.0 Initialized
-[12mag2025 13:01:43.169] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[12mag2025 13:01:43.324] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlyhammersandexcavators]
-[12mag2025 13:01:43.375] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.3-53.1.0_mapped_official_1.21.3/forge-1.21.3-53.1.0_mapped_official_1.21.3-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[12mag2025 13:01:43.376] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.3-53.1.0_mapped_official_1.21.3/forge-1.21.3-53.1.0_mapped_official_1.21.3-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[12mag2025 13:01:43.489] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: onlyhammersandexcavators
-[12mag2025 13:01:43.507] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: onlyhammersandexcavators finished after 18 ms
-[12mag2025 13:01:43.507] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlyhammersandexcavators
-[12mag2025 13:01:43.634] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlyhammersandexcavators finished after 126 ms
-[12mag2025 13:01:43.634] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id onlyhammersandexcavators
-[12mag2025 13:01:43.644] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id onlyhammersandexcavators finished after 9 ms
-[12mag2025 13:01:43.645] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[12mag2025 13:01:43.687] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 42 ms
-[12mag2025 13:01:43.687] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 199 ms
-[12mag2025 13:01:43.693] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 92, old count: 92, new count: 93, removed stale: 0, written: 2
+[11set2025 13:08:40.253] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 18, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21.3\src\main\resources, --mixin.config, onlyhammersandexcavators.mixins.json]
+[11set2025 13:08:40.258] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[11set2025 13:08:40.258] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.6 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[11set2025 13:08:40.384] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[11set2025 13:08:40.470] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[11set2025 13:08:41.147] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[11set2025 13:08:41.807] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 18, --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21.3\src\main\resources]
+[11set2025 13:08:41.829] [main/WARN] [mixin/]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
+[11set2025 13:08:41.877] [main/WARN] [mixin/]: Mixin environment was unable to detect the current side, sided mixins will not be applied
+[11set2025 13:08:45.703] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:root
+[11set2025 13:08:45.703] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:sound_event
+[11set2025 13:08:45.703] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:fluid
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:attribute
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:particle_type
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:mob_effect
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:block
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_effect_component_type
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:data_component_type
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:entity_type
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:item
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:game_event
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:potion
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:block_entity_type
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:stat_type
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:custom_stat
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:chunk_status
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:rule_test
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:rule_block_entity_modifier
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:pos_rule_test
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:menu
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:recipe_type
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:recipe_serializer
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:position_source_type
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:command_argument_type
+[11set2025 13:08:45.704] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:villager_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:villager_profession
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:point_of_interest_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:memory_module_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:sensor_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:activity
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:schedule
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_score_provider_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_number_provider_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:map_decoration_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_nbt_provider_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_function_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_pool_entry_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:loot_condition_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:float_provider_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:int_provider_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:height_provider_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:block_predicate_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/carver
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_processor
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/feature
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_placement
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_piece
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_type
+[11set2025 13:08:45.705] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/placement_modifier_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/block_state_provider_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/foliage_placer_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/trunk_placer_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/root_placer_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/tree_decorator_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/feature_size_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/biome_source
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/chunk_generator
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/material_condition
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/material_rule
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/density_function_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:block_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/structure_pool_element
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:worldgen/pool_alias_binding
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:cat_variant
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:frog_variant
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:decorated_pot_pattern
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:creative_mode_tab
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:trigger_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:number_format_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:entity_sub_predicate_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:item_sub_predicate_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_level_based_value_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_entity_effect_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_location_based_effect_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_value_effect_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:enchantment_provider_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:consume_effect_type
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:recipe_display
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:slot_display
+[11set2025 13:08:45.706] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: 	minecraft:recipe_book_category
+[11set2025 13:08:45.754] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.1.0, for MC 1.21.3 with MCP 20241025.112443
+[11set2025 13:08:45.754] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.1.0 Initialized
+[11set2025 13:08:45.758] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\Programmazione\Mod\Only Hammers & Excavators\FORGE\1.21.3\run-data\config\onlyhammersandexcavators.toml is not correct. Correcting
+[11set2025 13:08:45.760] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[11set2025 13:08:45.760] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Wooden was corrected from null to its default, 302. 
+[11set2025 13:08:45.760] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Stone was corrected from null to its default, 650. 
+[11set2025 13:08:45.760] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Iron was corrected from null to its default, 1300. 
+[11set2025 13:08:45.761] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Gold was corrected from null to its default, 750. 
+[11set2025 13:08:45.761] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Lapis was corrected from null to its default, 1100. 
+[11set2025 13:08:45.761] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Redstone was corrected from null to its default, 1100. 
+[11set2025 13:08:45.761] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Obsidian was corrected from null to its default, 11200. 
+[11set2025 13:08:45.761] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Diamond was corrected from null to its default, 8025. 
+[11set2025 13:08:45.761] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Emerald was corrected from null to its default, 9768. 
+[11set2025 13:08:45.761] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Durability Settings.Netherite was corrected from null to its default, 13675. 
+[11set2025 13:08:45.763] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[11set2025 13:08:45.763] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Wooden was corrected from null to its default, 1. 
+[11set2025 13:08:45.763] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Stone was corrected from null to its default, 1. 
+[11set2025 13:08:45.763] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Iron was corrected from null to its default, 1. 
+[11set2025 13:08:45.764] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Gold was corrected from null to its default, 1. 
+[11set2025 13:08:45.764] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Lapis was corrected from null to its default, 1. 
+[11set2025 13:08:45.764] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Redstone was corrected from null to its default, 1. 
+[11set2025 13:08:45.764] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Obsidian was corrected from null to its default, 1. 
+[11set2025 13:08:45.764] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Diamond was corrected from null to its default, 1. 
+[11set2025 13:08:45.765] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Emerald was corrected from null to its default, 1. 
+[11set2025 13:08:45.765] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Excavator Radius Settings.Netherite was corrected from null to its default, 1. 
+[11set2025 13:08:45.766] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Wooden was corrected from null to its default, 302. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Stone was corrected from null to its default, 650. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Iron was corrected from null to its default, 1300. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Gold was corrected from null to its default, 750. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Lapis was corrected from null to its default, 1100. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Redstone was corrected from null to its default, 1100. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Obsidian was corrected from null to its default, 11200. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Diamond was corrected from null to its default, 8025. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Emerald was corrected from null to its default, 9768. 
+[11set2025 13:08:45.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Durability Settings.Netherite was corrected from null to its default, 13675. 
+[11set2025 13:08:45.768] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[11set2025 13:08:45.768] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Wooden was corrected from null to its default, 1. 
+[11set2025 13:08:45.768] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Stone was corrected from null to its default, 1. 
+[11set2025 13:08:45.769] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Iron was corrected from null to its default, 1. 
+[11set2025 13:08:45.769] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Gold was corrected from null to its default, 1. 
+[11set2025 13:08:45.769] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Lapis was corrected from null to its default, 1. 
+[11set2025 13:08:45.769] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Redstone was corrected from null to its default, 1. 
+[11set2025 13:08:45.769] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Obsidian was corrected from null to its default, 1. 
+[11set2025 13:08:45.769] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Diamond was corrected from null to its default, 1. 
+[11set2025 13:08:45.769] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Emerald was corrected from null to its default, 1. 
+[11set2025 13:08:45.770] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hammer Radius Settings.Netherite was corrected from null to its default, 1. 
+[11set2025 13:08:45.771] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityRedstoneHammer was corrected from 1100 to its default, null. 
+[11set2025 13:08:45.772] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityGoldHammer was corrected from 750 to its default, null. 
+[11set2025 13:08:45.773] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityObsidianHammer was corrected from 11200 to its default, null. 
+[11set2025 13:08:45.774] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityStoneExcavator was corrected from 650 to its default, null. 
+[11set2025 13:08:45.775] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityWoodenHammer was corrected from 302 to its default, null. 
+[11set2025 13:08:45.775] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityWoodenExcavator was corrected from 302 to its default, null. 
+[11set2025 13:08:45.776] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityStoneHammer was corrected from 650 to its default, null. 
+[11set2025 13:08:45.777] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityEmeraldHammer was corrected from 9768 to its default, null. 
+[11set2025 13:08:45.779] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityEmeraldExcavator was corrected from 9768 to its default, null. 
+[11set2025 13:08:45.779] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityLapisHammer was corrected from 1100 to its default, null. 
+[11set2025 13:08:45.780] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityLapisExcavator was corrected from 1100 to its default, null. 
+[11set2025 13:08:45.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityDiamondHammer was corrected from 8025 to its default, null. 
+[11set2025 13:08:45.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityObsidianExcavator was corrected from 11200 to its default, null. 
+[11set2025 13:08:45.782] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityNetheriteHammer was corrected from 13675 to its default, null. 
+[11set2025 13:08:45.782] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityNetheriteExcavator was corrected from 13675 to its default, null. 
+[11set2025 13:08:45.783] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityIronExcavator was corrected from 1300 to its default, null. 
+[11set2025 13:08:45.783] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityGoldExcavator was corrected from 750 to its default, null. 
+[11set2025 13:08:45.783] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityRedstoneExcavator was corrected from 1100 to its default, null. 
+[11set2025 13:08:45.784] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityIronHammer was corrected from 1300 to its default, null. 
+[11set2025 13:08:45.784] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key DurabilityDiamondExcavator was corrected from 8025 to its default, null. 
+[11set2025 13:08:45.798] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[11set2025 13:08:45.956] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlyhammersandexcavators]
+[11set2025 13:08:46.009] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.3-53.1.0_mapped_official_1.21.3/forge-1.21.3-53.1.0_mapped_official_1.21.3.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[11set2025 13:08:46.009] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.3-53.1.0_mapped_official_1.21.3/forge-1.21.3-53.1.0_mapped_official_1.21.3.jar%230!/data/.mcassetsroot' uses unexpected schema
+[11set2025 13:08:46.147] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: onlyhammersandexcavators
+[11set2025 13:08:46.164] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: onlyhammersandexcavators finished after 15 ms
+[11set2025 13:08:46.164] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlyhammersandexcavators
+[11set2025 13:08:46.265] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlyhammersandexcavators finished after 99 ms
+[11set2025 13:08:46.265] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id onlyhammersandexcavators
+[11set2025 13:08:46.275] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id onlyhammersandexcavators finished after 10 ms
+[11set2025 13:08:46.275] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[11set2025 13:08:46.311] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 35 ms
+[11set2025 13:08:46.311] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 163 ms
+[11set2025 13:08:46.318] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 98, old count: 92, new count: 99, removed stale: 0, written: 6
