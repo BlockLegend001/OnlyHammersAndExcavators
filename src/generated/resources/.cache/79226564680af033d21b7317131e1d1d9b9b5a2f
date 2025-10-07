@@ -1,8 +1,14 @@
-// 1.21.3	2024-12-09T15:16:41.8744686	Tags for minecraft:item mod id onlyhammersandexcavators
+// 1.21.3	2025-09-11T18:11:06.1574641	Tags for minecraft:item mod id onlyhammersandexcavators
+e123b62adc32190fa710b156e7002aca4882a2b8 data/c/tags/item/tools.json
+e123b62adc32190fa710b156e7002aca4882a2b8 data/c/tags/item/tools/mining_tool.json
+e123b62adc32190fa710b156e7002aca4882a2b8 data/minecraft/tags/item/breaks_decorated_pots.json
+5e0d663ae057e45b12a305d463726ca2a734c273 data/minecraft/tags/item/cluster_max_harvestables.json
 e123b62adc32190fa710b156e7002aca4882a2b8 data/minecraft/tags/item/enchantable/durability.json
 e123b62adc32190fa710b156e7002aca4882a2b8 data/minecraft/tags/item/enchantable/mining.json
 e123b62adc32190fa710b156e7002aca4882a2b8 data/minecraft/tags/item/enchantable/mining_loot.json
 e123b62adc32190fa710b156e7002aca4882a2b8 data/minecraft/tags/item/enchantable/vanishing.json
+5e0d663ae057e45b12a305d463726ca2a734c273 data/minecraft/tags/item/pickaxes.json
+db874faaad253292754e10108c61c9ac91772ef6 data/minecraft/tags/item/shovels.json
 8604788ccdeba6d7ae0f94b2ef8e2c9abc8c4b6a data/onlyhammersandexcavators/tags/item/diamond_excavators.json
 777fa84aae8d21258a146b4955c749077c87b9da data/onlyhammersandexcavators/tags/item/diamond_hammers.json
 d66fb20e8777303e009fa192c678b0444445c2c7 data/onlyhammersandexcavators/tags/item/emerald_excavators.json

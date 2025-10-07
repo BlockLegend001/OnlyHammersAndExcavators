@@ -1,22 +1,22 @@
-[14:07:14] [main/INFO]: ModLauncher running: args [--mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\src\main\resources, --launchTarget, forgedatadev, --assetIndex, asset-index, --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 5.0.6, --fml.mcVersion, 1.21.3, --fml.neoForgeVersion, 21.3.76, --fml.neoFormVersion, 20241023.131943]
-[14:07:14] [main/INFO]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.6+7-LTS
-[14:07:14] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.6 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
-[14:07:14] [main/WARN]: Configuration file D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\runs\data\config\fml.toml is not correct. Correcting
-[14:07:14] [main/INFO]: ImmediateWindowProvider not loading because launch target is forgedatadev
-[14:07:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
-[14:07:14] [main/WARN]: Configuration file D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\runs\data\config\fml.toml is not correct. Correcting
-[14:07:14] [main/INFO]: Found mod file "neoforge-21.3.76.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.76\neoforge-21.3.76.jar])]
-[14:07:14] [main/INFO]: Found mod file "neoforge-21.3.76.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.76\neoforge-21.3.76.jar])]
-[14:07:14] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
-[14:07:14] [main/INFO]: Found mod file "neoforge-21.3.76.jar" [locator: userdev mods and services, reader: mod manifest]
-[14:07:14] [main/INFO]: Found mod file "RoughlyEnoughItems-neoforge-17.0.803.jar" [locator: userdev mods and services, reader: mod manifest]
-[14:07:14] [main/INFO]: Found mod file "cloth-config-neoforge-16.0.141-neoforge.jar" [locator: userdev mods and services, reader: mod manifest]
-[14:07:14] [main/INFO]: Found mod file "architectury-neoforge-14.0.3.jar" [locator: userdev mods and services, reader: mod manifest]
-[14:07:14] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
-[14:07:14] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
-[14:07:14] [main/INFO]: Found 1 dependencies adding them to mods collection
-[14:07:14] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.3.76.jar" [parent: neoforge-21.3.76.jar, locator: jarinjar, reader: mod manifest]
-[14:07:14] [main/INFO]: 
+[18:10:58] [main/INFO]: ModLauncher running: args [--mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\src\main\resources, --launchTarget, forgedatadev, --assetIndex, asset-index, --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 5.0.6, --fml.mcVersion, 1.21.3, --fml.neoForgeVersion, 21.3.76, --fml.neoFormVersion, 20241023.131943]
+[18:10:58] [main/INFO]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[18:10:58] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.6 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[18:10:58] [main/WARN]: Configuration file D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\runs\data\config\fml.toml is not correct. Correcting
+[18:10:58] [main/INFO]: ImmediateWindowProvider not loading because launch target is forgedatadev
+[18:10:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[18:10:58] [main/WARN]: Configuration file D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\runs\data\config\fml.toml is not correct. Correcting
+[18:10:59] [main/INFO]: Found mod file "neoforge-21.3.76.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.76\neoforge-21.3.76.jar])]
+[18:10:59] [main/INFO]: Found mod file "neoforge-21.3.76.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.76\neoforge-21.3.76.jar])]
+[18:10:59] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[18:10:59] [main/INFO]: Found mod file "neoforge-21.3.76.jar" [locator: userdev mods and services, reader: mod manifest]
+[18:10:59] [main/INFO]: Found mod file "RoughlyEnoughItems-neoforge-17.0.803.jar" [locator: userdev mods and services, reader: mod manifest]
+[18:10:59] [main/INFO]: Found mod file "cloth-config-neoforge-16.0.141-neoforge.jar" [locator: userdev mods and services, reader: mod manifest]
+[18:10:59] [main/INFO]: Found mod file "architectury-neoforge-14.0.3.jar" [locator: userdev mods and services, reader: mod manifest]
+[18:10:59] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[18:10:59] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[18:10:59] [main/INFO]: Found 1 dependencies adding them to mods collection
+[18:10:59] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.3.76.jar" [parent: neoforge-21.3.76.jar, locator: jarinjar, reader: mod manifest]
+[18:10:59] [main/INFO]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -24,22 +24,22 @@
 		Cloth Config v16 API 16.0.141 (cloth_config)
 		Minecraft 1.21.3 (minecraft)
 		NeoForge 21.3.76 (neoforge)
-		OnlyHammersAndExcavators 1.21.3-0.4 (onlyhammersandexcavators)
+		OnlyHammersAndExcavators 1.21.3-0.8 (onlyhammersandexcavators)
 		Roughly Enough Items (REI) 17.0.803 (roughlyenoughitems)
-[14:07:15] [main/INFO]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\src\main\resources, --assetIndex, asset-index]
-[14:07:15] [main/WARN]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
-[12mag2025 14:07:15.799] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlyhammersandexcavators]
-[12mag2025 14:07:15.810] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[12mag2025 14:07:20.842] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.3.76, for MC 1.21.3
-[12mag2025 14:07:21.403] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Only%20Hammers%20&%20Excavators/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.76/neoforge-21.3.76.jar%23221!/assets/.mcassetsroot' uses unexpected schema
-[12mag2025 14:07:21.403] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Only%20Hammers%20&%20Excavators/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.76/neoforge-21.3.76.jar%23221!/data/.mcassetsroot' uses unexpected schema
-[12mag2025 14:07:21.685] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: onlyhammersandexcavators
-[12mag2025 14:07:21.708] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: onlyhammersandexcavators finished after 22 ms
-[12mag2025 14:07:21.709] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlyhammersandexcavators
-[12mag2025 14:07:21.722] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlyhammersandexcavators finished after 12 ms
-[12mag2025 14:07:21.722] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id onlyhammersandexcavators
-[12mag2025 14:07:21.741] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id onlyhammersandexcavators finished after 19 ms
-[12mag2025 14:07:21.742] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[12mag2025 14:07:21.793] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 50 ms
-[12mag2025 14:07:21.793] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 108 ms
-[12mag2025 14:07:21.808] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 84, old count: 84, new count: 85, removed stale: 0, written: 1
+[18:10:59] [main/INFO]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --mod, onlyhammersandexcavators, --all, --output, D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Only Hammers & Excavators\NEOFORGE\1.21.3\src\main\resources, --assetIndex, asset-index]
+[18:10:59] [main/WARN]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
+[11set2025 18:11:00.701] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlyhammersandexcavators]
+[11set2025 18:11:00.718] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11set2025 18:11:05.511] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.3.76, for MC 1.21.3
+[11set2025 18:11:05.880] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Only%20Hammers%20&%20Excavators/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.76/neoforge-21.3.76.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[11set2025 18:11:05.880] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Only%20Hammers%20&%20Excavators/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.76/neoforge-21.3.76.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[11set2025 18:11:06.060] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: onlyhammersandexcavators
+[11set2025 18:11:06.078] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: onlyhammersandexcavators finished after 17 ms
+[11set2025 18:11:06.078] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlyhammersandexcavators
+[11set2025 18:11:06.110] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlyhammersandexcavators finished after 30 ms
+[11set2025 18:11:06.110] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id onlyhammersandexcavators
+[11set2025 18:11:06.123] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id onlyhammersandexcavators finished after 12 ms
+[11set2025 18:11:06.123] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[11set2025 18:11:06.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 32 ms
+[11set2025 18:11:06.155] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 94 ms
+[11set2025 18:11:06.166] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 90, old count: 84, new count: 91, removed stale: 0, written: 6
