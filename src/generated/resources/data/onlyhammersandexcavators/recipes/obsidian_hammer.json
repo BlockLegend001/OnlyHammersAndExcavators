@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "BBB",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "onlyhammersandexcavators:obsidian_hammer"
+  },
+  "show_notification": true
+}
