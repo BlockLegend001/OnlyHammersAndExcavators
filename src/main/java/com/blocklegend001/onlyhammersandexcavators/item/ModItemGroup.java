@@ -16,6 +16,7 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.NETHERITE_HAMMER)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.WOODEN_HAMMER);
                         entries.add(ModItems.STONE_HAMMER);
+                        entries.add(ModItems.COPPER_HAMMER);
                         entries.add(ModItems.IRON_HAMMER);
                         entries.add(ModItems.GOLD_HAMMER);
                         entries.add(ModItems.LAPIS_HAMMER);
@@ -26,6 +27,7 @@ public class ModItemGroup {
 
                         entries.add(ModItems.WOODEN_EXCAVATOR);
                         entries.add(ModItems.STONE_EXCAVATOR);
+                        entries.add(ModItems.COPPER_EXCAVATOR);
                         entries.add(ModItems.IRON_EXCAVATOR);
                         entries.add(ModItems.GOLD_EXCAVATOR);
                         entries.add(ModItems.LAPIS_EXCAVATOR);

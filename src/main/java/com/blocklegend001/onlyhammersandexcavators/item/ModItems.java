@@ -20,6 +20,10 @@ public class ModItems {
             new Excavator(ModToolMaterials.STONE_EXCAVATOR, 1.5F, -3.0F,
                     new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyHammersAndExcavators.MOD_ID, "stone_excavator")))));
 
+    public static final Item COPPER_EXCAVATOR = registerItem("copper_excavator",
+            new Excavator(ModToolMaterials.COPPER_EXCAVATOR, 1.5F, -3.0F,
+                    new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyHammersAndExcavators.MOD_ID, "copper_excavator")))));
+
     public static final Item IRON_EXCAVATOR = registerItem("iron_excavator",
             new Excavator(ModToolMaterials.IRON_EXCAVATOR, 1.5F, -3.0F,
                     new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyHammersAndExcavators.MOD_ID, "iron_excavator")))));
@@ -61,6 +65,11 @@ public class ModItems {
             new Hammer(ModToolMaterials.STONE_HAMMER, 1, -3.3F,
                     new Item.Settings().maxCount(1)
                             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyHammersAndExcavators.MOD_ID, "stone_hammer")))));
+
+    public static final Item COPPER_HAMMER = registerItem("copper_hammer",
+            new Hammer(ModToolMaterials.COPPER_HAMMER, 1, -3.3F,
+                    new Item.Settings().maxCount(1)
+                            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyHammersAndExcavators.MOD_ID, "copper_hammer")))));
 
     public static final Item IRON_HAMMER = registerItem("iron_hammer",
             new Hammer(ModToolMaterials.IRON_HAMMER, 1, -3.3F,

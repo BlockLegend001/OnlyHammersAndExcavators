@@ -7,29 +7,31 @@ import net.minecraft.item.Item;
 import java.util.Map;
 
 public class RadiusMap {
-    public static final Map<Item, Integer> EXCAVATOR_RADIUS_MAP = Map.of(
-            ModItems.WOODEN_EXCAVATOR, ModConfigs.RadiusWoodenExcavator,
-            ModItems.STONE_EXCAVATOR, ModConfigs.RadiusStoneExcavator,
-            ModItems.IRON_EXCAVATOR, ModConfigs.RadiusIronExcavator,
-            ModItems.GOLD_EXCAVATOR, ModConfigs.RadiusGoldExcavator,
-            ModItems.LAPIS_EXCAVATOR, ModConfigs.RadiusLapisExcavator,
-            ModItems.REDSTONE_EXCAVATOR, ModConfigs.RadiusRedstoneExcavator,
-            ModItems.OBSIDIAN_EXCAVATOR, ModConfigs.RadiusObsidianExcavator,
-            ModItems.DIAMOND_EXCAVATOR, ModConfigs.RadiusDiamondExcavator,
-            ModItems.EMERALD_EXCAVATOR, ModConfigs.RadiusEmeraldExcavator,
-            ModItems.NETHERITE_EXCAVATOR, ModConfigs.RadiusNetheriteExcavator
+    public static final Map<Item, Integer> EXCAVATOR_RADIUS_MAP = Map.ofEntries(
+            Map.entry(ModItems.WOODEN_EXCAVATOR, ModConfigs.RadiusWoodenExcavator),
+            Map.entry(ModItems.STONE_EXCAVATOR, ModConfigs.RadiusStoneExcavator),
+            Map.entry(ModItems.COPPER_EXCAVATOR, ModConfigs.RadiusCopperExcavator),
+            Map.entry(ModItems.IRON_EXCAVATOR, ModConfigs.RadiusIronExcavator),
+            Map.entry(ModItems.GOLD_EXCAVATOR, ModConfigs.RadiusGoldExcavator),
+            Map.entry(ModItems.LAPIS_EXCAVATOR, ModConfigs.RadiusLapisExcavator),
+            Map.entry(ModItems.REDSTONE_EXCAVATOR, ModConfigs.RadiusRedstoneExcavator),
+            Map.entry(ModItems.OBSIDIAN_EXCAVATOR, ModConfigs.RadiusObsidianExcavator),
+            Map.entry(ModItems.DIAMOND_EXCAVATOR, ModConfigs.RadiusDiamondExcavator),
+            Map.entry(ModItems.EMERALD_EXCAVATOR, ModConfigs.RadiusEmeraldExcavator),
+            Map.entry(ModItems.NETHERITE_EXCAVATOR, ModConfigs.RadiusNetheriteExcavator)
     );
 
-    public static final Map<Item, Integer> HAMMER_RADIUS_MAP = Map.of(
-            ModItems.WOODEN_HAMMER, ModConfigs.RadiusWoodenHammer,
-            ModItems.STONE_HAMMER, ModConfigs.RadiusStoneHammer,
-            ModItems.IRON_HAMMER, ModConfigs.RadiusIronHammer,
-            ModItems.GOLD_HAMMER, ModConfigs.RadiusGoldHammer,
-            ModItems.LAPIS_HAMMER, ModConfigs.RadiusLapisHammer,
-            ModItems.REDSTONE_HAMMER, ModConfigs.RadiusRedstoneHammer,
-            ModItems.OBSIDIAN_HAMMER, ModConfigs.RadiusObsidianHammer,
-            ModItems.DIAMOND_HAMMER, ModConfigs.RadiusDiamondHammer,
-            ModItems.EMERALD_HAMMER, ModConfigs.RadiusEmeraldHammer,
-            ModItems.NETHERITE_HAMMER, ModConfigs.RadiusNetheriteHammer
+    public static final Map<Item, Integer> HAMMER_RADIUS_MAP = Map.ofEntries(
+            Map.entry(ModItems.WOODEN_HAMMER, ModConfigs.RadiusWoodenHammer),
+            Map.entry(ModItems.STONE_HAMMER, ModConfigs.RadiusStoneHammer),
+            Map.entry(ModItems.COPPER_HAMMER, ModConfigs.RadiusCopperHammer),
+            Map.entry(ModItems.IRON_HAMMER, ModConfigs.RadiusIronHammer),
+            Map.entry(ModItems.GOLD_HAMMER, ModConfigs.RadiusGoldHammer),
+            Map.entry(ModItems.LAPIS_HAMMER, ModConfigs.RadiusLapisHammer),
+            Map.entry(ModItems.REDSTONE_HAMMER, ModConfigs.RadiusRedstoneHammer),
+            Map.entry(ModItems.OBSIDIAN_HAMMER, ModConfigs.RadiusObsidianHammer),
+            Map.entry(ModItems.DIAMOND_HAMMER, ModConfigs.RadiusDiamondHammer),
+            Map.entry(ModItems.EMERALD_HAMMER, ModConfigs.RadiusEmeraldHammer),
+            Map.entry(ModItems.NETHERITE_HAMMER, ModConfigs.RadiusNetheriteHammer)
     );
 }
