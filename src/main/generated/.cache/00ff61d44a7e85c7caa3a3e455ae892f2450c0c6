@@ -1,14 +1,16 @@
 // 1.21.9	-999999999-01-01T00:00:00	OnlyHammersAndExcavators/Tags for minecraft:item
-588534e77a75685009abcf17ccfbea5b7a4d9fb5 data/c/tags/item/tools.json
-588534e77a75685009abcf17ccfbea5b7a4d9fb5 data/c/tags/item/tools/mining_tool.json
-588534e77a75685009abcf17ccfbea5b7a4d9fb5 data/minecraft/tags/item/breaks_decorated_pots.json
-4baac0c385687c1f2ee3d806bbbf9c87898eacb3 data/minecraft/tags/item/cluster_max_harvestables.json
-588534e77a75685009abcf17ccfbea5b7a4d9fb5 data/minecraft/tags/item/enchantable/durability.json
-588534e77a75685009abcf17ccfbea5b7a4d9fb5 data/minecraft/tags/item/enchantable/mining.json
-588534e77a75685009abcf17ccfbea5b7a4d9fb5 data/minecraft/tags/item/enchantable/mining_loot.json
-588534e77a75685009abcf17ccfbea5b7a4d9fb5 data/minecraft/tags/item/enchantable/vanishing.json
-4baac0c385687c1f2ee3d806bbbf9c87898eacb3 data/minecraft/tags/item/pickaxes.json
-7ab9be85e9fd5c28171b856da8d8dd12905e6fe7 data/minecraft/tags/item/shovels.json
+72769d9006166bbb40ce15b9f2c5ad293d70d81c data/c/tags/item/tools.json
+72769d9006166bbb40ce15b9f2c5ad293d70d81c data/c/tags/item/tools/mining_tool.json
+72769d9006166bbb40ce15b9f2c5ad293d70d81c data/minecraft/tags/item/breaks_decorated_pots.json
+f2fb0589e0ab05bcc65a57398600f6eb474edbfb data/minecraft/tags/item/cluster_max_harvestables.json
+72769d9006166bbb40ce15b9f2c5ad293d70d81c data/minecraft/tags/item/enchantable/durability.json
+72769d9006166bbb40ce15b9f2c5ad293d70d81c data/minecraft/tags/item/enchantable/mining.json
+72769d9006166bbb40ce15b9f2c5ad293d70d81c data/minecraft/tags/item/enchantable/mining_loot.json
+72769d9006166bbb40ce15b9f2c5ad293d70d81c data/minecraft/tags/item/enchantable/vanishing.json
+f2fb0589e0ab05bcc65a57398600f6eb474edbfb data/minecraft/tags/item/pickaxes.json
+33ae67617496d1fe490d95195b0c854b540e232c data/minecraft/tags/item/shovels.json
+74f657c6cbc681af9cf9cceb68816c7c23ed0c87 data/onlyhammersandexcavators/tags/item/copper_excavator.json
+2dc7307376ce07497c8208bdeefbdadad16b4e52 data/onlyhammersandexcavators/tags/item/copper_hammer.json
 8604788ccdeba6d7ae0f94b2ef8e2c9abc8c4b6a data/onlyhammersandexcavators/tags/item/diamond_excavator.json
 777fa84aae8d21258a146b4955c749077c87b9da data/onlyhammersandexcavators/tags/item/diamond_hammer.json
 d66fb20e8777303e009fa192c678b0444445c2c7 data/onlyhammersandexcavators/tags/item/emerald_excavator.json

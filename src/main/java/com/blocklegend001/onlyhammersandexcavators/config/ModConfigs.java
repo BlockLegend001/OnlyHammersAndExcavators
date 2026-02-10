@@ -11,6 +11,7 @@ public class ModConfigs {
 
     public static int DurabilityWoodenExcavator;
     public static int DurabilityStoneExcavator;
+    public static int DurabilityCopperExcavator;
     public static int DurabilityIronExcavator;
     public static int DurabilityGoldExcavator;
     public static int DurabilityLapisExcavator;
@@ -22,6 +23,7 @@ public class ModConfigs {
 
     public static int DurabilityWoodenHammer;
     public static int DurabilityStoneHammer;
+    public static int DurabilityCopperHammer;
     public static int DurabilityIronHammer;
     public static int DurabilityGoldHammer;
     public static int DurabilityLapisHammer;
@@ -33,6 +35,7 @@ public class ModConfigs {
 
     public static int RadiusWoodenExcavator;
     public static int RadiusStoneExcavator;
+    public static int RadiusCopperExcavator;
     public static int RadiusIronExcavator;
     public static int RadiusGoldExcavator;
     public static int RadiusLapisExcavator;
@@ -44,6 +47,7 @@ public class ModConfigs {
 
     public static int RadiusWoodenHammer;
     public static int RadiusStoneHammer;
+    public static int RadiusCopperHammer;
     public static int RadiusIronHammer;
     public static int RadiusGoldHammer;
     public static int RadiusLapisHammer;
@@ -67,6 +71,7 @@ public class ModConfigs {
 
         configs.addKeyValuePair(new Pair<>("DurabilityWoodenExcavator", 302), "Durability of the Wooden Excavator");
         configs.addKeyValuePair(new Pair<>("DurabilityStoneExcavator", 650), "Durability of the Stone Excavator");
+        configs.addKeyValuePair(new Pair<>("DurabilityCopperExcavator", 850), "Durability of the Copper Excavator");
         configs.addKeyValuePair(new Pair<>("DurabilityIronExcavator", 1300), "Durability of the Iron Excavator");
         configs.addKeyValuePair(new Pair<>("DurabilityGoldExcavator", 750), "Durability of the Gold Excavator");
         configs.addKeyValuePair(new Pair<>("DurabilityLapisExcavator", 1100), "Durability of the Lapis Excavator");
@@ -80,6 +85,7 @@ public class ModConfigs {
 
         configs.addKeyValuePair(new Pair<>("DurabilityWoodenHammer", 302), "Durability of the Wooden Hammer");
         configs.addKeyValuePair(new Pair<>("DurabilityStoneHammer", 650), "Durability of the Stone Hammer");
+        configs.addKeyValuePair(new Pair<>("DurabilityCopperHammer", 850), "Durability of the Copper Hammer");
         configs.addKeyValuePair(new Pair<>("DurabilityIronHammer", 1300), "Durability of the Iron Hammer");
         configs.addKeyValuePair(new Pair<>("DurabilityGoldHammer", 750), "Durability of the Gold Hammer");
         configs.addKeyValuePair(new Pair<>("DurabilityLapisHammer", 1100), "Durability of the Lapis Hammer");
@@ -93,6 +99,7 @@ public class ModConfigs {
 
         configs.addKeyValuePair(new Pair<>("RadiusWoodenExcavator", 1), "Excavation radius for Wooden Excavator (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusStoneExcavator", 1), "Excavation radius for Stone Excavator (radius 1 = 3×1 area)");
+        configs.addKeyValuePair(new Pair<>("RadiusCopperExcavator", 1), "Excavation radius for Copper Excavator (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusIronExcavator", 1), "Excavation radius for Iron Excavator (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusGoldExcavator", 1), "Excavation radius for Gold Excavator (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusLapisExcavator", 1), "Excavation radius for Lapis Excavator (radius 1 = 3×1 area)");
@@ -106,6 +113,7 @@ public class ModConfigs {
 
         configs.addKeyValuePair(new Pair<>("RadiusWoodenHammer", 1), "Hammering radius for Wooden Hammer (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusStoneHammer", 1), "Hammering radius for Stone Hammer (radius 1 = 3×1 area)");
+        configs.addKeyValuePair(new Pair<>("RadiusCopperHammer", 1), "Excavation radius for Copper Hammer (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusIronHammer", 1), "Hammering radius for Iron Hammer (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusGoldHammer", 1), "Hammering radius for Gold Hammer (radius 1 = 3×1 area)");
         configs.addKeyValuePair(new Pair<>("RadiusLapisHammer", 1), "Hammering radius for Lapis Hammer (radius 1 = 3×1 area)");
@@ -119,6 +127,7 @@ public class ModConfigs {
     private static void assignConfigs() {
         DurabilityWoodenExcavator = CONFIG.getOrDefault("DurabilityWoodenExcavator", 302);
         DurabilityStoneExcavator = CONFIG.getOrDefault("DurabilityStoneExcavator", 650);
+        DurabilityCopperExcavator = CONFIG.getOrDefault("DurabilityCopperExcavator", 850);
         DurabilityIronExcavator = CONFIG.getOrDefault("DurabilityIronExcavator", 1300);
         DurabilityGoldExcavator = CONFIG.getOrDefault("DurabilityGoldExcavator", 750);
         DurabilityLapisExcavator = CONFIG.getOrDefault("DurabilityLapisExcavator", 1100);
@@ -130,6 +139,7 @@ public class ModConfigs {
 
         DurabilityWoodenHammer = CONFIG.getOrDefault("DurabilityWoodenHammer", 302);
         DurabilityStoneHammer = CONFIG.getOrDefault("DurabilityStoneHammer", 650);
+        DurabilityCopperHammer = CONFIG.getOrDefault("DurabilityCopperHammer", 850);
         DurabilityIronHammer = CONFIG.getOrDefault("DurabilityIronHammer", 1300);
         DurabilityGoldHammer = CONFIG.getOrDefault("DurabilityGoldHammer", 750);
         DurabilityLapisHammer = CONFIG.getOrDefault("DurabilityLapisHammer", 1100);
@@ -141,6 +151,7 @@ public class ModConfigs {
 
         RadiusWoodenExcavator = CONFIG.getOrDefault("RadiusWoodenExcavator", 1);
         RadiusStoneExcavator = CONFIG.getOrDefault("RadiusStoneExcavator", 1);
+        RadiusCopperExcavator = CONFIG.getOrDefault("RadiusCopperExcavator", 1);
         RadiusIronExcavator = CONFIG.getOrDefault("RadiusIronExcavator", 1);
         RadiusGoldExcavator = CONFIG.getOrDefault("RadiusGoldExcavator", 1);
         RadiusLapisExcavator = CONFIG.getOrDefault("RadiusLapisExcavator", 1);
@@ -152,6 +163,7 @@ public class ModConfigs {
 
         RadiusWoodenHammer = CONFIG.getOrDefault("RadiusWoodenHammer", 1);
         RadiusStoneHammer = CONFIG.getOrDefault("RadiusStoneHammer", 1);
+        RadiusCopperHammer = CONFIG.getOrDefault("RadiusCopperHammer", 1);
         RadiusIronHammer = CONFIG.getOrDefault("RadiusIronHammer", 1);
         RadiusGoldHammer = CONFIG.getOrDefault("RadiusGoldHammer", 1);
         RadiusLapisHammer = CONFIG.getOrDefault("RadiusLapisHammer", 1);
