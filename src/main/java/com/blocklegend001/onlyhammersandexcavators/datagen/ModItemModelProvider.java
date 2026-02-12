@@ -36,6 +36,7 @@ public class ModItemModelProvider extends ModelProvider
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         toolModel(itemModels, ModItems.WOODEN_HAMMER.get());
         toolModel(itemModels, ModItems.STONE_HAMMER.get());
+        toolModel(itemModels, ModItems.COPPER_HAMMER.get());
         toolModel(itemModels, ModItems.IRON_HAMMER.get());
         toolModel(itemModels, ModItems.REDSTONE_HAMMER.get());
         toolModel(itemModels, ModItems.LAPIS_HAMMER.get());
@@ -47,6 +48,7 @@ public class ModItemModelProvider extends ModelProvider
 
         toolModel(itemModels, ModItems.WOODEN_EXCAVATOR.get());
         toolModel(itemModels, ModItems.STONE_EXCAVATOR.get());
+        toolModel(itemModels, ModItems.COPPER_EXCAVATOR.get());
         toolModel(itemModels, ModItems.IRON_EXCAVATOR.get());
         toolModel(itemModels, ModItems.REDSTONE_EXCAVATOR.get());
         toolModel(itemModels, ModItems.LAPIS_EXCAVATOR.get());

@@ -11,6 +11,7 @@ public class ModTags {
 
         public static final TagKey<Item> WOODEN_HAMMERS = tag("wooden_hammers");
         public static final TagKey<Item> STONE_HAMMERS = tag("stone_hammers");
+        public static final TagKey<Item> COPPER_HAMMERS = tag("copper_hammers");
         public static final TagKey<Item> IRON_HAMMERS = tag("iron_hammers");
         public static final TagKey<Item> GOLD_HAMMERS = tag("gold_hammers");
         public static final TagKey<Item> LAPIS_HAMMERS = tag("lapis_hammers");
@@ -22,6 +23,7 @@ public class ModTags {
 
         public static final TagKey<Item> WOODEN_EXCAVATORS = tag("wooden_excavators");
         public static final TagKey<Item> STONE_EXCAVATORS = tag("stone_excavators");
+        public static final TagKey<Item> COPPER_EXCAVATORS = tag("copper_excavators");
         public static final TagKey<Item> IRON_EXCAVATORS = tag("iron_excavators");
         public static final TagKey<Item> GOLD_EXCAVATORS = tag("gold_excavators");
         public static final TagKey<Item> LAPIS_EXCAVATORS = tag("lapis_excavators");
