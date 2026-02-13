@@ -24,6 +24,7 @@ public class OnlyHammersAndExcavators {
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.WOODEN_HAMMER.get());
                 output.accept(ModItems.STONE_HAMMER.get());
+                output.accept(ModItems.COPPER_HAMMER.get());
                 output.accept(ModItems.IRON_HAMMER.get());
                 output.accept(ModItems.GOLD_HAMMER.get());
                 output.accept(ModItems.REDSTONE_HAMMER.get());
@@ -35,6 +36,7 @@ public class OnlyHammersAndExcavators {
 
                 output.accept(ModItems.WOODEN_EXCAVATOR.get());
                 output.accept(ModItems.STONE_EXCAVATOR.get());
+                output.accept(ModItems.COPPER_EXCAVATOR.get());
                 output.accept(ModItems.IRON_EXCAVATOR.get());
                 output.accept(ModItems.GOLD_EXCAVATOR.get());
                 output.accept(ModItems.REDSTONE_EXCAVATOR.get());

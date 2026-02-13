@@ -24,6 +24,10 @@ public class ModItems {
             () -> new Hammer(ModToolMaterials.STONE_HAMMER, 1, -3.3F, new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MODID, "stone_hammer")))));
 
+    public static final DeferredItem<Item> COPPER_HAMMER = ITEMS.register("copper_hammer",
+            () -> new Hammer(ModToolMaterials.COPPER_HAMMER, 1, -3.3F, new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MODID, "copper_hammer")))));
+
     public static final DeferredItem<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
             () -> new Hammer(ModToolMaterials.IRON_HAMMER, 1, -3.3F, new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MODID, "iron_hammer")))));
@@ -63,6 +67,10 @@ public class ModItems {
     public static final DeferredItem<Item> STONE_EXCAVATOR = ITEMS.register("stone_excavator",
             () -> new Excavator(ModToolMaterials.STONE_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MODID, "stone_excavator")))));
+
+    public static final DeferredItem<Item> COPPER_EXCAVATOR = ITEMS.register("copper_excavator",
+            () -> new Excavator(ModToolMaterials.COPPER_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MODID, "copper_excavator")))));
 
     public static final DeferredItem<Item> IRON_EXCAVATOR = ITEMS.register("iron_excavator",
             () -> new Excavator(ModToolMaterials.IRON_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()

@@ -15,6 +15,7 @@ public class ModConfigs {
 
     public static int DurabilityWoodenExcavator = 302;
     public static int DurabilityStoneExcavator = 650;
+    public static int DurabilityCopperExcavator = 850;
     public static int DurabilityIronExcavator = 1300;
     public static int DurabilityGoldExcavator = 750;
     public static int DurabilityLapisExcavator = 1100;
@@ -26,6 +27,7 @@ public class ModConfigs {
 
     public static int radiusWoodenExcavator = 1;
     public static int radiusStoneExcavator = 1;
+    public static int radiusCopperExcavator = 1;
     public static int radiusIronExcavator = 1;
     public static int radiusGoldExcavator = 1;
     public static int radiusLapisExcavator = 1;
@@ -37,6 +39,7 @@ public class ModConfigs {
 
     public static int DurabilityWoodenHammer = 302;
     public static int DurabilityStoneHammer = 650;
+    public static int DurabilityCopperHammer = 850;
     public static int DurabilityIronHammer = 1300;
     public static int DurabilityGoldHammer = 750;
     public static int DurabilityLapisHammer = 1100;
@@ -48,6 +51,7 @@ public class ModConfigs {
 
     public static int radiusWoodenHammer = 1;
     public static int radiusStoneHammer = 1;
+    public static int radiusCopperHammer = 1;
     public static int radiusIronHammer = 1;
     public static int radiusGoldHammer = 1;
     public static int radiusLapisHammer = 1;
@@ -67,6 +71,7 @@ public class ModConfigs {
 
                 DurabilityWoodenHammer = config.get("DurabilityWoodenHammer").getAsInt();
                 DurabilityStoneHammer = config.get("DurabilityStoneHammer").getAsInt();
+                DurabilityCopperHammer = config.get("DurabilityCopperHammer").getAsInt();
                 DurabilityIronHammer = config.get("DurabilityIronHammer").getAsInt();
                 DurabilityGoldHammer = config.get("DurabilityGoldHammer").getAsInt();
                 DurabilityLapisHammer = config.get("DurabilityLapisHammer").getAsInt();
@@ -78,6 +83,7 @@ public class ModConfigs {
 
                 radiusWoodenHammer = config.get("radiusWoodenHammer").getAsInt();
                 radiusStoneHammer = config.get("radiusStoneHammer").getAsInt();
+                radiusCopperHammer = config.get("radiusCopperHammer").getAsInt();
                 radiusIronHammer = config.get("radiusIronHammer").getAsInt();
                 radiusGoldHammer = config.get("radiusGoldHammer").getAsInt();
                 radiusLapisHammer = config.get("radiusLapisHammer").getAsInt();
@@ -89,6 +95,7 @@ public class ModConfigs {
 
                 DurabilityWoodenExcavator = config.get("DurabilityWoodenExcavator").getAsInt();
                 DurabilityStoneExcavator = config.get("DurabilityStoneExcavator").getAsInt();
+                DurabilityCopperExcavator = config.get("DurabilityCopperExcavator").getAsInt();
                 DurabilityIronExcavator = config.get("DurabilityIronExcavator").getAsInt();
                 DurabilityGoldExcavator = config.get("DurabilityGoldExcavator").getAsInt();
                 DurabilityLapisExcavator = config.get("DurabilityLapisExcavator").getAsInt();
@@ -100,6 +107,7 @@ public class ModConfigs {
 
                 radiusWoodenExcavator = config.get("radiusWoodenExcavator").getAsInt();
                 radiusStoneExcavator = config.get("radiusStoneExcavator").getAsInt();
+                radiusCopperExcavator = config.get("radiusCopperExcavator").getAsInt();
                 radiusIronExcavator = config.get("radiusIronExcavator").getAsInt();
                 radiusGoldExcavator = config.get("radiusGoldExcavator").getAsInt();
                 radiusLapisExcavator = config.get("radiusLapisExcavator").getAsInt();
@@ -119,6 +127,7 @@ public class ModConfigs {
 
         config.addProperty("DurabilityWoodenHammer", DurabilityWoodenHammer);
         config.addProperty("DurabilityStoneHammer", DurabilityStoneHammer);
+        config.addProperty("DurabilityCopperHammer", DurabilityCopperHammer);
         config.addProperty("DurabilityIronHammer", DurabilityIronHammer);
         config.addProperty("DurabilityGoldHammer", DurabilityGoldHammer);
         config.addProperty("DurabilityLapisHammer", DurabilityLapisHammer);
@@ -130,6 +139,7 @@ public class ModConfigs {
 
         config.addProperty("radiusWoodenHammer", radiusWoodenHammer);
         config.addProperty("radiusStoneHammer", radiusStoneHammer);
+        config.addProperty("radiusCopperHammer", radiusCopperHammer);
         config.addProperty("radiusIronHammer", radiusIronHammer);
         config.addProperty("radiusGoldHammer", radiusGoldHammer);
         config.addProperty("radiusLapisHammer", radiusLapisHammer);
@@ -141,6 +151,7 @@ public class ModConfigs {
 
         config.addProperty("DurabilityWoodenExcavator", DurabilityWoodenExcavator);
         config.addProperty("DurabilityStoneExcavator", DurabilityStoneExcavator);
+        config.addProperty("DurabilityCopperExcavator", DurabilityCopperExcavator);
         config.addProperty("DurabilityIronExcavator", DurabilityIronExcavator);
         config.addProperty("DurabilityGoldExcavator", DurabilityGoldExcavator);
         config.addProperty("DurabilityLapisExcavator", DurabilityLapisExcavator);
@@ -152,6 +163,7 @@ public class ModConfigs {
 
         config.addProperty("radiusWoodenExcavator", radiusWoodenExcavator);
         config.addProperty("radiusStoneExcavator", radiusStoneExcavator);
+        config.addProperty("radiusCopperExcavator", radiusCopperExcavator);
         config.addProperty("radiusIronExcavator", radiusIronExcavator);
         config.addProperty("radiusGoldExcavator", radiusGoldExcavator);
         config.addProperty("radiusLapisExcavator", radiusLapisExcavator);
@@ -160,7 +172,6 @@ public class ModConfigs {
         config.addProperty("radiusDiamondExcavator", radiusDiamondExcavator);
         config.addProperty("radiusEmeraldExcavator", radiusEmeraldExcavator);
         config.addProperty("radiusNetheriteExcavator", radiusNetheriteExcavator);
-
         try (FileWriter writer = new FileWriter(CONFIG_FILE)) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             writer.write(gson.toJson(config));

@@ -1,241 +1,240 @@
-[08ott2025 11:37:41.280] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 141ms
-[08ott2025 11:37:41.295] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.14 (CLIENT in DEV)
-[08ott2025 11:37:41.296] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client
-[08ott2025 11:37:41.298] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client
-[08ott2025 11:37:41.298] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path JIJ_CACHEDIR is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij
-[08ott2025 11:37:41.298] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\mods
-[08ott2025 11:37:41.299] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\config
-[08ott2025 11:37:41.299] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\config\fml.toml
-[08ott2025 11:37:41.338] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 0 early service jars (out of 0) in 3ms
-[08ott2025 11:37:41.340] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[08ott2025 11:37:41.384] [main/DEBUG] [net.neoforged.fml.earlydisplay.theme.ThemeLoader/]: Loading built-in theme default
-[08ott2025 11:37:41.766] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
-[08ott2025 11:37:41.767] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.GameLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:41.768] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:41.769] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevJarLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:41.769] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:41.772] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
-[08ott2025 11:37:41.773] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:41.773] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:41.776] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
-[08ott2025 11:37:41.777] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:41.816] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.RequiredSystemFiles/]: Found NeoForge MANIFEST.MF in jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar)
-[08ott2025 11:37:41.819] [ForkJoinPool.commonPool-worker-1/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
-[08ott2025 11:37:41.925] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-1.21.9-client-extra.jar with {minecraft} mods - versions {1.21.9}
-[08ott2025 11:37:41.929] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.9\client-1.21.9-client-extra.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
-[08ott2025 11:37:41.931] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar
-[08ott2025 11:37:41.937] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.9.16-beta.jar with {neoforge} mods - versions {21.9.16-beta}
-[08ott2025 11:37:41.938] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
-[08ott2025 11:37:41.946] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[], behaviorVersion=null]
-[08ott2025 11:37:41.948] [ForkJoinPool.commonPool-worker-1/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates 1.21.9%%D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\resources\main;1.21.9%%D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\classes\java\main from env
-[08ott2025 11:37:41.958] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\resources\main
-[08ott2025 11:37:41.968] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {onlyhammersandexcavators} mods - versions {1.21.9-0.1}
-[08ott2025 11:37:41.969] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
-[08ott2025 11:37:41.969] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=onlyhammersandexcavators.mixins.json, requiredMods=[], behaviorVersion=null]
-[08ott2025 11:37:41.973] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar because it was already located earlier
-[08ott2025 11:37:42.011] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: Intel(R) UHD Graphics GL version 3.3.0 - Build 31.0.101.5592, Intel
-[08ott2025 11:37:42.026] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar with languages []
-[08ott2025 11:37:42.130] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507\mixinextras-neoforge-0.5.0.jar with languages []
-[08ott2025 11:37:42.132] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar with languages []
-[08ott2025 11:37:42.182] [ForkJoinPool.commonPool-worker-1/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[08ott2025 11:37:42.183] [ForkJoinPool.commonPool-worker-1/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[08ott2025 11:37:42.186] [ForkJoinPool.commonPool-worker-1/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[13feb2026 11:57:38.206] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 116ms
+[13feb2026 11:57:38.214] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.21 (CLIENT in DEV)
+[13feb2026 11:57:38.215] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client
+[13feb2026 11:57:38.217] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client
+[13feb2026 11:57:38.217] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path JIJ_CACHEDIR is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij
+[13feb2026 11:57:38.217] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\mods
+[13feb2026 11:57:38.218] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\config
+[13feb2026 11:57:38.218] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\config\fml.toml
+[13feb2026 11:57:38.241] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 0 early service jars (out of 0) in 2ms
+[13feb2026 11:57:38.243] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[13feb2026 11:57:38.279] [main/DEBUG] [net.neoforged.fml.earlydisplay.theme.ThemeLoader/]: Loading built-in theme default
+[13feb2026 11:57:38.799] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
+[13feb2026 11:57:38.800] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.GameLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:38.801] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:38.802] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevJarLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:38.802] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:38.804] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
+[13feb2026 11:57:38.805] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:38.805] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:38.808] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
+[13feb2026 11:57:38.808] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:38.839] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.RequiredSystemFiles/]: Found NeoForge MANIFEST.MF in jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar)
+[13feb2026 11:57:38.842] [ForkJoinPool.commonPool-worker-1/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[13feb2026 11:57:38.967] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-1.21.10-client-extra.jar with {minecraft} mods - versions {1.21.10}
+[13feb2026 11:57:38.970] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.10\client-1.21.10-client-extra.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[13feb2026 11:57:38.973] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar
+[13feb2026 11:57:38.983] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.10.17-beta.jar with {neoforge} mods - versions {21.10.17-beta}
+[13feb2026 11:57:38.983] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[13feb2026 11:57:38.990] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[], behaviorVersion=null]
+[13feb2026 11:57:38.992] [ForkJoinPool.commonPool-worker-1/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates 1.21.10%%D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\build\resources\main;1.21.10%%D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\build\classes\java\main from env
+[13feb2026 11:57:38.999] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\build\resources\main
+[13feb2026 11:57:39.007] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {onlyhammersandexcavators} mods - versions {1.21.10-0.2}
+[13feb2026 11:57:39.008] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[13feb2026 11:57:39.008] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=onlyhammersandexcavators.mixins.json, requiredMods=[], behaviorVersion=null]
+[13feb2026 11:57:39.010] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar because it was already located earlier
+[13feb2026 11:57:39.032] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: NVIDIA GeForce RTX 4050 Laptop GPU/PCIe/SSE2 GL version 3.3.0 NVIDIA 591.74, NVIDIA Corporation
+[13feb2026 11:57:39.033] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar with languages []
+[13feb2026 11:57:39.130] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507\mixinextras-neoforge-0.5.0.jar with languages []
+[13feb2026 11:57:39.133] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar with languages []
+[13feb2026 11:57:39.172] [ForkJoinPool.commonPool-worker-1/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 11:57:39.172] [ForkJoinPool.commonPool-worker-1/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[13feb2026 11:57:39.176] [ForkJoinPool.commonPool-worker-1/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
-		Minecraft 1.21.9 (minecraft)
-		NeoForge 21.9.16-beta (neoforge)
-		OnlyHammersAndExcavators 1.21.9-0.1 (onlyhammersandexcavators)
-[08ott2025 11:37:42.192] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
-[08ott2025 11:37:42.193] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
-[08ott2025 11:37:42.193] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
-[08ott2025 11:37:42.195] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
-[08ott2025 11:37:42.196] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[08ott2025 11:37:42.346] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar Service=FML Env=CLIENT
-[08ott2025 11:37:42.399] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[08ott2025 11:37:42.399] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleVirtual(fml:18c85)
-[08ott2025 11:37:42.404] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
-[08ott2025 11:37:42.405] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
-[08ott2025 11:37:42.406] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
-[08ott2025 11:37:42.406] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
-[08ott2025 11:37:42.410] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[08ott2025 11:37:42.411] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[08ott2025 11:37:42.413] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[08ott2025 11:37:42.415] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - .cache/jij/51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1/net.neoforged.neoforge-coremods-21.9.16-beta.jar
-[08ott2025 11:37:42.427] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModLanguageLoader:
-[08ott2025 11:37:42.427] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:42.428] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:42.430] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 10.0
-[08ott2025 11:37:42.433] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 10.0
-[08ott2025 11:37:42.535] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 5 implementations of ClassProcessor:
-[08ott2025 11:37:42.535] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.AccessTransformerService from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:42.535] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.enumextension.RuntimeEnumExtender from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:42.535] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.SimpleProcessorsGroup from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:42.536] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.moddiscovery.locators.NeoForgeDevDistCleaner from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:42.536] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.mixin.FMLMixinClassProcessor from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.14/a59c38c4017e3b1f1ba076c7d37aa73081760e30/loader-10.0.14.jar
-[08ott2025 11:37:42.542] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ClassProcessorProvider:
-[08ott2025 11:37:42.542] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from .cache/jij/51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1/net.neoforged.neoforge-coremods-21.9.16-beta.jar
-[08ott2025 11:37:42.619] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Masking classpath elements: [D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.9/build/classes/java/main, C:/Users/rosar/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.5.0/d734b83ce6542bb70ea31755c1595b88992dbe65/mixinextras-neoforge-0.5.0.jar, D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.9/build/resources/main, D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.9/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.9.16-beta/neoforge-21.9.16-beta.jar, D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.9/.gradle/repositories/ng_dummy_ng/net/minecraft/client/1.21.9/client-1.21.9-client-extra.jar]
-[08ott2025 11:37:42.721] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
- - minecraft (composite(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.9\client-1.21.9-client-extra.jar), filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar))))
+		Minecraft 1.21.10 (minecraft)
+		NeoForge 21.10.17-beta (neoforge)
+		OnlyHammersAndExcavators 1.21.10-0.2 (onlyhammersandexcavators)
+[13feb2026 11:57:39.181] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[13feb2026 11:57:39.181] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[13feb2026 11:57:39.181] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[13feb2026 11:57:39.184] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[13feb2026 11:57:39.184] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[13feb2026 11:57:39.410] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[13feb2026 11:57:39.455] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[13feb2026 11:57:39.455] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleVirtual(fml:18c85)
+[13feb2026 11:57:39.458] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
+[13feb2026 11:57:39.460] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
+[13feb2026 11:57:39.460] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
+[13feb2026 11:57:39.460] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
+[13feb2026 11:57:39.462] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[13feb2026 11:57:39.462] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[13feb2026 11:57:39.464] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[13feb2026 11:57:39.465] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.10/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.10.17-beta/neoforge-21.10.17-beta.jar > net.neoforged.neoforge-coremods-21.10.17-beta.jar
+[13feb2026 11:57:39.474] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModLanguageLoader:
+[13feb2026 11:57:39.474] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:39.474] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:39.476] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 10.0
+[13feb2026 11:57:39.478] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 10.0
+[13feb2026 11:57:39.547] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 5 implementations of ClassProcessor:
+[13feb2026 11:57:39.547] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.AccessTransformerService from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:39.547] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.enumextension.RuntimeEnumExtender from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:39.548] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.SimpleProcessorsGroup from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:39.548] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.moddiscovery.locators.NeoForgeDevDistCleaner from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:39.548] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.mixin.FMLMixinClassProcessor from C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.21/55579d5aed96492eb5862e14dfd7a92d2087603f/loader-10.0.21.jar
+[13feb2026 11:57:39.551] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ClassProcessorProvider:
+[13feb2026 11:57:39.552] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.10/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.10.17-beta/neoforge-21.10.17-beta.jar > net.neoforged.neoforge-coremods-21.10.17-beta.jar
+[13feb2026 11:57:39.608] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Masking classpath elements: [D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.10/build/classes/java/main, C:/Users/rosar/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.5.0/d734b83ce6542bb70ea31755c1595b88992dbe65/mixinextras-neoforge-0.5.0.jar, D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.10/build/resources/main, D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.10/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.10.17-beta/neoforge-21.10.17-beta.jar, D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.10/.gradle/repositories/ng_dummy_ng/net/minecraft/client/1.21.10/client-1.21.10-client-extra.jar]
+[13feb2026 11:57:39.622] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - minecraft (composite(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.10\client-1.21.10-client-extra.jar), filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))))
  - mixinextras.neoforge (jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar))
- - neoforge (composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar))))
+ - neoforge (composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))))
  - net.neoforged.fml.generated (empty(VirtualJar\net.neoforged.fml.generated))
- - onlyhammersandexcavators (composite(folder(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\resources\main), folder(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\classes\java\main)))
-[08ott2025 11:37:42.743] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 123ms
-[08ott2025 11:37:42.854] [main/DEBUG] [mixin/]: Compatibility level JAVA_8 specified by onlyhammersandexcavators.mixins.json is lower than the default level supported by the current mixin service (JAVA_21).
-[08ott2025 11:37:42.862] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[08ott2025 11:37:42.862] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[08ott2025 11:37:42.863] [main/DEBUG] [mixin/]: Adding agents for Mixin Container Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]
-[08ott2025 11:37:42.863] [main/DEBUG] [mixin/]: Adding mixin platform agents for container Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]
-[08ott2025 11:37:42.863] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]
-[08ott2025 11:37:42.863] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]
-[08ott2025 11:37:42.863] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]
-[08ott2025 11:37:42.863] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]
-[08ott2025 11:37:42.863] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]]
-[08ott2025 11:37:42.863] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]]
-[08ott2025 11:37:42.865] [main/DEBUG] [mixin/]: Adding agents for Mixin Container Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[08ott2025 11:37:42.865] [main/DEBUG] [mixin/]: Adding mixin platform agents for container Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[08ott2025 11:37:42.865] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[08ott2025 11:37:42.865] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[08ott2025 11:37:42.865] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[08ott2025 11:37:42.865] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[08ott2025 11:37:42.866] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]]
-[08ott2025 11:37:42.866] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[08ott2025 11:37:42.872] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]]
-[08ott2025 11:37:42.872] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[08ott2025 11:37:42.872] [main/DEBUG] [mixin/]: inject() running with 3 agents
-[08ott2025 11:37:42.873] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[08ott2025 11:37:42.873] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[08ott2025 11:37:42.873] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]]
-[08ott2025 11:37:42.874] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar] > Jar[D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.9.16-beta.jar]]
-[08ott2025 11:37:42.874] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]]
-[08ott2025 11:37:42.874] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]]
-[08ott2025 11:37:42.886] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[08ott2025 11:37:42.887] [main/DEBUG] [mixin/]: Selecting config onlyhammersandexcavators.mixins.json
-[08ott2025 11:37:42.909] [main/WARN] [mixin/]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
-[08ott2025 11:37:42.909] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
-[08ott2025 11:37:42.910] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
-[08ott2025 11:37:43.013] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
-[08ott2025 11:37:43.040] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
-[08ott2025 11:37:43.042] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
-[08ott2025 11:37:43.043] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
-[08ott2025 11:37:43.045] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
-[08ott2025 11:37:43.047] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
-[08ott2025 11:37:43.048] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
-[08ott2025 11:37:43.056] [main/DEBUG] [mixin/]: Preparing onlyhammersandexcavators.mixins.json (4)
-[08ott2025 11:37:43.127] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
-[08ott2025 11:37:43.136] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
-[08ott2025 11:37:43.145] [main/DEBUG] [mixin/]: Prepared 4 mixins in 0,257 sec (64,2ms avg) (0ms load, 0ms transform, 0ms plugin)
-[08ott2025 11:37:43.241] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
-[08ott2025 11:37:43.244] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
-[08ott2025 11:37:43.244] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
-[08ott2025 11:37:44.335] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 502 milliseconds
-[08ott2025 11:37:44.518] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[08ott2025 11:37:44.520] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
-[08ott2025 11:37:44.520] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
-[08ott2025 11:37:44.521] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
-[08ott2025 11:37:44.529] [pool-8-thread-1/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
-[08ott2025 11:37:45.478] [pool-8-thread-1/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
-[08ott2025 11:37:47.206] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
-[08ott2025 11:37:47.207] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
-[08ott2025 11:37:47.207] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
-[08ott2025 11:37:47.208] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
-[08ott2025 11:37:47.208] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
-[08ott2025 11:37:47.209] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
-[08ott2025 11:37:47.210] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
-[08ott2025 11:37:47.211] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
-[08ott2025 11:37:47.211] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
-[08ott2025 11:37:47.211] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\rosar\AppData\Local\Temp (java.io.tmpdir)
-[08ott2025 11:37:47.211] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[08ott2025 11:37:47.211] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
-[08ott2025 11:37:47.212] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
-[08ott2025 11:37:47.212] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[08ott2025 11:37:47.213] [pool-8-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
-[08ott2025 11:37:47.214] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
-[08ott2025 11:37:49.583] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08ott2025 11:37:49.584] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08ott2025 11:37:49.586] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08ott2025 11:37:49.587] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08ott2025 11:37:49.588] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08ott2025 11:37:49.589] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
-[08ott2025 11:37:49.635] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
-[08ott2025 11:37:49.648] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for onlyhammersandexcavators with entrypoints [com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators]
-[08ott2025 11:37:49.652] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for neoforge with entrypoints [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.common.OnlyInWarningsHandler, net.neoforged.neoforge.client.ClientNeoForgeMod]
-[08ott2025 11:37:49.686] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.9.16-beta
-[08ott2025 11:37:49.687] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.9.16-beta, for MC 1.21.9
-[08ott2025 11:37:49.696] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for onlyhammersandexcavators
-[08ott2025 11:37:49.697] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.blocklegend001.onlyhammersandexcavators.datagen.DataGenerators for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.700] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.blocklegend001.onlyhammersandexcavators.datagen.DataGenerators.gatherData(net.neoforged.neoforge.data.event.GatherDataEvent$Client) to the event bus of mod onlyhammersandexcavators
-[08ott2025 11:37:49.700] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.blocklegend001.onlyhammersandexcavators.event.ModEventsExcavator for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.701] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.blocklegend001.onlyhammersandexcavators.event.ModEventsExcavator.onExcavatorUsage(net.neoforged.neoforge.event.level.BlockEvent$BreakEvent) to the game event bus
-[08ott2025 11:37:49.702] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.blocklegend001.onlyhammersandexcavators.event.ModEventsHammer for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.702] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.blocklegend001.onlyhammersandexcavators.event.ModEventsHammer.onHammerUsage(net.neoforged.neoforge.event.level.BlockEvent$BreakEvent) to the game event bus
-[08ott2025 11:37:49.709] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
-[08ott2025 11:37:49.711] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
-[08ott2025 11:37:49.760] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
-[08ott2025 11:37:49.783] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
-[08ott2025 11:37:49.784] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.785] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
-[08ott2025 11:37:49.785] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
-[08ott2025 11:37:49.785] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.788] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
-[08ott2025 11:37:49.789] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.791] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRegisterClientCommands(net.neoforged.neoforge.client.event.RegisterClientCommandsEvent) to the game event bus
-[08ott2025 11:37:49.793] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onExtractLevelRenderState(net.neoforged.neoforge.client.event.ExtractLevelRenderStateEvent) to the game event bus
-[08ott2025 11:37:49.793] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRenderLevelStage(net.neoforged.neoforge.client.event.RenderLevelStageEvent$AfterEntities) to the game event bus
-[08ott2025 11:37:49.794] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.NeoForgeRenderPipelines for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.811] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method static void net.neoforged.neoforge.client.NeoForgeRenderPipelines.registerPipelines(net.neoforged.neoforge.client.event.RegisterRenderPipelinesEvent) to the event bus of mod neoforge
-[08ott2025 11:37:49.812] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.network.ClientPayloadHandler for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.824] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.client.network.ClientPayloadHandler.register(net.neoforged.neoforge.client.network.event.RegisterClientPayloadHandlersEvent) to the event bus of mod neoforge
-[08ott2025 11:37:49.825] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.825] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
-[08ott2025 11:37:49.826] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.model.data.ModelDataManager for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.827] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.model.data.ModelDataManager.onChunkUnload(net.neoforged.neoforge.event.level.ChunkEvent$Unload) to the game event bus
-[08ott2025 11:37:49.827] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.832] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
-[08ott2025 11:37:49.832] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.834] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
-[08ott2025 11:37:49.834] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
-[08ott2025 11:37:49.860] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
-[08ott2025 11:37:49.860] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
-[08ott2025 11:37:49.863] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@fc15091
-[08ott2025 11:37:49.869] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[08ott2025 11:37:49.869] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[08ott2025 11:37:49.871] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
-[08ott2025 11:37:49.871] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
-[08ott2025 11:37:49.871] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
-[08ott2025 11:37:49.872] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
-[08ott2025 11:37:49.872] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
-[08ott2025 11:37:49.872] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
-[08ott2025 11:37:49.872] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
-[08ott2025 11:37:49.872] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[08ott2025 11:37:49.872] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
-[08ott2025 11:37:49.872] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[08ott2025 11:37:49.872] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
-[08ott2025 11:37:49.873] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[08ott2025 11:37:49.873] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
-[08ott2025 11:37:49.879] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
-[08ott2025 11:37:49.879] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
-[08ott2025 11:37:49.879] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[08ott2025 11:37:49.884] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
-[08ott2025 11:37:50.051] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
-[08ott2025 11:37:50.065] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
-[08ott2025 11:37:50.066] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\config\neoforge-client.toml
-[08ott2025 11:37:50.075] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\config\neoforge-client.toml for changes
-[08ott2025 11:37:50.075] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[08ott2025 11:37:50.077] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
-[08ott2025 11:37:50.078] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\config\neoforge-common.toml
-[08ott2025 11:37:50.078] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\config\neoforge-common.toml for changes
-[08ott2025 11:37:50.311] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[08ott2025 11:37:50.352] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[08ott2025 11:37:50.529] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[08ott2025 11:37:50.705] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
-[08ott2025 11:37:51.039] [Download-2/ERROR] [net.minecraft.client.Minecraft/]: Failed to fetch user properties
+ - onlyhammersandexcavators (composite(folder(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\build\resources\main), folder(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\build\classes\java\main)))
+[13feb2026 11:57:39.642] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 33ms
+[13feb2026 11:57:39.736] [main/DEBUG] [mixin/]: Compatibility level JAVA_8 specified by onlyhammersandexcavators.mixins.json is lower than the default level supported by the current mixin service (JAVA_21).
+[13feb2026 11:57:39.743] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[13feb2026 11:57:39.743] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[13feb2026 11:57:39.744] [main/DEBUG] [mixin/]: Adding agents for Mixin Container composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)
+[13feb2026 11:57:39.744] [main/DEBUG] [mixin/]: Adding mixin platform agents for container composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)
+[13feb2026 11:57:39.744] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)
+[13feb2026 11:57:39.744] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)
+[13feb2026 11:57:39.744] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)
+[13feb2026 11:57:39.746] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)
+[13feb2026 11:57:39.746] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)]
+[13feb2026 11:57:39.746] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)]
+[13feb2026 11:57:39.746] [main/DEBUG] [mixin/]: Adding agents for Mixin Container jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 11:57:39.746] [main/DEBUG] [mixin/]: Adding mixin platform agents for container jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 11:57:39.746] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 11:57:39.746] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 11:57:39.746] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 11:57:39.746] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 11:57:39.747] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)]
+[13feb2026 11:57:39.747] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 11:57:39.750] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)]
+[13feb2026 11:57:39.750] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 11:57:39.750] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[13feb2026 11:57:39.750] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[13feb2026 11:57:39.750] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[13feb2026 11:57:39.750] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)]
+[13feb2026 11:57:39.751] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))) > jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.17-beta.jar)]
+[13feb2026 11:57:39.751] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)]
+[13feb2026 11:57:39.751] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)]
+[13feb2026 11:57:39.759] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[13feb2026 11:57:39.759] [main/DEBUG] [mixin/]: Selecting config onlyhammersandexcavators.mixins.json
+[13feb2026 11:57:39.770] [main/WARN] [mixin/]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
+[13feb2026 11:57:39.770] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[13feb2026 11:57:39.771] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[13feb2026 11:57:39.846] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
+[13feb2026 11:57:39.912] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[13feb2026 11:57:39.913] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[13feb2026 11:57:39.914] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[13feb2026 11:57:39.916] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[13feb2026 11:57:39.917] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[13feb2026 11:57:39.918] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[13feb2026 11:57:39.926] [main/DEBUG] [mixin/]: Preparing onlyhammersandexcavators.mixins.json (4)
+[13feb2026 11:57:39.980] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[13feb2026 11:57:39.989] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[13feb2026 11:57:40.076] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[13feb2026 11:57:40.078] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[13feb2026 11:57:40.078] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[13feb2026 11:57:41.233] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13feb2026 11:57:41.237] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[13feb2026 11:57:41.243] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[13feb2026 11:57:41.247] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[13feb2026 11:57:41.271] [pool-8-thread-1/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[13feb2026 11:57:42.546] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 2016 milliseconds
+[13feb2026 11:57:44.084] [pool-8-thread-1/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[13feb2026 11:57:48.815] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[13feb2026 11:57:48.818] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[13feb2026 11:57:48.820] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[13feb2026 11:57:48.821] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
+[13feb2026 11:57:48.822] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[13feb2026 11:57:48.823] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[13feb2026 11:57:48.826] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[13feb2026 11:57:48.828] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[13feb2026 11:57:48.828] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[13feb2026 11:57:48.829] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\rosar\AppData\Local\Temp (java.io.tmpdir)
+[13feb2026 11:57:48.829] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[13feb2026 11:57:48.830] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[13feb2026 11:57:48.831] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[13feb2026 11:57:48.831] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[13feb2026 11:57:48.833] [pool-8-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[13feb2026 11:57:48.834] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[13feb2026 11:57:52.541] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13feb2026 11:57:52.542] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13feb2026 11:57:52.547] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13feb2026 11:57:52.549] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13feb2026 11:57:52.550] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13feb2026 11:57:52.551] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[13feb2026 11:57:52.580] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[13feb2026 11:57:52.598] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for onlyhammersandexcavators with entrypoints [com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators]
+[13feb2026 11:57:52.600] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for neoforge with entrypoints [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.common.OnlyInWarningsHandler, net.neoforged.neoforge.client.ClientNeoForgeMod]
+[13feb2026 11:57:52.618] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.10.17-beta
+[13feb2026 11:57:52.619] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.17-beta, for MC 1.21.10
+[13feb2026 11:57:52.624] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for onlyhammersandexcavators
+[13feb2026 11:57:52.626] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.blocklegend001.onlyhammersandexcavators.datagen.DataGenerators for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.628] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.blocklegend001.onlyhammersandexcavators.datagen.DataGenerators.gatherData(net.neoforged.neoforge.data.event.GatherDataEvent$Client) to the event bus of mod onlyhammersandexcavators
+[13feb2026 11:57:52.628] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.blocklegend001.onlyhammersandexcavators.event.ModEventsExcavator for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.629] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.blocklegend001.onlyhammersandexcavators.event.ModEventsExcavator.onExcavatorUsage(net.neoforged.neoforge.event.level.BlockEvent$BreakEvent) to the game event bus
+[13feb2026 11:57:52.629] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.blocklegend001.onlyhammersandexcavators.event.ModEventsHammer for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.629] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.blocklegend001.onlyhammersandexcavators.event.ModEventsHammer.onHammerUsage(net.neoforged.neoforge.event.level.BlockEvent$BreakEvent) to the game event bus
+[13feb2026 11:57:52.634] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[13feb2026 11:57:52.636] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[13feb2026 11:57:52.675] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[13feb2026 11:57:52.688] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[13feb2026 11:57:52.689] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.690] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
+[13feb2026 11:57:52.690] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
+[13feb2026 11:57:52.691] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.693] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
+[13feb2026 11:57:52.693] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.696] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onExtractLevelRenderState(net.neoforged.neoforge.client.event.ExtractLevelRenderStateEvent) to the game event bus
+[13feb2026 11:57:52.696] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRegisterClientCommands(net.neoforged.neoforge.client.event.RegisterClientCommandsEvent) to the game event bus
+[13feb2026 11:57:52.696] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRenderLevelStage(net.neoforged.neoforge.client.event.RenderLevelStageEvent$AfterEntities) to the game event bus
+[13feb2026 11:57:52.697] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.NeoForgeRenderPipelines for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.707] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method static void net.neoforged.neoforge.client.NeoForgeRenderPipelines.registerPipelines(net.neoforged.neoforge.client.event.RegisterRenderPipelinesEvent) to the event bus of mod neoforge
+[13feb2026 11:57:52.708] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.network.ClientPayloadHandler for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.716] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.client.network.ClientPayloadHandler.register(net.neoforged.neoforge.client.network.event.RegisterClientPayloadHandlersEvent) to the event bus of mod neoforge
+[13feb2026 11:57:52.717] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.717] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
+[13feb2026 11:57:52.717] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.model.data.ModelDataManager for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.718] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.model.data.ModelDataManager.onChunkUnload(net.neoforged.neoforge.event.level.ChunkEvent$Unload) to the game event bus
+[13feb2026 11:57:52.718] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.721] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
+[13feb2026 11:57:52.721] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.721] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[13feb2026 11:57:52.722] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[13feb2026 11:57:52.737] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[13feb2026 11:57:52.738] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[13feb2026 11:57:52.738] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@484368d6
+[13feb2026 11:57:52.743] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[13feb2026 11:57:52.744] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[13feb2026 11:57:52.746] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[13feb2026 11:57:52.747] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[13feb2026 11:57:52.752] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[13feb2026 11:57:52.752] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[13feb2026 11:57:52.752] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[13feb2026 11:57:52.756] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[13feb2026 11:57:52.860] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[13feb2026 11:57:52.872] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[13feb2026 11:57:52.872] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\config\neoforge-client.toml
+[13feb2026 11:57:52.885] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\config\neoforge-client.toml for changes
+[13feb2026 11:57:52.886] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[13feb2026 11:57:52.888] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[13feb2026 11:57:52.888] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\config\neoforge-common.toml
+[13feb2026 11:57:52.889] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\config\neoforge-common.toml for changes
+[13feb2026 11:57:53.040] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13feb2026 11:57:53.063] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[13feb2026 11:57:53.187] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[13feb2026 11:57:53.319] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[13feb2026 11:57:53.742] [Download-2/ERROR] [net.minecraft.client.Minecraft/]: Failed to fetch user properties
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-7.0.61.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150) ~[authlib-7.0.61.jar:?]
-	at TRANSFORMER/minecraft@1.21.9/net.minecraft.client.Minecraft.lambda$new$1(Minecraft.java:437) ~[client-1.21.9-client-extra.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.client.Minecraft.lambda$new$1(Minecraft.java:437) ~[client-1.21.10-client-extra.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
@@ -245,282 +244,287 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-7.0.61.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121) ~[authlib-7.0.61.jar:?]
 	... 5 more
-[08ott2025 11:37:51.410] [Render thread/DEBUG] [mixin/]: Mixing LevelRendererExcavatorMixin from onlyhammersandexcavators.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[08ott2025 11:37:51.411] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererExcavatorMixin from mod onlyhammersandexcavators: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[08ott2025 11:37:51.481] [Render thread/DEBUG] [mixin/]: Mixing LevelRendererHammerMixin from onlyhammersandexcavators.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[08ott2025 11:37:51.481] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[08ott2025 11:37:51.572] [Render thread/WARN] [mixin/]: Method overwrite conflict for getSelectionBox in onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators, previously written by com.blocklegend001.onlyhammersandexcavators.mixin.LevelRendererExcavatorMixin. Skipping method.
-[08ott2025 11:37:51.591] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererExcavatorMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
-[08ott2025 11:37:51.591] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererExcavatorMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
-[08ott2025 11:37:51.591] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererExcavatorMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
-[08ott2025 11:37:51.592] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
-[08ott2025 11:37:51.593] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
-[08ott2025 11:37:51.593] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
-[08ott2025 11:37:51.595] [Render thread/DEBUG] [mixin/]: Unexpected: Registered method getSelectionBox(ILnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/AABB; in net.minecraft.client.renderer.LevelRenderer was not merged
-[08ott2025 11:37:51.905] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/onlyhammersandexcavators, mod/neoforge
-[08ott2025 11:37:52.160] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
-[08ott2025 11:37:52.172] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 7.698 ms
-[08ott2025 11:37:52.262] [Download-2/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[08ott2025 11:37:52.271] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[08ott2025 11:37:52.270] [Download-2/ERROR] [com.mojang.realmsclient.client.RealmsClient/]: Failed to fetch Realms feature flags
+[13feb2026 11:57:53.774] [Render thread/DEBUG] [mixin/]: Mixing LevelRendererExcavatorMixin from onlyhammersandexcavators.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[13feb2026 11:57:53.775] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererExcavatorMixin from mod onlyhammersandexcavators: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[13feb2026 11:57:53.829] [Render thread/DEBUG] [mixin/]: Mixing LevelRendererHammerMixin from onlyhammersandexcavators.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[13feb2026 11:57:53.830] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[13feb2026 11:57:53.851] [Render thread/WARN] [mixin/]: Method overwrite conflict for getSelectionBox in onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators, previously written by com.blocklegend001.onlyhammersandexcavators.mixin.LevelRendererExcavatorMixin. Skipping method.
+[13feb2026 11:57:53.869] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererExcavatorMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[13feb2026 11:57:53.869] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererExcavatorMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[13feb2026 11:57:53.869] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererExcavatorMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[13feb2026 11:57:53.871] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[13feb2026 11:57:53.871] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[13feb2026 11:57:53.871] [Render thread/DEBUG] [mixin/]: onlyhammersandexcavators.mixins.json:LevelRendererHammerMixin from mod onlyhammersandexcavators->@Inject::renderLevelAfter(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[13feb2026 11:57:53.872] [Render thread/DEBUG] [mixin/]: Unexpected: Registered method getSelectionBox(ILnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/AABB; in net.minecraft.client.renderer.LevelRenderer was not merged
+[13feb2026 11:57:54.076] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/onlyhammersandexcavators, mod/neoforge
+[13feb2026 11:57:54.201] [Download-2/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[13feb2026 11:57:54.205] [Download-2/ERROR] [com.mojang.realmsclient.client.RealmsClient/]: Failed to fetch Realms feature flags
 com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
-	at TRANSFORMER/minecraft@1.21.9/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:522) ~[client-1.21.9-client-extra.jar:?]
-	at TRANSFORMER/minecraft@1.21.9/com.mojang.realmsclient.client.RealmsClient.fetchFeatureFlags(RealmsClient.java:163) ~[client-1.21.9-client-extra.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:522) ~[client-1.21.10-client-extra.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/com.mojang.realmsclient.client.RealmsClient.fetchFeatureFlags(RealmsClient.java:163) ~[client-1.21.10-client-extra.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[08ott2025 11:37:52.272] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[08ott2025 11:37:53.642] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.bamboo_wood_trapdoor.open
-[08ott2025 11:37:53.642] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.ambient', args=[]} for sound event: minecraft:entity.wolf.ambient
-[08ott2025 11:37:53.642] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.iron_trapdoor.open', args=[]} for sound event: minecraft:block.iron_trapdoor.open
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.iron_trapdoor.close', args=[]} for sound event: minecraft:block.iron_trapdoor.close
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.ambient', args=[]} for sound event: minecraft:entity.wolf.pant
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.ambient', args=[]} for sound event: minecraft:entity.wolf.whine
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.cherry_wood_trapdoor.open
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.cherry_wood_trapdoor.close
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.ambient.cave', args=[]} for sound event: minecraft:ambient.cave
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.bamboo_wood_trapdoor.close
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.nether_wood_trapdoor.close
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.wooden_trapdoor.close
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.nether_wood_trapdoor.open
-[08ott2025 11:37:53.643] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.wooden_trapdoor.open
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.armor.equip_copper
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:ui.hud.bubble_pop
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.cactus_flower.break
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.cactus_flower.place
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest.close
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest.open
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest_weathered.close
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest_weathered.open
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest_oxidized.close
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest_oxidized.open
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.step
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.hurt
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.death
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_weathered.step
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_weathered.hurt
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_weathered.death
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_oxidized.step
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_oxidized.hurt
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_oxidized.death
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.spin
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_weathered.spin
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_oxidized.spin
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.no_item_get
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.no_item_no_get
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.item_drop
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.item_no_drop
-[08ott2025 11:37:53.644] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_become_statue
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.break
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.place
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.hit
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.step
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.fall
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.spawn
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.shear
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.ambient
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.activate
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.deactivate
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.attack
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.death
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.step
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.freeze
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.unfreeze
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.spawn
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.sway
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.twitch
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.break
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.fall
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.hit
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.hurt
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.place
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.step
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.idle
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.spawn
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.deadbush.idle
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.break
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.step
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.fall
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.ambient
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.ambient_water
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.place
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.place_in_water
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.transition
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dry_grass.ambient
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.open_long
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.open
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.close_long
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.close
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.idle
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.firefly_bush.idle
-[08ott2025 11:37:53.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.ambient
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.death
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.hurt
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.spawn
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.ambient
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.death
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.hurt
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.riding
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.equip
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.unequip
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.harness_goggles_up
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.harness_goggles_down
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.horse_armor.unequip
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.break
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.step
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.place
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.hit
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.fall
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.break
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.step
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.place
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.hit
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.fall
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.lead.untied
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.lead.tied
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.lead.break
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.llama_carpet.unequip
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music_disc.lava_chicken
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music_disc.tears
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.pale_hanging_moss.idle
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.parrot.imitate.creaking
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.sand.idle
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.shears.snip
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.activate
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.break
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.deactivate
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.fall
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.hit
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.multi_swap
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.place
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.place_item
-[08ott2025 11:37:53.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.single_swap
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.step
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.take_item
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.spawner.fall
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.break
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.fall
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.place
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.step
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.break
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.fall
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.hit
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.place
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.step
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:weather.end_flash
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.ambient
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.death
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.growl
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.hurt
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.pant
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.whine
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.ambient
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.death
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.growl
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.hurt
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.pant
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.whine
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.ambient
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.death
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.growl
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.hurt
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.pant
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.whine
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.ambient
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.death
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.growl
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.hurt
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.pant
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.whine
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.ambient
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.death
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.growl
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.hurt
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.pant
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.whine
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.ambient
-[08ott2025 11:37:53.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.death
-[08ott2025 11:37:53.648] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.growl
-[08ott2025 11:37:53.648] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.hurt
-[08ott2025 11:37:53.648] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.pant
-[08ott2025 11:37:53.648] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.whine
-[08ott2025 11:37:53.648] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.saddle.unequip
-[08ott2025 11:37:53.713] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altoparlanti (Maonocaster G1 Neo)
-[08ott2025 11:37:53.713] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[08ott2025 11:37:53.715] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[08ott2025 11:37:53.724] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[08ott2025 11:37:53.725] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[08ott2025 11:37:53.741] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[08ott2025 11:37:53.743] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[08ott2025 11:37:53.745] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[08ott2025 11:37:53.808] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
-[08ott2025 11:37:53.810] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[08ott2025 11:37:53.812] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
-[08ott2025 11:37:53.813] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[08ott2025 11:37:53.836] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[08ott2025 11:37:53.839] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
-[08ott2025 11:37:53.840] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[08ott2025 11:37:53.915] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[08ott2025 11:37:54.059] [Render thread/DEBUG] [net.neoforged.fml.classloading.transformation.ClassTransformStatistics/]: Transformed/total loaded classes: 393/7038 (5,58%) and 45 parsed for mixin
-[08ott2025 11:37:54.196] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[08ott2025 11:37:54.196] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
+[13feb2026 11:57:54.250] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[13feb2026 11:57:54.256] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 4.896 ms
+[13feb2026 11:57:54.363] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[13feb2026 11:57:54.419] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[13feb2026 11:57:55.419] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.bamboo_wood_trapdoor.open
+[13feb2026 11:57:55.419] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.ambient', args=[]} for sound event: minecraft:entity.wolf.ambient
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.iron_trapdoor.open', args=[]} for sound event: minecraft:block.iron_trapdoor.open
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.iron_trapdoor.close', args=[]} for sound event: minecraft:block.iron_trapdoor.close
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.ambient', args=[]} for sound event: minecraft:entity.wolf.pant
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.ambient', args=[]} for sound event: minecraft:entity.wolf.whine
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.cherry_wood_trapdoor.open
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.cherry_wood_trapdoor.close
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.ambient.cave', args=[]} for sound event: minecraft:ambient.cave
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.bamboo_wood_trapdoor.close
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.nether_wood_trapdoor.close
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.wooden_trapdoor.close
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.nether_wood_trapdoor.open
+[13feb2026 11:57:55.420] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.wooden_trapdoor.open
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.armor.equip_copper
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:ui.hud.bubble_pop
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.cactus_flower.break
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.cactus_flower.place
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest.close
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest.open
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest_weathered.close
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest_weathered.open
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest_oxidized.close
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_chest_oxidized.open
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.step
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.hurt
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.death
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_weathered.step
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_weathered.hurt
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_weathered.death
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_oxidized.step
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_oxidized.hurt
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_oxidized.death
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.spin
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_weathered.spin
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_oxidized.spin
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.no_item_get
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.no_item_no_get
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.item_drop
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.item_no_drop
+[13feb2026 11:57:55.421] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem_become_statue
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.break
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.place
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.hit
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.step
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.copper_golem_statue.fall
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.spawn
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.copper_golem.shear
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.ambient
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.activate
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.deactivate
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.attack
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.death
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.step
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.freeze
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.unfreeze
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.spawn
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.sway
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.twitch
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.break
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.fall
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.hit
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.hurt
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.place
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.step
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.idle
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.spawn
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.deadbush.idle
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.break
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.step
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.fall
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.ambient
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.ambient_water
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.place
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.place_in_water
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.transition
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dry_grass.ambient
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.open_long
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.open
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.close_long
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.close
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.idle
+[13feb2026 11:57:55.422] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.firefly_bush.idle
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.ambient
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.death
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.hurt
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.spawn
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.ambient
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.death
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.hurt
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.riding
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.equip
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.unequip
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.harness_goggles_up
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.harness_goggles_down
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.horse_armor.unequip
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.break
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.step
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.place
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.hit
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.fall
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.break
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.step
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.place
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.hit
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.fall
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.lead.untied
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.lead.tied
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.lead.break
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.llama_carpet.unequip
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music_disc.lava_chicken
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music_disc.tears
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.pale_hanging_moss.idle
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.parrot.imitate.creaking
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.sand.idle
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.shears.snip
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.activate
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.break
+[13feb2026 11:57:55.423] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.deactivate
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.fall
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.hit
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.multi_swap
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.place
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.place_item
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.single_swap
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.step
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.shelf.take_item
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.spawner.fall
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.break
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.fall
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.place
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.step
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.break
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.fall
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.hit
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.place
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.step
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:weather.end_flash
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.ambient
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.death
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.growl
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.hurt
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.pant
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.whine
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.ambient
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.death
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.growl
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.hurt
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.pant
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.whine
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.ambient
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.death
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.growl
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.hurt
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.pant
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.whine
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.ambient
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.death
+[13feb2026 11:57:55.424] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.growl
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.hurt
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.pant
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.whine
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.ambient
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.death
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.growl
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.hurt
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.pant
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.whine
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.ambient
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.death
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.growl
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.hurt
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.pant
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.whine
+[13feb2026 11:57:55.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.saddle.unequip
+[13feb2026 11:57:55.504] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altoparlanti (Maonocaster G1 Neo)
+[13feb2026 11:57:55.507] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[13feb2026 11:57:55.507] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[13feb2026 11:57:55.512] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[13feb2026 11:57:55.512] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[13feb2026 11:57:55.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13feb2026 11:57:55.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[13feb2026 11:57:55.518] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[13feb2026 11:57:55.527] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
+[13feb2026 11:57:55.528] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[13feb2026 11:57:55.528] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[13feb2026 11:57:55.529] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[13feb2026 11:57:55.530] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[13feb2026 11:57:55.530] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[13feb2026 11:57:55.530] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13feb2026 11:57:55.622] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[13feb2026 11:57:55.777] [Render thread/DEBUG] [net.neoforged.fml.classloading.transformation.ClassTransformStatistics/]: Transformed/total loaded classes: 393/7040 (5,58%) and 45 parsed for mixin
+[13feb2026 11:57:55.916] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[13feb2026 11:57:55.916] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
 com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
-	at TRANSFORMER/minecraft@1.21.9/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:522) ~[client-1.21.9-client-extra.jar:?]
-	at TRANSFORMER/minecraft@1.21.9/com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:292) ~[client-1.21.9-client-extra.jar:?]
-	at TRANSFORMER/minecraft@1.21.9/com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:51) ~[client-1.21.9-client-extra.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:522) ~[client-1.21.10-client-extra.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:292) ~[client-1.21.10-client-extra.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:51) ~[client-1.21.10-client-extra.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[08ott2025 11:38:01.453] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1481 recipes
-[08ott2025 11:38:01.465] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1594 advancements
-[08ott2025 11:38:01.466] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[08ott2025 11:38:01.536] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[08ott2025 11:38:01.598] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.9
-[08ott2025 11:38:01.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08ott2025 11:38:01.654] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[08ott2025 11:38:01.656] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
-[08ott2025 11:38:01.656] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\config\neoforge-server.toml
-[08ott2025 11:38:01.656] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\client\config\neoforge-server.toml for changes
-[08ott2025 11:38:02.172] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[08ott2025 11:38:02.172] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[08ott2025 11:38:02.186] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[08ott2025 11:38:02.259] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
-[08ott2025 11:38:02.282] [Render thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
-[08ott2025 11:38:02.293] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
-[08ott2025 11:38:02.293] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
-[08ott2025 11:38:02.299] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
-[08ott2025 11:38:02.338] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 22736 (auto-detected)
-[08ott2025 11:38:02.340] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
-[08ott2025 11:38:02.340] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: system
-[08ott2025 11:38:02.353] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
-[08ott2025 11:38:02.353] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[08ott2025 11:38:02.472] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 34:5a:60:ff:fe:27:db:0f (auto-detected)
-[08ott2025 11:38:02.488] [Render thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
-[08ott2025 11:38:02.533] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
-[08ott2025 11:38:02.533] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
-[08ott2025 11:38:02.533] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
-[08ott2025 11:38:02.533] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
-[08ott2025 11:38:02.533] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
-[08ott2025 11:38:02.632] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@15ca99b into net.minecraft.network.Connection@6a4c0f4
-[08ott2025 11:38:02.637] [Netty Local Client IO #0/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@688528c4 into net.minecraft.network.Connection@60d5172a
-[08ott2025 11:38:02.819] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 49 chunks for player spawn...
-[08ott2025 11:38:02.819] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[08ott2025 11:38:03.098] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 927 ms
-[08ott2025 11:38:03.340] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@30cde6ac into net.minecraft.network.Connection@6a4c0f4
-[08ott2025 11:38:03.395] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:41e4f8d2] logged in with entity id 65 at (5.5, 69.0, 40.5)
-[08ott2025 11:38:03.407] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 0 recipes of the following types: []
-[08ott2025 11:38:03.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[08ott2025 11:38:03.637] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[08ott2025 11:38:03.692] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[08ott2025 11:38:03.694] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[08ott2025 11:38:03.699] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[08ott2025 11:38:03.711] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[08ott2025 11:38:03.815] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[08ott2025 11:38:04.001] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[08ott2025 11:38:04.083] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[08ott2025 11:38:04.162] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[08ott2025 11:38:04.377] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[08ott2025 11:38:04.884] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[08ott2025 11:38:06.084] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[13feb2026 11:58:00.116] [Render thread/WARN] [net.neoforged.neoforge.common.CommonHooks/WP]: The following mods have version differences that were not resolved:
+neoforge (version 21.9.16-beta -> 21.10.17-beta)
+onlyhammersandexcavators (version 1.21.9-0.1 -> 1.21.10-0.2)
+Things may not work well.
+[13feb2026 11:58:01.520] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1483 recipes
+[13feb2026 11:58:01.534] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1596 advancements
+[13feb2026 11:58:01.539] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[13feb2026 11:58:01.659] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[13feb2026 11:58:01.743] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.10
+[13feb2026 11:58:01.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13feb2026 11:58:01.793] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[13feb2026 11:58:01.796] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[13feb2026 11:58:01.796] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\config\neoforge-server.toml
+[13feb2026 11:58:01.796] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.10\runs\client\config\neoforge-server.toml for changes
+[13feb2026 11:58:02.346] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[13feb2026 11:58:02.347] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
+[13feb2026 11:58:02.360] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[13feb2026 11:58:02.438] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
+[13feb2026 11:58:02.448] [Render thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[13feb2026 11:58:02.457] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[13feb2026 11:58:02.457] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[13feb2026 11:58:02.463] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[13feb2026 11:58:02.506] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 15704 (auto-detected)
+[13feb2026 11:58:02.507] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[13feb2026 11:58:02.508] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: system
+[13feb2026 11:58:02.511] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[13feb2026 11:58:02.512] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[13feb2026 11:58:02.513] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 34:5a:60:ff:fe:27:db:0f (auto-detected)
+[13feb2026 11:58:02.527] [Render thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
+[13feb2026 11:58:02.616] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[13feb2026 11:58:02.617] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[13feb2026 11:58:02.617] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[13feb2026 11:58:02.617] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[13feb2026 11:58:02.617] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[13feb2026 11:58:02.744] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@31023428 into net.minecraft.network.Connection@71d55d23
+[13feb2026 11:58:02.747] [Netty Local Client IO #0/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@2420ae79 into net.minecraft.network.Connection@6f6d9bff
+[13feb2026 11:58:02.887] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 49 chunks for player spawn...
+[13feb2026 11:58:02.887] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
+[13feb2026 11:58:03.193] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 848 ms
+[13feb2026 11:58:03.413] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@1846ba55 into net.minecraft.network.Connection@71d55d23
+[13feb2026 11:58:03.487] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7726c88e] logged in with entity id 65 at (5.5, 69.0, 40.5)
+[13feb2026 11:58:03.496] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 0 recipes of the following types: []
+[13feb2026 11:58:03.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[13feb2026 11:58:03.726] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[13feb2026 11:58:03.739] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[13feb2026 11:58:03.741] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[13feb2026 11:58:03.786] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[13feb2026 11:58:03.796] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[13feb2026 11:58:03.857] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[13feb2026 11:58:04.037] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[13feb2026 11:58:04.106] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[13feb2026 11:58:04.261] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[13feb2026 11:58:04.586] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[13feb2026 11:58:04.965] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[13feb2026 11:58:06.039] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[13feb2026 11:58:09.388] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 21 advancements
