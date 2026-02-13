@@ -12,17 +12,18 @@ public class RadiusMap {
 
     public static Map<Item, Integer> getHammerRadius() {
         if (hammerRadius == null) {
-            hammerRadius = Map.of(
-                    ModItems.WOODEN_HAMMER.get(), ModConfigs.radiusWoodenHammer,
-                    ModItems.STONE_HAMMER.get(), ModConfigs.radiusStoneHammer,
-                    ModItems.IRON_HAMMER.get(), ModConfigs.radiusIronHammer,
-                    ModItems.GOLD_HAMMER.get(), ModConfigs.radiusGoldHammer,
-                    ModItems.LAPIS_HAMMER.get(), ModConfigs.radiusLapisHammer,
-                    ModItems.REDSTONE_HAMMER.get(), ModConfigs.radiusRedstoneHammer,
-                    ModItems.OBSIDIAN_HAMMER.get(), ModConfigs.radiusObsidianHammer,
-                    ModItems.DIAMOND_HAMMER.get(), ModConfigs.radiusDiamondHammer,
-                    ModItems.EMERALD_HAMMER.get(), ModConfigs.radiusEmeraldHammer,
-                    ModItems.NETHERITE_HAMMER.get(), ModConfigs.radiusNetheriteHammer
+            hammerRadius = Map.ofEntries(
+                    Map.entry(ModItems.WOODEN_HAMMER.get(), ModConfigs.radiusWoodenHammer),
+                    Map.entry(ModItems.STONE_HAMMER.get(), ModConfigs.radiusStoneHammer),
+                    Map.entry(ModItems.COPPER_HAMMER.get(), ModConfigs.radiusCopperHammer),
+                    Map.entry(ModItems.IRON_HAMMER.get(), ModConfigs.radiusIronHammer),
+                    Map.entry(ModItems.GOLD_HAMMER.get(), ModConfigs.radiusGoldHammer),
+                    Map.entry(ModItems.LAPIS_HAMMER.get(), ModConfigs.radiusLapisHammer),
+                    Map.entry(ModItems.REDSTONE_HAMMER.get(), ModConfigs.radiusRedstoneHammer),
+                    Map.entry(ModItems.OBSIDIAN_HAMMER.get(), ModConfigs.radiusObsidianHammer),
+                    Map.entry(ModItems.DIAMOND_HAMMER.get(), ModConfigs.radiusDiamondHammer),
+                    Map.entry(ModItems.EMERALD_HAMMER.get(), ModConfigs.radiusEmeraldHammer),
+                    Map.entry(ModItems.NETHERITE_HAMMER.get(), ModConfigs.radiusNetheriteHammer)
             );
         }
         return hammerRadius;
@@ -30,17 +31,18 @@ public class RadiusMap {
 
     public static Map<Item, Integer> getExcavatorRadius() {
         if (excavatorRadius == null) {
-            excavatorRadius = Map.of(
-                    ModItems.WOODEN_EXCAVATOR.get(), ModConfigs.radiusWoodenExcavator,
-                    ModItems.STONE_EXCAVATOR.get(), ModConfigs.radiusStoneExcavator,
-                    ModItems.IRON_EXCAVATOR.get(), ModConfigs.radiusIronExcavator,
-                    ModItems.GOLD_EXCAVATOR.get(), ModConfigs.radiusGoldExcavator,
-                    ModItems.LAPIS_EXCAVATOR.get(), ModConfigs.radiusLapisExcavator,
-                    ModItems.REDSTONE_EXCAVATOR.get(), ModConfigs.radiusRedstoneExcavator,
-                    ModItems.OBSIDIAN_EXCAVATOR.get(), ModConfigs.radiusObsidianExcavator,
-                    ModItems.DIAMOND_EXCAVATOR.get(), ModConfigs.radiusDiamondExcavator,
-                    ModItems.EMERALD_EXCAVATOR.get(), ModConfigs.radiusEmeraldExcavator,
-                    ModItems.NETHERITE_EXCAVATOR.get(), ModConfigs.radiusNetheriteExcavator
+            excavatorRadius = Map.ofEntries(
+                    Map.entry(ModItems.WOODEN_EXCAVATOR.get(), ModConfigs.radiusWoodenExcavator),
+                    Map.entry(ModItems.STONE_EXCAVATOR.get(), ModConfigs.radiusStoneExcavator),
+                    Map.entry(ModItems.COPPER_EXCAVATOR.get(), ModConfigs.radiusCopperExcavator),
+                    Map.entry(ModItems.IRON_EXCAVATOR.get(), ModConfigs.radiusIronExcavator),
+                    Map.entry(ModItems.GOLD_EXCAVATOR.get(), ModConfigs.radiusGoldExcavator),
+                    Map.entry(ModItems.LAPIS_EXCAVATOR.get(), ModConfigs.radiusLapisExcavator),
+                    Map.entry(ModItems.REDSTONE_EXCAVATOR.get(), ModConfigs.radiusRedstoneExcavator),
+                    Map.entry(ModItems.OBSIDIAN_EXCAVATOR.get(), ModConfigs.radiusObsidianExcavator),
+                    Map.entry(ModItems.DIAMOND_EXCAVATOR.get(), ModConfigs.radiusDiamondExcavator),
+                    Map.entry(ModItems.EMERALD_EXCAVATOR.get(), ModConfigs.radiusEmeraldExcavator),
+                    Map.entry(ModItems.NETHERITE_EXCAVATOR.get(), ModConfigs.radiusNetheriteExcavator)
             );
         }
         return excavatorRadius;

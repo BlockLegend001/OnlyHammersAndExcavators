@@ -1,42 +1,42 @@
-[07ott2025 21:31:21.332] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 118ms
-[07ott2025 21:31:21.344] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.14 (CLIENT in DEV)
-[07ott2025 21:31:21.345] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\clientData
-[07ott2025 21:31:21.436] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 0 early service jars (out of 0) in 50ms
-[07ott2025 21:31:21.438] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
-[07ott2025 21:31:21.487] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
-[07ott2025 21:31:21.574] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates 1.21.9%%D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\resources\main;1.21.9%%D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\classes\java\main from env
-[07ott2025 21:31:21.745] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
-[07ott2025 21:31:21.745] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[07ott2025 21:31:21.747] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[13feb2026 11:53:30.275] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 450ms
+[13feb2026 11:53:30.286] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.14 (CLIENT in DEV)
+[13feb2026 11:53:30.287] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\runs\clientData
+[13feb2026 11:53:30.323] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 0 early service jars (out of 0) in 2ms
+[13feb2026 11:53:30.325] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[13feb2026 11:53:30.371] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[13feb2026 11:53:30.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates 1.21.9%%D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\resources\main;1.21.9%%D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\classes\java\main from env
+[13feb2026 11:53:30.633] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
+[13feb2026 11:53:30.634] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[13feb2026 11:53:30.635] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Minecraft 1.21.9 (minecraft)
 		NeoForge 21.9.16-beta (neoforge)
-		OnlyHammersAndExcavators 1.21.9-0.1 (onlyhammersandexcavators)
-[07ott2025 21:31:21.901] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar Service=FML Env=CLIENT
-[07ott2025 21:31:21.954] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[07ott2025 21:31:21.955] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - D:/Programmazione/Mod/Only Hammers And Excavators/NEOFORGE/1.21.9/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.9.16-beta/neoforge-21.9.16-beta.jar > net.neoforged.neoforge-coremods-21.9.16-beta.jar
-[07ott2025 21:31:22.204] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+		OnlyHammersAndExcavators 1.21.9-0.2 (onlyhammersandexcavators)
+[13feb2026 11:53:30.757] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar Service=FML Env=CLIENT
+[13feb2026 11:53:30.814] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[13feb2026 11:53:30.815] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - .cache/jij/51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1/net.neoforged.neoforge-coremods-21.9.16-beta.jar
+[13feb2026 11:53:31.032] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - minecraft (composite(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.9\client-1.21.9-client-extra.jar), filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar))))
  - mixinextras.neoforge (jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar))
  - neoforge (composite(filtered(jar(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.16-beta\neoforge-21.9.16-beta.jar))))
  - net.neoforged.fml.generated (empty(VirtualJar\net.neoforged.fml.generated))
  - onlyhammersandexcavators (composite(folder(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\resources\main), folder(D:\Programmazione\Mod\Only Hammers And Excavators\NEOFORGE\1.21.9\build\classes\java\main)))
-[07ott2025 21:31:22.225] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 113ms
-[07ott2025 21:31:22.352] [main/WARN] [mixin/]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
-[07ott2025 21:31:22.749] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[07ott2025 21:31:27.657] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlyhammersandexcavators]
-[07ott2025 21:31:27.692] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.9.16-beta, for MC 1.21.9
-[07ott2025 21:31:28.455] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions - onlyhammersandexcavators
-[07ott2025 21:31:28.515] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions - onlyhammersandexcavators finished after 60 ms
-[07ott2025 21:31:28.515] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlyhammersandexcavators
-[07ott2025 21:31:28.518] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlyhammersandexcavators finished after 2 ms
-[07ott2025 21:31:28.518] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id vanilla
-[07ott2025 21:31:28.539] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id vanilla finished after 20 ms
-[07ott2025 21:31:28.539] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[07ott2025 21:31:28.590] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 49 ms
-[07ott2025 21:31:28.590] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 134 ms
-[07ott2025 21:31:28.604] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 110, old count: 0, new count: 111, removed stale: 0, written: 110
-[07ott2025 21:31:28.604] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 22b08a55
-[07ott2025 21:31:28.604] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
+[13feb2026 11:53:31.049] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 85ms
+[13feb2026 11:53:31.177] [main/WARN] [mixin/]: Reference map 'onlyhammersandexcavators.refmap.json' for onlyhammersandexcavators.mixins.json could not be read. If this is a development environment you can ignore this message
+[13feb2026 11:53:31.562] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13feb2026 11:53:35.721] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlyhammersandexcavators]
+[13feb2026 11:53:35.757] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.9.16-beta, for MC 1.21.9
+[13feb2026 11:53:36.447] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions - onlyhammersandexcavators
+[13feb2026 11:53:36.509] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions - onlyhammersandexcavators finished after 62 ms
+[13feb2026 11:53:36.509] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlyhammersandexcavators
+[13feb2026 11:53:36.512] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlyhammersandexcavators finished after 2 ms
+[13feb2026 11:53:36.512] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id vanilla
+[13feb2026 11:53:36.537] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id vanilla finished after 25 ms
+[13feb2026 11:53:36.537] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[13feb2026 11:53:36.595] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 57 ms
+[13feb2026 11:53:36.595] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 148 ms
+[13feb2026 11:53:36.606] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 120, old count: 0, new count: 121, removed stale: 0, written: 120
+[13feb2026 11:53:36.606] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 4ae307cc
+[13feb2026 11:53:36.607] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
