@@ -27,6 +27,11 @@ public class ModItems {
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MOD_ID, "stone_hammer")))
                     .repairable(ItemTags.STONE_TOOL_MATERIALS)));
 
+    public static final RegistryObject<Item> COPPER_HAMMER = ITEMS.register("copper_hammer",
+            () -> new Hammer(ModToolMaterials.COPPER_HAMMER, 1F, -3.3F, new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MOD_ID, "copper_hammer")))
+                    .repairable(ItemTags.COPPER_TOOL_MATERIALS)));
+
     public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
             () -> new Hammer(ModToolMaterials.IRON_HAMMER, 1F, -3.3F, new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MOD_ID, "iron_hammer")))
@@ -77,6 +82,11 @@ public class ModItems {
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MOD_ID, "stone_excavator")))
                     .repairable(ItemTags.STONE_TOOL_MATERIALS)));
 
+    public static final RegistryObject<Item> COPPER_EXCAVATOR = ITEMS.register("copper_excavator",
+            () -> new Excavator(ModToolMaterials.COPPER_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MOD_ID, "copper_excavator")))
+                    .repairable(ItemTags.COPPER_TOOL_MATERIALS)));
+
     public static final RegistryObject<Item> IRON_EXCAVATOR = ITEMS.register("iron_excavator",
             () -> new Excavator(ModToolMaterials.IRON_EXCAVATOR, 1.5F, -3.0F, new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MOD_ID, "iron_excavator")))
@@ -116,7 +126,7 @@ public class ModItems {
             () -> new Excavator(ModToolMaterials.NETHERITE_EXCAVATOR, 1.5F, -3.0F, new Item.Properties().fireResistant()
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(OnlyHammersAndExcavators.MOD_ID, "netherite_excavator")))
                     .repairable(ItemTags.NETHERITE_TOOL_MATERIALS)));
-    
+
     public static void register(BusGroup eventBus) {
         ITEMS.register(eventBus);
     }

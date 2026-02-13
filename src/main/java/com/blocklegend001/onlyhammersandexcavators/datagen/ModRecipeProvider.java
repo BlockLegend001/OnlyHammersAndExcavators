@@ -5,7 +5,10 @@ import com.blocklegend001.onlyhammersandexcavators.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.*;
+import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.RecipeOutput;
+import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
@@ -57,6 +60,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .define('B', ItemTags.STONE_CRAFTING_MATERIALS)
                 .unlockedBy(getHasName(Items.STONE), has(ItemTags.STONE_CRAFTING_MATERIALS))
+                .save(this.output);
+
+        shaped(RecipeCategory.TOOLS, ModItems.COPPER_EXCAVATOR.get())
+                .pattern(" B ")
+                .pattern("bSb")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('B', Items.COPPER_INGOT)
+                .define('b', Blocks.COPPER_BLOCK)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
                 .save(this.output);
 
         shaped(RecipeCategory.TOOLS, ModItems.IRON_EXCAVATOR.get())
@@ -157,6 +170,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Blocks.STONE)
                 .define('C', Blocks.COBBLESTONE)
                 .unlockedBy(getHasName(Items.STONE), has(Items.COBBLESTONE))
+                .save(this.output);
+
+        shaped(RecipeCategory.TOOLS, ModItems.COPPER_HAMMER.get())
+                .pattern("bBb")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('B', Items.COPPER_INGOT)
+                .define('b', Blocks.COPPER_BLOCK)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
                 .save(this.output);
 
         shaped(RecipeCategory.TOOLS, ModItems.IRON_HAMMER.get())

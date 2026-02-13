@@ -38,17 +38,19 @@ public class OnlyHammersAndExcavators {
         if (event.getTab() == ModCreativeModeTabs.ONLYHAMMERSANDEXCAVATORS.get()) {
             event.accept(ModItems.WOODEN_EXCAVATOR.get());
             event.accept(ModItems.STONE_EXCAVATOR.get());
+            event.accept(ModItems.COPPER_EXCAVATOR.get());
             event.accept(ModItems.IRON_EXCAVATOR.get());
             event.accept(ModItems.GOLD_EXCAVATOR.get());
             event.accept(ModItems.LAPIS_EXCAVATOR.get());
             event.accept(ModItems.REDSTONE_EXCAVATOR.get());
             event.accept(ModItems.DIAMOND_EXCAVATOR.get());
+            event.accept(ModItems.EMERALD_EXCAVATOR.get());
             event.accept(ModItems.OBSIDIAN_EXCAVATOR.get());
             event.accept(ModItems.NETHERITE_EXCAVATOR.get());
 
-            event.accept(ModItems.EMERALD_EXCAVATOR.get());
             event.accept(ModItems.WOODEN_HAMMER.get());
             event.accept(ModItems.STONE_HAMMER.get());
+            event.accept(ModItems.COPPER_HAMMER.get());
             event.accept(ModItems.IRON_HAMMER.get());
             event.accept(ModItems.GOLD_HAMMER.get());
             event.accept(ModItems.LAPIS_HAMMER.get());

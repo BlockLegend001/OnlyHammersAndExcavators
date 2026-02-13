@@ -10,6 +10,7 @@ public class ModConfigs {
 
     public static final ForgeConfigSpec.IntValue durabilityWoodenExcavator;
     public static final ForgeConfigSpec.IntValue durabilityStoneExcavator;
+    public static final ForgeConfigSpec.IntValue durabilityCopperExcavator;
     public static final ForgeConfigSpec.IntValue durabilityIronExcavator;
     public static final ForgeConfigSpec.IntValue durabilityGoldExcavator;
     public static final ForgeConfigSpec.IntValue durabilityLapisExcavator;
@@ -21,6 +22,7 @@ public class ModConfigs {
 
     public static final ForgeConfigSpec.IntValue radiusWoodenExcavator;
     public static final ForgeConfigSpec.IntValue radiusStoneExcavator;
+    public static final ForgeConfigSpec.IntValue radiusCopperExcavator;
     public static final ForgeConfigSpec.IntValue radiusIronExcavator;
     public static final ForgeConfigSpec.IntValue radiusGoldExcavator;
     public static final ForgeConfigSpec.IntValue radiusLapisExcavator;
@@ -32,6 +34,7 @@ public class ModConfigs {
 
     public static final ForgeConfigSpec.IntValue durabilityWoodenHammer;
     public static final ForgeConfigSpec.IntValue durabilityStoneHammer;
+    public static final ForgeConfigSpec.IntValue durabilityCopperHammer;
     public static final ForgeConfigSpec.IntValue durabilityIronHammer;
     public static final ForgeConfigSpec.IntValue durabilityGoldHammer;
     public static final ForgeConfigSpec.IntValue durabilityLapisHammer;
@@ -43,6 +46,7 @@ public class ModConfigs {
 
     public static final ForgeConfigSpec.IntValue radiusWoodenHammer;
     public static final ForgeConfigSpec.IntValue radiusStoneHammer;
+    public static final ForgeConfigSpec.IntValue radiusCopperHammer;
     public static final ForgeConfigSpec.IntValue radiusIronHammer;
     public static final ForgeConfigSpec.IntValue radiusGoldHammer;
     public static final ForgeConfigSpec.IntValue radiusLapisHammer;
@@ -61,6 +65,8 @@ public class ModConfigs {
                 .defineInRange("Wooden", 302, 0, Integer.MAX_VALUE);
         durabilityStoneExcavator = BUILDER.comment("Durability of the stone excavator.")
                 .defineInRange("Stone", 650, 0, Integer.MAX_VALUE);
+        durabilityCopperExcavator = BUILDER.comment("Durability of the copper excavator.")
+                .defineInRange("Copper", 850, 0, Integer.MAX_VALUE);
         durabilityIronExcavator = BUILDER.comment("Durability of the iron excavator.")
                 .defineInRange("Iron", 1300, 0, Integer.MAX_VALUE);
         durabilityGoldExcavator = BUILDER.comment("Durability of the gold excavator.")
@@ -82,23 +88,25 @@ public class ModConfigs {
         BUILDER.push("Excavator Radius Settings");
         radiusWoodenExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Wooden", 1, 0, Integer.MAX_VALUE);
-        radiusStoneExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusStoneExcavator = BUILDER.comment("Excavation radius for Stone Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Stone", 1, 0, Integer.MAX_VALUE);
-        radiusIronExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusCopperExcavator = BUILDER.comment("Excavation radius for Copper Excavator (radius 1 = 3×1 area)")
+                .defineInRange("Copper", 1, 0, Integer.MAX_VALUE);
+        radiusIronExcavator = BUILDER.comment("Excavation radius for Iron Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Iron", 1, 0, Integer.MAX_VALUE);
-        radiusGoldExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusGoldExcavator = BUILDER.comment("Excavation radius for Gold Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Gold", 1, 0, Integer.MAX_VALUE);
-        radiusLapisExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusLapisExcavator = BUILDER.comment("Excavation radius for Lapis Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Lapis", 1, 0, Integer.MAX_VALUE);
-        radiusRedstoneExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusRedstoneExcavator = BUILDER.comment("Excavation radius for Redstone Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Redstone", 1, 0, Integer.MAX_VALUE);
-        radiusObsidianExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusObsidianExcavator = BUILDER.comment("Excavation radius for Obsidian Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Obsidian", 1, 0, Integer.MAX_VALUE);
-        radiusDiamondExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusDiamondExcavator = BUILDER.comment("Excavation radius for Diamond Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Diamond", 1, 0, Integer.MAX_VALUE);
-        radiusEmeraldExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusEmeraldExcavator = BUILDER.comment("Excavation radius for Emerald Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Emerald", 1, 0, Integer.MAX_VALUE);
-        radiusNetheriteExcavator = BUILDER.comment("Excavation radius for Wooden Excavator (radius 1 = 3×1 area)")
+        radiusNetheriteExcavator = BUILDER.comment("Excavation radius for Netherite Excavator (radius 1 = 3×1 area)")
                 .defineInRange("Netherite", 1, 0, Integer.MAX_VALUE);
         BUILDER.pop();
 
@@ -107,6 +115,8 @@ public class ModConfigs {
                 .defineInRange("Wooden", 302, 0, Integer.MAX_VALUE);
         durabilityStoneHammer = BUILDER.comment("Durability of the stone hammer.")
                 .defineInRange("Stone", 650, 0, Integer.MAX_VALUE);
+        durabilityCopperHammer = BUILDER.comment("Durability of the copper hammer.")
+                .defineInRange("Copper", 850, 0, Integer.MAX_VALUE);
         durabilityIronHammer = BUILDER.comment("Durability of the iron hammer.")
                 .defineInRange("Iron", 1300, 0, Integer.MAX_VALUE);
         durabilityGoldHammer = BUILDER.comment("Durability of the gold hammer.")
@@ -130,6 +140,8 @@ public class ModConfigs {
                 .defineInRange("Wooden", 1, 0, Integer.MAX_VALUE);
         radiusStoneHammer = BUILDER.comment("Hammering radius for Stone Hammer (radius 1 = 3×1 area)")
                 .defineInRange("Stone", 1, 0, Integer.MAX_VALUE);
+        radiusCopperHammer = BUILDER.comment("Hammering radius for Copper Hammer (radius 1 = 3×1 area)")
+                .defineInRange("Copper", 1, 0, Integer.MAX_VALUE);
         radiusIronHammer = BUILDER.comment("Hammering radius for Iron Hammer (radius 1 = 3×1 area)")
                 .defineInRange("Iron", 1, 0, Integer.MAX_VALUE);
         radiusGoldHammer = BUILDER.comment("Hammering radius for Gold Hammer (radius 1 = 3×1 area)")
@@ -146,7 +158,6 @@ public class ModConfigs {
                 .defineInRange("Emerald", 1, 0, Integer.MAX_VALUE);
         radiusNetheriteHammer = BUILDER.comment("Hammering radius for Netherite Hammer (radius 1 = 3×1 area)")
                 .defineInRange("Netherite", 1, 0, Integer.MAX_VALUE);
-        BUILDER.pop();
 
         SPEC = BUILDER.build();
     }
