@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyhammersandexcavators.utils.excavator;
 
+import com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavatorsClient;
 import com.blocklegend001.onlyhammersandexcavators.item.custom.Excavator;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.minecraft.client.MinecraftClient;
@@ -23,6 +24,8 @@ public class ExcavatorOverlayRenderer {
     public static void init() {
         WorldRenderEvents.AFTER_ENTITIES.register(context -> {
             MinecraftClient client = MinecraftClient.getInstance();
+            if (!OnlyHammersAndExcavatorsClient.SHOW_OUTLINE_ENABLED) return;
+
             if (client.world == null || client.player == null) return;
 
             ItemStack heldItem = client.player.getMainHandStack();
