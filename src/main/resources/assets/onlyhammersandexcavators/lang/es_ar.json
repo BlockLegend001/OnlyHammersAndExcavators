@@ -21,5 +21,8 @@
   "item.onlyhammersandexcavators.obsidian_hammer": "Martillo de obsidiana",
   "item.onlyhammersandexcavators.netherite_hammer": "Martillo de netherite",
 
-  "itemGroup.onlyhammersandexcavators": "Solo Martillos y Excavadoras"
+  "key.category.onlyhammersandexcavators.showoutline": "Solo Martillos y Excavadoras",
+  "key.onlyhammersandexcavators.showoutline": "Habilitar/Deshabilitar Esquema",
+
+  "itemGroup.onlyhammersandexcavators.onlyhammersandexcavators": "Solo Martillos y Excavadoras"
 }
