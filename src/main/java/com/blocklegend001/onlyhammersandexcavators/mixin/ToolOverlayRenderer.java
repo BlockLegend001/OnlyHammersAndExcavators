@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyhammersandexcavators.mixin;
 
+import com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavatorsClient;
 import com.blocklegend001.onlyhammersandexcavators.utils.RadiusMap;
 import com.blocklegend001.onlyhammersandexcavators.utils.WorldRenderContext;
 import com.mojang.blaze3d.buffers.GpuBufferSlice;
@@ -30,6 +31,7 @@ public class ToolOverlayRenderer {
                                  GpuBufferSlice fogBuffer, Vector4f fogColor, boolean renderSky, CallbackInfo ci) {
 
         MinecraftClient client = MinecraftClient.getInstance();
+        if (!OnlyHammersAndExcavatorsClient.SHOW_OUTLINE_ENABLED) return;
 
         if (client.world == null || client.player == null) return;
 
