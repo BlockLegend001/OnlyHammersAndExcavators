@@ -1,7 +1,6 @@
 {
   "item.onlyhammersandexcavators.wooden_excavator": "Excavadora de madera",
   "item.onlyhammersandexcavators.stone_excavator": "Excavadora de piedra",
-  "item.onlyhammersandexcavators.copper_excavator": "Excavadora de cobre",
   "item.onlyhammersandexcavators.iron_excavator": "Excavadora de hierro",
   "item.onlyhammersandexcavators.gold_excavator": "Excavadora de oro",
   "item.onlyhammersandexcavators.lapis_excavator": "Excavadora de lapislázuli",
@@ -13,7 +12,6 @@
 
   "item.onlyhammersandexcavators.wooden_hammer": "Martillo de madera",
   "item.onlyhammersandexcavators.stone_hammer": "Martillo de piedra",
-  "item.onlyhammersandexcavators.copper_hammer": "Martillo de cobre",
   "item.onlyhammersandexcavators.iron_hammer": "Martillo de hierro",
   "item.onlyhammersandexcavators.gold_hammer": "Martillo de oro",
   "item.onlyhammersandexcavators.lapis_hammer": "Martillo de lapislázuli",
@@ -22,6 +20,9 @@
   "item.onlyhammersandexcavators.emerald_hammer": "Martillo de esmeralda",
   "item.onlyhammersandexcavators.obsidian_hammer": "Martillo de obsidiana",
   "item.onlyhammersandexcavators.netherite_hammer": "Martillo de netherite",
+
+  "key.category.onlyhammersandexcavators.showoutline": "Solo Martillos y Excavadoras",
+  "key.onlyhammersandexcavators.showoutline": "Habilitar/Deshabilitar Esquema",
 
   "itemGroup.onlyhammersandexcavators.onlyhammersandexcavators": "Solo Martillos y Excavadoras"
 }

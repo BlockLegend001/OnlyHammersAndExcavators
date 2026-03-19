@@ -1,7 +1,6 @@
 {
   "item.onlyhammersandexcavators.wooden_excavator": "Wooden Excavator",
   "item.onlyhammersandexcavators.stone_excavator": "Stone Excavator",
-  "item.onlyhammersandexcavators.copper_excavator": "Copper Excavator",
   "item.onlyhammersandexcavators.iron_excavator": "Iron Excavator",
   "item.onlyhammersandexcavators.gold_excavator": "Gold Excavator",
   "item.onlyhammersandexcavators.lapis_excavator": "Lapis Excavator",
@@ -13,7 +12,6 @@
 
   "item.onlyhammersandexcavators.wooden_hammer": "Wooden Hammer",
   "item.onlyhammersandexcavators.stone_hammer": "Stone Hammer",
-  "item.onlyhammersandexcavators.copper_hammer": "Copper Hammer",
   "item.onlyhammersandexcavators.iron_hammer": "Iron Hammer",
   "item.onlyhammersandexcavators.gold_hammer": "Gold Hammer",
   "item.onlyhammersandexcavators.lapis_hammer": "Lapis Hammer",
@@ -22,6 +20,9 @@
   "item.onlyhammersandexcavators.emerald_hammer": "Emerald Hammer",
   "item.onlyhammersandexcavators.obsidian_hammer": "Obsidian Hammer",
   "item.onlyhammersandexcavators.netherite_hammer": "Netherite Hammer",
+
+  "key.category.onlyhammersandexcavators.showoutline": "Only Hammers And Excavators",
+  "key.onlyhammersandexcavators.showoutline": "Enable/Disable Outline",
 
   "itemGroup.onlyhammersandexcavators.onlyhammersandexcavators": "Only Hammers And Excavators"
 }
