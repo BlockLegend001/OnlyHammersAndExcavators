@@ -1,6 +1,7 @@
 {
   "item.onlyhammersandexcavators.wooden_excavator": "Excavadora de madera",
   "item.onlyhammersandexcavators.stone_excavator": "Excavadora de piedra",
+  "item.onlyhammersandexcavators.copper_excavator": "Excavadora de cobra",
   "item.onlyhammersandexcavators.iron_excavator": "Excavadora de hierro",
   "item.onlyhammersandexcavators.gold_excavator": "Excavadora de oro",
   "item.onlyhammersandexcavators.lapis_excavator": "Excavadora de lapislázuli",
@@ -12,6 +13,7 @@
 
   "item.onlyhammersandexcavators.wooden_hammer": "Martillo de madera",
   "item.onlyhammersandexcavators.stone_hammer": "Martillo de piedra",
+  "item.onlyhammersandexcavators.copper_hammer": "Martillo de cobra",
   "item.onlyhammersandexcavators.iron_hammer": "Martillo de hierro",
   "item.onlyhammersandexcavators.gold_hammer": "Martillo de oro",
   "item.onlyhammersandexcavators.lapis_hammer": "Martillo de lapislázuli",
