@@ -21,5 +21,8 @@
   "item.onlyhammersandexcavators.obsidian_hammer": "Obsidian Hammer",
   "item.onlyhammersandexcavators.netherite_hammer": "Netherite Hammer",
 
+  "key.category.onlyhammersandexcavators.showoutline": "Only Hammers And Excavators",
+  "key.onlyhammersandexcavators.showoutline": "Enable/Disable Outline",
+
   "itemGroup.onlyhammersandexcavators": "Only Hammers And Excavators"
 }

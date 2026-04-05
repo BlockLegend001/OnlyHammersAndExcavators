@@ -19,6 +19,8 @@ import org.slf4j.Logger;
 public class OnlyHammersAndExcavators {
     public static final String MOD_ID = "onlyhammersandexcavators";
     private static final Logger LOGGER = LogUtils.getLogger();
+    public static boolean SHOW_OUTLINE_ENABLED = true;
+
     public OnlyHammersAndExcavators() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ModConfigs.SPEC, "onlyhammersandexcavators.toml");
