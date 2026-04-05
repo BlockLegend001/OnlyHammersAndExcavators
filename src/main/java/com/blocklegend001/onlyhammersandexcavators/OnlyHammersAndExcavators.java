@@ -18,6 +18,7 @@ public class OnlyHammersAndExcavators {
 
     public static final String MOD_ID = "onlyhammersandexcavators";
     public static final Logger LOGGER = LogUtils.getLogger();
+    public static boolean SHOW_OUTLINE_ENABLED = true;
 
     public OnlyHammersAndExcavators(FMLJavaModLoadingContext context) {
         var modEventBus = context.getModBusGroup();
