@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyhammersandexcavators.mixin;
 
+import com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators;
 import com.blocklegend001.onlyhammersandexcavators.item.custom.Excavator;
 import com.blocklegend001.onlyhammersandexcavators.item.custom.Hammer;
 import com.blocklegend001.onlyhammersandexcavators.utils.OverlayRenderer;
@@ -33,6 +34,9 @@ public class LevelRendererToolMixin {
     @Inject(method = "renderLevel", at = @At("TAIL"))
     private void renderLevelAfter(GraphicsResourceAllocator p_367325_, DeltaTracker p_342180_, boolean p_109603_, Camera camera, Matrix4f matrix4f1, Matrix4f p_330527_, Matrix4f p_429784_, GpuBufferSlice p_407881_, Vector4f p_410175_, boolean p_407316_, CallbackInfo ci) {
         Minecraft mc = Minecraft.getInstance();
+
+        if (!OnlyHammersAndExcavators.SHOW_OUTLINE_ENABLED) return;
+
         if (mc.level == null || mc.player == null) return;
 
         ItemStack heldItem = mc.player.getMainHandItem();
