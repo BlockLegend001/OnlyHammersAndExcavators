@@ -1,5 +1,6 @@
 package com.blocklegend001.onlyhammersandexcavators.mixin;
 
+import com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators;
 import com.blocklegend001.onlyhammersandexcavators.item.custom.Excavator;
 import com.blocklegend001.onlyhammersandexcavators.utils.OverlayRenderer;
 import com.blocklegend001.onlyhammersandexcavators.utils.RadiusMap;
@@ -34,6 +35,8 @@ public class LevelRendererExcavatorMixin {
         if (Minecraft.getInstance().level == null || Minecraft.getInstance().player == null) {
             return;
         }
+
+        if (!OnlyHammersAndExcavators.SHOW_OUTLINE_ENABLED) return;
 
         ItemStack heldItem = Minecraft.getInstance().player.getMainHandItem();
         if (!(heldItem.getItem() instanceof Excavator)) {
