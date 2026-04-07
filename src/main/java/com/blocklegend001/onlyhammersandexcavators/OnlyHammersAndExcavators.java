@@ -17,6 +17,7 @@ public class OnlyHammersAndExcavators {
     public static final String MODID = "onlyhammersandexcavators";
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
+    public static boolean SHOW_OUTLINE_ENABLED = true;
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ONLYHAMMERSANDEXCAVATORS = CREATIVE_MODE_TABS.register("onlyhammersandexcavators", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.onlyhammersandexcavators"))
