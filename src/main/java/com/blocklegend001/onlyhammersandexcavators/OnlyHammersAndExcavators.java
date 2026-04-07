@@ -15,6 +15,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 @Mod("onlyhammersandexcavators")
 public class OnlyHammersAndExcavators {
     public static final String MODID = "onlyhammersandexcavators";
+    public static boolean SHOW_OUTLINE_ENABLED = true;
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
