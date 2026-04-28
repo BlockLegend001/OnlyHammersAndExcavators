@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 import org.lwjgl.glfw.GLFW;
 
 public class OnlyHammersAndExcavatorsClient implements ClientModInitializer {
-    public static KeyBinding SHOW_OUTLINE_KEY;
+    public static KeyBinding HAE_SHOW_OUTLINE_KEY;
     private static boolean wasPressed = false;
     public static boolean SHOW_OUTLINE_ENABLED = true;
 
@@ -21,7 +21,7 @@ public class OnlyHammersAndExcavatorsClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        SHOW_OUTLINE_KEY = KeyBindingHelper.registerKeyBinding(
+        HAE_SHOW_OUTLINE_KEY = KeyBindingHelper.registerKeyBinding(
                 new KeyBinding(
                         "key.onlyhammersandexcavators.showoutline",
                         InputUtil.Type.KEYSYM,
@@ -31,7 +31,7 @@ public class OnlyHammersAndExcavatorsClient implements ClientModInitializer {
         );
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            if (SHOW_OUTLINE_KEY.isPressed()) {
+            if (HAE_SHOW_OUTLINE_KEY.isPressed()) {
                 if (!wasPressed) {
                     SHOW_OUTLINE_ENABLED = !SHOW_OUTLINE_ENABLED;
 
