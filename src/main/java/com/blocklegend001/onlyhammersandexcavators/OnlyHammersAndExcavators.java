@@ -2,7 +2,9 @@ package com.blocklegend001.onlyhammersandexcavators;
 
 import com.blocklegend001.onlyhammersandexcavators.item.ModCreativeModeTabs;
 import com.blocklegend001.onlyhammersandexcavators.item.ModItems;
+import com.blocklegend001.onlyhammersandexcavators.utils.KeyBinding;
 import com.mojang.logging.LogUtils;
+import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
@@ -28,6 +30,9 @@ public class OnlyHammersAndExcavators {
         ModItems.register(modEventBus);
         BuildCreativeModeTabContentsEvent.getBus(modEventBus).addListener(this::addCreative);
         FMLCommonSetupEvent.getBus(modEventBus).addListener(this::setup);
+
+        RegisterKeyMappingsEvent.getBus(modEventBus)
+                .addListener(KeyBinding::registerKeys);
     }
 
     @SubscribeEvent
