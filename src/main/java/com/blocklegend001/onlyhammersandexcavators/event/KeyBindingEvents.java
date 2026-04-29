@@ -15,7 +15,7 @@ public class KeyBindingEvents {
     @SubscribeEvent
     public static void onClientTick(TickEvent.ClientTickEvent event) {
 
-        while (KeyBinding.SHOW_OUTLINE_KEY.consumeClick()) {
+        while (KeyBinding.HAE_SHOW_OUTLINE_KEY.consumeClick()) {
             OnlyHammersAndExcavators.SHOW_OUTLINE_ENABLED =
                     !OnlyHammersAndExcavators.SHOW_OUTLINE_ENABLED;
 
