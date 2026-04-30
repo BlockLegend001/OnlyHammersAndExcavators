@@ -15,7 +15,7 @@ public class KeyBindingEvents {
     @SubscribeEvent
     public static void onClientTick(ClientTickEvent.Post event) {
 
-        if (KeyBinding.SHOW_OUTLINE_KEY.consumeClick()) {
+        if (KeyBinding.HAE_SHOW_OUTLINE_KEY.consumeClick()) {
 
             OnlyHammersAndExcavators.SHOW_OUTLINE_ENABLED =
                     !OnlyHammersAndExcavators.SHOW_OUTLINE_ENABLED;
