@@ -13,7 +13,7 @@ import org.lwjgl.glfw.GLFW;
 
 public class KeyBinding {
 
-    public static final KeyMapping SHOW_OUTLINE_KEY = new KeyMapping(
+    public static final KeyMapping HAE_SHOW_OUTLINE_KEY = new KeyMapping(
             "key.onlyhammersandexcavators.showoutline",
             InputConstants.Type.KEYSYM,
             GLFW.GLFW_KEY_O,
@@ -22,6 +22,6 @@ public class KeyBinding {
 
     @SubscribeEvent
     public static void registerKeys(RegisterKeyMappingsEvent event) {
-        event.register(SHOW_OUTLINE_KEY);
+        event.register(HAE_SHOW_OUTLINE_KEY);
     }
 }
