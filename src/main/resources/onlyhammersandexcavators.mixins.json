@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.blocklegend001.onlyhammersandexcavators.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "refmap": "onlyhammersandexcavators.refmap.json",
+  "mixins": [
+    "LevelRendererExcavatorMixin",
+    "LevelRendererHammerMixin"
+  ],
+  "client": [
+    "LevelRendererExcavatorMixin",
+    "LevelRendererHammerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
