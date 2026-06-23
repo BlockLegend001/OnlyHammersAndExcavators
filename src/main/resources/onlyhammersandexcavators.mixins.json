@@ -5,8 +5,6 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "onlyhammersandexcavators.refmap.json",
   "mixins": [
-    "LevelRendererExcavatorMixin",
-    "LevelRendererHammerMixin"
   ],
   "client": [
     "LevelRendererExcavatorMixin",
