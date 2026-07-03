@@ -31,7 +31,7 @@ public class OnlyHammersAndExcavatorsClient implements ClientModInitializer {
         );
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            if (HAE_SHOW_OUTLINE_KEY.isDown()) {
+            if (HAE_SHOW_OUTLINE_KEY.consumeClick()) {
                 if (!wasPressed) {
                     SHOW_OUTLINE_ENABLED = !SHOW_OUTLINE_ENABLED;
 
