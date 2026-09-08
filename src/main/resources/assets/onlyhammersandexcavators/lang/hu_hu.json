@@ -1,0 +1,30 @@
+{
+  "item.onlyhammersandexcavators.wooden_excavator": "Fafeltáró",
+  "item.onlyhammersandexcavators.stone_excavator": "Kőfeltáró",
+  "item.onlyhammersandexcavators.copper_excavator": "Rézfeltáró",
+  "item.onlyhammersandexcavators.iron_excavator": "Vasfeltáró",
+  "item.onlyhammersandexcavators.gold_excavator": "Aranyfeltáró",
+  "item.onlyhammersandexcavators.lapis_excavator": "Lazuritfeltáró",
+  "item.onlyhammersandexcavators.redstone_excavator": "Vöröskőfeltáró",
+  "item.onlyhammersandexcavators.diamond_excavator": "Gyémántfeltáró",
+  "item.onlyhammersandexcavators.emerald_excavator": "Smaragdfeltáró",
+  "item.onlyhammersandexcavators.obsidian_excavator": "Obszidiánfeltáró",
+  "item.onlyhammersandexcavators.netherite_excavator": "Netheritfeltáró",
+
+  "item.onlyhammersandexcavators.wooden_hammer": "Fakalapács",
+  "item.onlyhammersandexcavators.stone_hammer": "Kőkalapács",
+  "item.onlyhammersandexcavators.copper_hammer": "Rézkalapács",
+  "item.onlyhammersandexcavators.iron_hammer": "Vaskalapács",
+  "item.onlyhammersandexcavators.gold_hammer": "Aranykalapács",
+  "item.onlyhammersandexcavators.lapis_hammer": "Lazuritkalapács",
+  "item.onlyhammersandexcavators.redstone_hammer": "Vöröskőkalapács",
+  "item.onlyhammersandexcavators.diamond_hammer": "Gyémántkalapács",
+  "item.onlyhammersandexcavators.emerald_hammer": "Smaragdkalapács",
+  "item.onlyhammersandexcavators.obsidian_hammer": "Obszidiánkalapács",
+  "item.onlyhammersandexcavators.netherite_hammer": "Netheritkalapács",
+
+  "key.category.onlyhammersandexcavators.showoutline": "Csak Kalapácsok és Feltárók",
+  "key.onlyhammersandexcavators.showoutline": "Körvonal Engedélyezése/Letiltása",
+
+  "itemGroup.onlyhammersandexcavators": "Csak Kalapácsok és Feltárók"
+}
