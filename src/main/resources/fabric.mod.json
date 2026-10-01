@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "onlyhammersandexcavators",
+  "version": "${version}",
+  "name": "OnlyHammersAndExcavators",
+  "description": "A simple mod that adds various type of hammers & excavators, that mine 3x3 area",
+  "authors": [
+    "Block_Legend001"
+  ],
+  "contact": {
+    "homepage": "https://blocklegend001.dev",
+    "sources": "https://github.com/BlockLegend001/OnlyHammersAndExcavators",
+    "issues": "https://github.com/BlockLegend001/OnlyHammersAndExcavators/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/onlyhammersandexcavators/textures/item/netherite_hammer.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavatorsClient"
+    ],
+    "main": [
+      "com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators"
+    ],
+    "fabric-datagen": [
+      "com.blocklegend001.onlyhammersandexcavators.datagen.ModDataGeneration"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/jVmUTGFMX5"
+      }
+    }
+  },
+  "mixins": [
+    "onlyhammersandexcavators.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
