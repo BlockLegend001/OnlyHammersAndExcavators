@@ -1,0 +1,32 @@
+package com.blocklegend001.onlyhammersandexcavators.utils;
+
+import com.mojang.blaze3d.platform.InputConstants;
+import net.minecraft.client.KeyMapping;
+import net.minecraft.resources.Identifier;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
+
+import static com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators.MODID;
+
+@EventBusSubscriber(modid = MODID, value = Dist.CLIENT)
+
+public class KeyBinding {
+    public static final KeyMapping.Category ONLYHAMMERSANDEXCAVATOR_CATEGORY =
+            KeyMapping.Category.register(
+                    Identifier.fromNamespaceAndPath(MODID, "showoutline")
+            );
+
+    public static final KeyMapping HAE_SHOW_OUTLINE_KEY = new KeyMapping(
+            "key.onlyhammersandexcavators.showoutline",
+            InputConstants.Type.KEYBOARD,
+            InputConstants.KEY_O,
+            ONLYHAMMERSANDEXCAVATOR_CATEGORY
+    );
+
+    @SubscribeEvent
+    public static void registerKeys(RegisterKeyMappingsEvent event) {
+        event.register(HAE_SHOW_OUTLINE_KEY);
+    }
+}

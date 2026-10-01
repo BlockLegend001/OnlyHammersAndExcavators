@@ -1,0 +1,4 @@
+/enchant Dev minecraft:silk_touch
+/gamemode survival
+/gamemode creative
+/gamemode survival
